@@ -1,0 +1,50 @@
+{
+  "name": "@taiyuuki/create-starter",
+  "version": "0.0.1",
+  "description": "Creating starter template",
+  "main": "index.js",
+  "bin": {
+    "cs": "dist/index.js",
+    "create-starter": "dist/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/taiyuuki/create-starter"
+  },
+  "bugs": "https://github.com/taiyuuki/create-starter/issues",
+  "homepage": "https://github.com/taiyuuki/create-starter#readme",
+  "scripts": {
+    "dev": "tsup --watch",
+    "build": "tsup",
+    "release:dev": "npm publish --registry=http://localhost:4873 --access=public",
+    "release": "npm publish --registry=https://registry.npmjs.org --access=public"
+  },
+  "keywords": [
+    "typescript",
+    "starter",
+    "template"
+  ],
+  "author": "taiyuuki <taiyuuki@qq.com>",
+  "license": "MIT",
+  "files": [
+    "dist",
+    "template"
+  ],
+  "devDependencies": {
+    "@taiyuuki/eslint-config-ts": "^0.0.5",
+    "@types/fs-extra": "^9.0.13",
+    "@types/lodash": "^4.14.188",
+    "@types/node": "^18.11.9",
+    "@types/prompts": "^2.4.1",
+    "eslint": "^8.26.0",
+    "prompts": "^2.4.2"
+  },
+  "dependencies": {
+    "cfonts": "^3.1.1",
+    "fast-glob": "^3.2.12",
+    "fs-extra": "^10.1.0",
+    "kolorist": "^1.6.0",
+    "lodash": "^4.17.21",
+    "tsup": "^6.4.0"
+  }
+}
