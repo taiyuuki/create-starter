@@ -1,10 +1,16 @@
-### Create Starter
+<h1 align="center">Create Starter</h1>
 
-Opiniated Starter Template.
+<p align="center">
+Opiniated starter templates.
+</p>
+
+<p align="center">
+<a href="https://www.npmjs.com/package/@taiyuuki/create-starter"><img alt="GitHub package.json version" src="https://img.shields.io/github/package-json/v/taiyuuki/create-starter?color=green&logo=npm"></a>
+</p>
 
 Templates:
 
-* ts-starter: ts starter template
+* ts-starter: Typescript starter template.
 
 ### Install
 
