@@ -1,7 +1,7 @@
 import fglob from 'fast-glob'
 import getTemplateCompiler from 'lodash/template'
 import { resolve, extname } from 'path'
-const { readFileSync, writeFileSync } = require('fs')
+import { readFileSync, writeFileSync } from 'fs'
 import { ensureFileSync, copySync } from 'fs-extra'
 
 export const compileTemplate = function (templateDir: string, scope: Scope) {

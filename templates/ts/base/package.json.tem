@@ -21,12 +21,13 @@
   "scripts": {
   <% if (build === 'tsup'){ %>
     "dev": "tsup --watch",
-    "build": "tsup"
+    "build": "tsup",
   <% } %>
   <% if (build === 'unbuild'){ %>
     "dev": "unbuild --stub",
-    "build": "unbuild"
+    "build": "unbuild",
   <% } %>
+    "test": "vitest"
   },
   "keywords": [],
   "exports": {
@@ -45,15 +46,15 @@
     "@taiyuuki/eslint-config-ts": "^0.0.5",
     "@types/node": "^18.11.9",
     "eslint": "^8.26.0",
+    <% if (build === 'tsup'){ %> 
+    "tsup": "^6.4.0",
+    <% } %>
+    <% if (build === 'unbuild'){ %>
+    "unbuild": "^0.8.11",
+    <% } %>
     "vite": "^3.1.2",
     "vitest": "^0.23.4"
   },
   "dependencies": {
-    <% if (build === 'tsup'){ %> 
-    "tsup": "^6.4.0" 
-    <% } %>
-    <% if (build === 'unbuild'){ %>
-    "unbuild": "^0.8.11"
-    <% } %>
   }
 }
