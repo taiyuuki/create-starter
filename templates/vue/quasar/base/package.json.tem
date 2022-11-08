@@ -1,0 +1,89 @@
+{
+  "name": "<%= projectName %>",
+  "version": "0.0.1",
+  "description": "<%= description %>",
+  "author": "<%= author %>",
+  <% if (userName !== '') { %>
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/<%= userName %>/<%= projectName %>"
+  },
+  "bugs": "https://github.com/<%= userName %>/<%= projectName %>/issues",
+  "homepage": "https://github.com/<%= userName %>/<%= projectName %>#readme",
+  <% } %>
+  "private": true,
+  "scripts": {
+    "dev": "quasar dev<% if(features.pwa){ %> -m pwa<% } %>",
+    <% if(features.ssr){ %>"dev:ssr": "quasar dev -m ssr",<% } %>
+    "build": "quasar build<% if(features.pwa){ %> -m pwa<% } %>",
+    <% if(features.ssr){ %>"build:ssr": "quasar build -m ssr",<% } %>
+    "test": "vitest"
+  },
+  "dependencies": {
+    "@quasar/extras": "^1.0.0",
+    <% if(features.vueuse){ %>"@vueuse/core": "^9.3.0",<% } %>
+    <% if(plugins.markdown){ %>"@vueuse/head": "^0.9.8",<% } %>
+    <% if(features.axios){ %>"axios": "^0.21.1",<% } %>
+    "pinia": "^2.0.11",
+    <% if(persist){ %>"pinia-plugin-persistedstate": "^2.3.0",<% } %>
+    "quasar": "^2.6.0",
+    "vue": "3.2.25",
+    <% if(features.i18n){ %>"vue-i18n": "^9.2.2",<% } %>
+    "vue-router": "^4.0.0"
+  },
+  "devDependencies": {
+    <% if(features.i18n){ %>"@intlify/vite-plugin-vue-i18n": "^3.3.1",<% } %>
+    "@quasar/app-vite": "^1.0.0",
+    "@taiyuuki/eslint-config-vue-unimport": "0.0.5",
+    "@types/node": "^12.20.55",
+    "@typescript-eslint/eslint-plugin": "^5.10.0",
+    "@typescript-eslint/parser": "^5.10.0",
+    <% if(features.unocss){ %> 
+    <% if(unoPreset.attributify){ %>"@unocss/preset-attributify": "^0.45.29",<% } %>
+    <% if(unoPreset.icons){ %>"@unocss/preset-icons": "^0.45.29",<% } %>
+    <% if(unoPreset.uno){ %>"@unocss/preset-uno": "^0.45.29",<% } %>
+    <% if(unoPreset.mini){ %>"@unocss/preset-mini": "^0.45.29",<% } %>
+    <% if(unoPreset.wind){ %>"@unocss/preset-wind": "^0.45.29",<% } %>
+    <% if(unoPreset.webFont){ %>"@unocss/preset-web-fonts": "^0.45.29",<% } %>
+    <% if(unoPreset.tagify){ %>"@unocss/preset-tagify": "^0.45.29",<% } %>
+    <% if(unoPreset.remToPx){ %>"@unocss/preset-rem-to-px": "^0.45.29",<% } %>
+    <% } %> 
+    "eslint": "^8.10.0",
+    "eslint-plugin-import": "^2.26.0",
+    <% if(plugins.markdown){ %>
+    "markdown-it-link-attributes": "^4.0.1",
+    "markdown-it-shiki": "^0.5.1",
+    <% } %>
+    "postcss": "^8.4.17",
+    "stylelint": "^14.13.0",
+    "stylelint-config-rational-order": "^0.1.2",
+    "stylelint-config-standard": "^28.0.0",
+    "stylelint-config-standard-scss": "^5.0.0",
+    "stylelint-scss": "^4.3.0",
+    "typescript": "^4.5.4",
+    <% if(features.unocss){ %>"unocss": "^0.45.29",<% } %>
+    <% if(plugins.autoAPIs){ %>"unplugin-auto-import": "^0.11.2",<% } %>
+    <% if(plugins.autoComponents){ %>"unplugin-vue-components": "^0.22.8",<% } %>
+    <% if(plugins.pages){ %>
+    "vite-plugin-pages": "^0.26.0",
+    "vite-plugin-vue-layouts": "^0.7.0",
+    <% } %>
+    <% if(plugins.markdown){ %>"vite-plugin-vue-markdown": "^0.22.1",<% } %>
+    <% if(features.vitest){ %>"vitest": "^0.24.1",<% } %>
+    <% if(features.pwa){ %>
+    "workbox-build": "^6.5.0",
+    "workbox-cacheable-response": "^6.5.0",
+    "workbox-core": "^6.5.0",
+    "workbox-expiration": "^6.5.0",
+    "workbox-precaching": "^6.5.0",
+    "workbox-routing": "^6.5.0",
+    "workbox-strategies": "^6.5.0",
+    <% } %>
+    "vite": "^3.1.7"
+  },
+  "engines": {
+    "node": "^18 || ^16 || ^14.19",
+    "npm": ">= 6.13.4",
+    "yarn": ">= 1.21.1"
+  }
+}

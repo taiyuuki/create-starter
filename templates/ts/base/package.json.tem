@@ -2,15 +2,20 @@
   "name": "<%= projectName %>",
   "version": "0.0.1",
   "description": "<%= description %>",
-  <% if (build === 'unbuild'){ %>
+  <% if (build === 'unbuild'){ %> 
   "main": "./dist/index.mjs",
   "module": "./dist/index.mjs",
   "types": "./dist/index.d.ts",
-  <% } %>
-  <% if (build === 'tsup'){ %>
+  <% } %>  
+  <% if (build === 'tsup'){ %> 
   "main": "./dist/index.js",
-  <% } %>
-  <% if (userName !== '') { %>
+  <% } %> 
+  <% if (build === 'rollup'){ %>
+  "main": "./dist/cjs/index.js",
+  "module": "./dist/esm/index.js",
+  "types": "./dist/dts/index.d.ts",
+  <% } %> 
+  <% if (userName !== '') { %> 
   "repository": {
     "type": "git",
     "url": "https://github.com/<%= userName %>/<%= projectName %>"
@@ -19,17 +24,22 @@
   "homepage": "https://github.com/<%= userName %>/<%= projectName %>#readme",
   <% } %>
   "scripts": {
-  <% if (build === 'tsup'){ %>
+  <% if (build === 'rollup'){ %>  
+  "build": "rollup -c",
+  <% } %> 
+  <% if (build === 'tsup'){ %>  
     "dev": "tsup --watch",
     "build": "tsup",
-  <% } %>
-  <% if (build === 'unbuild'){ %>
+  <% } %> 
+  <% if (build === 'unbuild'){ %> 
     "dev": "unbuild --stub",
     "build": "unbuild",
-  <% } %>
+  <% } %> 
     "test": "vitest"
   },
   "keywords": [],
+  <% if (build === 'unbuild'){ %> 
+  "types": "./dist/index.d.ts",
   "exports": {
     ".": {
       "types": "./dist/index.d.ts",
@@ -37,6 +47,17 @@
       "import": "./dist/index.mjs"
     }
   },
+  <% } %> 
+  <% if (build === 'rollup'){ %> 
+  "types": "./dist/dts/index.d.ts",
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.ts",
+      "import": "./dist/esm/index.js",
+      "require": "./dist/cjs/index.js"
+    }
+  },
+  <% } %> 
   "author": "<%= author %>",
   "license": "MIT",
   "files": [
@@ -46,13 +67,26 @@
     "@taiyuuki/eslint-config-ts": "^0.0.5",
     "@types/node": "^18.11.9",
     "eslint": "^8.26.0",
+    <% if (build === 'rollup'){ %> 
+    "@babel/core": "^7.20.2",
+    "@rollup/plugin-node-resolve": "^14.1.0",
+    "rollup": "^2.79.0",
+    "rollup-plugin-babel": "^4.4.0",
+    "rollup-plugin-commonjs": "^10.1.0",
+    "rollup-plugin-copy": "^3.4.0",
+    "rollup-plugin-dts": "^4.2.2",
+    "rollup-plugin-node-builtins": "^2.1.2",
+    "rollup-plugin-node-globals": "^1.4.0",
+    "rollup-plugin-node-resolve": "^5.2.0",
+    "rollup-plugin-terser": "^7.0.2",
+    "rollup-plugin-typescript2": "^0.34.0",
+    <% } %>
     <% if (build === 'tsup'){ %> 
     "tsup": "^6.4.0",
     <% } %>
-    <% if (build === 'unbuild'){ %>
+    <% if (build === 'unbuild'){ %> 
     "unbuild": "^0.8.11",
-    <% } %>
-    "vite": "^3.1.2",
+    <% } %> 
     "vitest": "^0.23.4"
   },
   "dependencies": {

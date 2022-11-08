@@ -2,6 +2,7 @@
 
 import path from 'path'
 import { existsSync, readdirSync } from 'fs'
+import { emptyDirSync } from 'fs-extra'
 import { question, runCommand } from './command'
 import logger from './command/logger'
 import { getGitUserName, getGitUserInfo } from './utils'
@@ -13,55 +14,59 @@ async function run() {
   scope.year = new Date().getFullYear()
   scope.projectName = process.argv[2] || ''
   scope.userName = getGitUserName()
-  const temp = { dirName: scope.projectName }
-  const defaultOptions = {
-    projectName: 'ts-starter-template',
-    productName: 'TS Project',
-    description: 'TS Starter Template',
-  }
+  const template = { proName: 'starter-template', dirName: scope.projectName }
   await question(scope, [
     {
       type: 'select',
       name: 'projectType',
-      message: 'Select template:',
+      message: 'Check the project type:',
       initial: 0,
       choices: [
+        {
+          title: 'vue3', value: 'vue3', description: 'Vue 3 Starter Template',
+        },
         {
           title: 'ts-starter', value: 'ts', description: 'TypeScript Starter Template',
         },
       ],
+      format: (val) => {
+        if (template.dirName === '') {
+          template.proName = `${val}-${template.proName}`
+        }
+        return val
+      },
     },
     {
       type: scope.projectName === '' ? 'text' : null,
       name: 'projectName',
       message: 'Project name:',
-      initial: defaultOptions.projectName,
+      initial: () => template.proName,
       format: (val: string) => {
         if (val) {
-          temp.dirName = val.trim()
+          template.dirName = val.trim()
         }
-        return temp.dirName
+        return template.dirName
       },
     },
     {
       type: 'text',
       name: 'projectFolder',
       message: 'Project folder:',
-      initial: () => temp.dirName,
+      initial: () => template.dirName,
       format: (val: string) => {
-        temp.dirName = val.trim()
-        return path.join(process.cwd(), temp.dirName || defaultOptions.projectName)
+        template.dirName = val.trim()
+        return path.join(process.cwd(), template.dirName || template.proName)
       },
     },
     {
       type: (_, { projectFolder }) => !existsSync(projectFolder) || readdirSync(projectFolder).length === 0 ? null : 'select',
       name: 'overwrite',
       message: () => {
-        if (temp.dirName === '.') {
+        if (template.dirName === '.') {
           return 'Current directory is not empty. Remove existing files and continue?'
         }
         else {
-          return `Target directory "${temp.dirName}" is exist. Remove existing files and continue?`
+          return `Target directory "${template.dirName}" is exist. Remove existing files and continue?`
         }
       },
       initial: 0,
@@ -94,6 +99,9 @@ async function run() {
       initial: getGitUserInfo(),
     },
   ])
+  if (scope.overwrite) {
+    emptyDirSync(scope.projectFolder)
+  }
   await createProject(scope)
   console.log()
   await question(scope, [

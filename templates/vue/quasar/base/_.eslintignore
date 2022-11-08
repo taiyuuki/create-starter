@@ -1,0 +1,7 @@
+/dist
+/src-capacitor
+/src-cordova
+/.quasar
+/node_modules
+/src-ssr
+/src/auto-imports.d.ts

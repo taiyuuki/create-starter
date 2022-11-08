@@ -19,3 +19,15 @@ export const getGitUserInfo = function () {
     return ''
   }
 }
+
+export const arrToObj = function (arr: string[]) {
+  const result = {} as { [key: string]: boolean }
+  for (const key of arr) {
+    result[key] = true
+  }
+  return result
+}
+
+export const replaceSpace = (str: string) => {
+  return str.replace(/\n[ \t]+\n/g, '\n').replace(/[ \t]+\n/g, '\n').replace(/\[\s+\]/g, '[]').replace(/{\s+}/g, '{}')
+}

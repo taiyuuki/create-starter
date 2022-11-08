@@ -6,15 +6,46 @@ declare interface Scope {
   projectName: string
   description: string
   author: string
+  overwrite: boolean
   packageManager: 'npm' | 'yarn' | 'pnpm' | false
 }
 declare interface TsScope extends Scope {
-  build: 'tsup' | 'unbuild'
+  build: 'rollup' | 'tsup' | 'unbuild'
+}
+declare interface VueScope extends Scope {
+  ui: string
+  features: {
+    axios: boolean
+    unocss: boolean
+    vueuse: boolean
+    pwa: boolean
+    ssr: boolean
+    i18n: boolean
+    ref: boolean
+    vitest: boolean
+  }
+  plugins: {
+    autoAPIs: boolean
+    autoComponents: boolean
+    markdown: boolean
+    pages: boolean
+  }
+  unoPreset: {
+    uno: boolean
+    attributify: boolean
+    icons: boolean
+    mini: boolean
+    wind: boolean
+    webFont: boolean
+    typography: boolean
+    tagify: boolean
+    remToPx: boolean
+  }
 }
  
 declare module 'cfonts' {
   export type Font = 'block' | 'slick' | 'tiny' | 'grid' | 'pallet' | 'shade' | 'chrome' | 'simple' | 'simpleBlock' | '3d' | 'simple3d' | 'huge' | 'console'
-  export type CfontColor = string | 'system' | 'black' | 'red' | 'green' | 'yellow' | 'blue' | 'magenta' | 'cyan' | 'white' | 'gray' | 'redBright' | 'greenBright' | 'yellowBright' | 'blueBright' | 'magentaBright' | 'cyanBright' | 'whiteBright'
+  export type CfontColor = string
   export interface CfontOptions {
     font: Font
     align: string

@@ -1,0 +1,27 @@
+import {
+  defineConfig,
+  <% if(unoPreset.uno){ %>presetUno,<% } %>   
+  <% if(unoPreset.attributify){ %>presetAttributify,<% } %>   
+  <% if(unoPreset.icons){ %>presetIcons,<% } %>   
+  <% if(unoPreset.mini){ %>presetMini,<% } %> 
+  <% if(unoPreset.typography){ %>presetTypography,<% } %>   
+  <% if(unoPreset.webFont){ %>presetWebFonts,<% } %>   
+  <% if(unoPreset.wind){ %>presetWind<% } %>   
+} from 'unocss'
+<% if(unoPreset.tagify){ %>import presetTagify from '@unocss/preset-tagify'<% } %>   
+<% if(unoPreset.remToPx){ %>import presetRemToPx from '@unocss/preset-rem-to-px'<% } %>   
+
+export default defineConfig({
+  presets: [
+    <% if(unoPreset.uno){ %>presetAttributify(),<% } %>   
+    <% if(unoPreset.attributify){ %>presetUno(),<% } %>   
+    <% if(unoPreset.icons){ %>presetIcons(),<% } %>   
+    <% if(unoPreset.mini){ %>presetMini(),<% } %>   
+    <% if(unoPreset.typography){ %>presetTypography(),<% } %>   
+    <% if(unoPreset.webFont){ %>presetWebFonts(),<% } %>   
+    <% if(unoPreset.wind){ %>presetWind(),<% } %>   
+    <% if(unoPreset.tagify){ %>presetTagify(),<% } %> 
+    <% if(unoPreset.remToPx){ %>presetRemToPx(),<% } %>  
+  ],
+  variants: [],
+})
