@@ -117,7 +117,6 @@ async function vueProjectScript(scope: VueScope) {
       ],
     },
   ])
-  console.log(scope)
   switch (scope.ui) {
     case 'quasar':
       quasar(scope)

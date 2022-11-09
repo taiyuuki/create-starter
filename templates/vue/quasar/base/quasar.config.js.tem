@@ -161,6 +161,7 @@ module.exports = configure(function (/* ctx */) {
               'vue',
               'pinia',
               'vue-router',
+              <% if(features.i18n){ %>'vue-i18n',<% } %>
               <% if(features.vueuse){ %>'@vueuse/core',<% } %>
               {
                 quasar: [

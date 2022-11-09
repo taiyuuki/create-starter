@@ -3,8 +3,10 @@
   "compilerOptions": {
     "baseUrl": ".",
     "types": [
+      <% if(plugins.pages){ %>  
       "vite-plugin-pages/client",
       "vite-plugin-vue-layouts/client",
+      <% } %>
       "node"
     ]
   }
