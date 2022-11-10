@@ -1,0 +1,80 @@
+import { defineConfig } from 'vite'
+import vue from '@vitejs/plugin-vue'
+import path from 'path'
+<% if(plugins.pages){ %>  
+import pages from 'vite-plugin-pages'
+import layouts from 'vite-plugin-vue-layouts'
+<% } %> 
+<% if(plugins.autoAPIs){ %> 
+import autoAPIs from 'unplugin-auto-import/vite'
+<% } %> 
+<% if(plugins.autoComponents){ %> 
+import autoComponents from 'unplugin-vue-components/vite'
+<% } %> 
+<% if(features.i18n){ %>  
+import i18n from '@intlify/vite-plugin-vue-i18n'
+<% } %> 
+
+function resolve(dir: string) {
+  return path.join(__dirname, dir)
+}
+
+// https://vitejs.dev/config/
+export default defineConfig({
+  base: './',
+  resolve: {
+    alias: {
+      '@': resolve('src'),
+      'src': resolve('src'),
+      'components': resolve('src/components'),
+      'layouts': resolve('src/layouts'),
+      'pages': resolve('src/pages'),
+      'router': resolve('src/router'),
+      'stores': resolve('src/stores'),
+    },
+  },
+  plugins: [
+    vue(),
+    <% if(plugins.pages){ %>  
+    pages({
+      extensions: ['vue', 'md'],
+      extendRoute(route) {
+        if (route.path === '/') {
+        // Index is unauthenticated.
+          return route
+        }
+        // Augment the route with meta that indicates that the route requires authentication.
+        return {
+          ...route,
+          meta: { auth: true },
+        }
+      },
+    }),
+    layouts({ defaultLayout: 'MainLayout' }),
+    <% } %> 
+    <% if(plugins.autoComponents){ %>  
+    autoComponents({ dts: 'src/components.d.ts' }),
+    <% } %> 
+    <% if(plugins.autoAPIs){ %> 
+    autoAPIs({
+      imports: [
+        'vue',
+        'pinia',
+        'vue-router',
+        <% if(features.i18n){ %>'vue-i18n'<% } %>
+      ],
+      dts: 'src/auto-imports.d.ts',
+    }),
+    <% } %> 
+    <% if(features.i18n){ %>i18n({ include: path.resolve(__dirname, './src/i18n/**') }),<% } %> 
+  ],
+  build: {
+    rollupOptions: {
+      output: {
+        chunkFileNames: 'js/[name]-[hash].js',
+        entryFileNames: 'js/[name]-[hash].js',
+        assetFileNames: '[ext]/[name]-[hash].[ext]',
+      },
+    },
+  },
+})

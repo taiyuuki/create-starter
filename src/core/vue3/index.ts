@@ -1,6 +1,9 @@
 import { arrToObj } from '../../utils'
 import { question } from '../../command'
+import { compileTemplate } from '../../compile'
+import { join } from 'path'
 import quasar from './quasar'
+import defaultVite from './default'
 
 async function vueProjectScript(scope: VueScope) {
   await question(scope, [
@@ -10,6 +13,9 @@ async function vueProjectScript(scope: VueScope) {
       message: 'Check UI framework:',
       initial: 0,
       choices: [
+        {
+          title: 'default', value: 'default', description: 'No any UI components',
+        },
         {
           title: 'Quasar', value: 'quasar', description: 'Quasar CLI with vite',
         },
@@ -117,11 +123,16 @@ async function vueProjectScript(scope: VueScope) {
       ],
     },
   ])
+  compileTemplate(join(__dirname, '../templates/vue/public'), scope)
   switch (scope.ui) {
     case 'quasar':
       quasar(scope)
       break
+    case 'default':
+      defaultVite(scope)
+      break
     default:
+      defaultVite(scope)
       break
   }
 }

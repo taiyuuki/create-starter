@@ -1,0 +1,1 @@
+export default { barTitle: 'Vite 起始模板' }
