@@ -72,7 +72,7 @@
     <% } %>
     <% if(plugins.markdown){ %>"vite-plugin-vue-markdown": "^0.22.1",<% } %>
     <% if(features.vitest){ %>"vitest": "^0.24.1",<% } %>
-    <% if(features.pwa){ %>
+    <% if(mode.pwa){ %>
     "workbox-build": "^6.5.0",
     "workbox-cacheable-response": "^6.5.0",
     "workbox-core": "^6.5.0",

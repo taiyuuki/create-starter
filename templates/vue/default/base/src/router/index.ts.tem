@@ -4,12 +4,12 @@ import {
   createWebHashHistory,
 } from 'vue-router'
 <% if(plugins.pages){ %>  
-  import { setupLayouts } from 'virtual:generated-layouts'
-  import generatedRoutes from 'virtual:generated-pages'
-  
-  const routes =  setupLayouts(generatedRoutes)
+import { setupLayouts } from 'virtual:generated-layouts'
+import generatedRoutes from 'virtual:generated-pages'
+
+const routes =  setupLayouts(generatedRoutes)
 <% }else{ %>  
-  import routes from './routes'
+import routes from './routes'
 <% } %> 
 
 // hash mode

@@ -2,8 +2,9 @@ import { createApp } from 'vue'
 import App from './App.vue'
 import route from './router'
 import pinia from './stores'
-<% if(features.i18n){ %> import i18n from './i18n'<% } %>
-<% if(features.unocss){ %> import 'uno.css'<% } %>  
+<% if(features.i18n){ %>import i18n from './i18n'<% } %> 
+<% if(features.axios){ %>import axios from './axios'<% } %> 
+<% if(features.unocss){ %>import 'uno.css'<% } %>  
 import './css/app.scss'
 
-createApp(App).use(pinia).use(route)<% if(features.i18n){ %>.use(i18n)<% } %>.mount('#app')
+createApp(App).use(pinia).use(route)<% if(features.axios){ %>.use(axios)<% } %><% if(features.i18n){ %>.use(i18n)<% } %>.mount('#app')

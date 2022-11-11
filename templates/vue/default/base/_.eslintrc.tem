@@ -1,0 +1,20 @@
+{
+  "root": true,
+  "extends": "@taiyuuki/eslint-config-vue-unimport",
+  <% if(features.unocss || plugins.pages){ %>
+  "rules": {
+    "import/no-unresolved":
+      ["error", {
+        "ignore": [
+          <% if(features.unocss){ %>"uno.css",<% } %>
+          <% if(plugins.pages){ %>
+          "~pages",
+          "virtual:generated-layouts",
+          "virtual:generated-pages",
+          "virtual:vue-component-preview"
+          <% } %>
+        ]
+      }]
+  }
+  <% } %>
+}

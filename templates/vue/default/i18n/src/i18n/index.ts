@@ -1,5 +1,5 @@
 import { createI18n } from 'vue-i18n'
-import messages from './message'
+import messages from './messages'
 
 export type MessageLanguages = keyof typeof messages
 export type MessageSchema = typeof messages['en-US']

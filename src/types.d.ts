@@ -18,8 +18,6 @@ declare interface VueScope extends Scope {
     axios: boolean
     unocss: boolean
     vueuse: boolean
-    pwa: boolean
-    ssr: boolean
     i18n: boolean
     ref: boolean
     vitest: boolean
@@ -29,6 +27,10 @@ declare interface VueScope extends Scope {
     autoComponents: boolean
     markdown: boolean
     pages: boolean
+  }
+  mode: {
+    pwa: boolean
+    ssr: boolean
   }
   unoPreset: {
     uno: boolean

@@ -5,15 +5,16 @@ import path from 'path'
 import pages from 'vite-plugin-pages'
 import layouts from 'vite-plugin-vue-layouts'
 <% } %> 
-<% if(plugins.autoAPIs){ %> 
-import autoAPIs from 'unplugin-auto-import/vite'
+<% if(features.unocss){ %>import unocss from 'unocss'
+<% if(plugins.autoAPIs){ %>import autoAPIs from 'unplugin-auto-import/vite'<% } %> 
+<% if(plugins.autoComponents){ %>import autoComponents from 'unplugin-vue-components/vite'<% } %> 
+<% if(features.i18n){ %>import i18n from '@intlify/vite-plugin-vue-i18n'<% } %> 
+<% if(plugins.markdown){ %> 
+import markdown from 'vite-plugin-vue-markdown'
+import linkattributes from 'markdown-it-link-attributes'
+import shiki from 'markdown-it-shiki'
 <% } %> 
-<% if(plugins.autoComponents){ %> 
-import autoComponents from 'unplugin-vue-components/vite'
-<% } %> 
-<% if(features.i18n){ %>  
-import i18n from '@intlify/vite-plugin-vue-i18n'
-<% } %> 
+<% if(pwa){ %>import { VitePWA as pwa } from 'vite-plugin-pwa'<% } %> 
 
 function resolve(dir: string) {
   return path.join(__dirname, dir)
@@ -34,7 +35,8 @@ export default defineConfig({
     },
   },
   plugins: [
-    vue(),
+    vue(<% if(features.ref){ %>{ reactivityTransform: true }<% } %>),
+    <% if(features.unocss){ %>unocss(),<% } %>
     <% if(plugins.pages){ %>  
     pages({
       extensions: ['vue', 'md'],
@@ -66,7 +68,55 @@ export default defineConfig({
       dts: 'src/auto-imports.d.ts',
     }),
     <% } %> 
-    <% if(features.i18n){ %>i18n({ include: path.resolve(__dirname, './src/i18n/**') }),<% } %> 
+    <% if(features.i18n){ %>i18n({ include: path.resolve(__dirname, './src/i18n/messages/**') }),<% } %> 
+    <% if(plugins.markdown){ %> 
+    markdown({
+      markdownItSetup(md) {
+        // https://prismjs.com/
+        md.use(shiki, {
+          theme: {
+            light: 'light-plus',
+            dark: 'dark-plus',
+          },
+        })
+        md.use(linkattributes, {
+          matcher: (link: string) => /^https?:\/\//.test(link),
+          attrs: {
+            target: '_blank',
+            rel: 'noopener',
+          },
+        })
+      },
+    }),
+    <% } %>  
+    <% if(pwa){ %> 
+    pwa({
+      registerType: 'autoUpdate',
+      includeAssets: ['icons/safari-pinned-tab.svg'],
+      manifest: {
+        name: '<%= projectName %>',
+        short_name: '<%= projectName %>',
+        theme_color: '#ffffff',
+        icons: [
+          {
+            src: 'icons/android-chrome-192x192.png',
+            sizes: '192x192',
+            type: 'image/png',
+          },
+          {
+            src: 'icons/apple-touch-icon.png',
+            sizes: '180x180',
+            type: 'image/png',
+          },
+          {
+            src: 'icons/android-chrome-512x512.png',
+            sizes: '512x512',
+            type: 'image/png',
+          },
+        ],
+      },
+    })
+    <% } %> 
   ],
   build: {
     rollupOptions: {

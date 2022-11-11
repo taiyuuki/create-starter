@@ -14,7 +14,7 @@ async function vueProjectScript(scope: VueScope) {
       initial: 0,
       choices: [
         {
-          title: 'default', value: 'default', description: 'No any UI components',
+          title: 'default', value: 'default', description: 'No any UI framework',
         },
         {
           title: 'Quasar', value: 'quasar', description: 'Quasar CLI with vite',
@@ -25,6 +25,7 @@ async function vueProjectScript(scope: VueScope) {
       type: 'multiselect',
       name: 'features',
       message: 'Check the features needed for your project:',
+      initial: 0,
       choices: [
         { title: 'Axios', value: 'axios' },
         {
@@ -35,12 +36,6 @@ async function vueProjectScript(scope: VueScope) {
         },
         {
           title: 'Vue-i18n', value: 'i18n', description: 'Internationalization',
-        },
-        {
-          title: 'PWA', value: 'pwa', description: 'Add PWA mode',
-        },
-        {
-          title: 'SSR', value: 'ssr', description: 'Add SSR mode',
         },
         {
           title: 'Reactivity Transform', value: 'ref', description: 'Experimental feature. See https://vuejs.org/guide/extras/reactivity-transform',
@@ -57,6 +52,7 @@ async function vueProjectScript(scope: VueScope) {
       type: 'multiselect',
       name: 'plugins',
       message: 'Check the vite plugins:',
+      initial: 0,
       choices: [
         {
           title: 'unplugin-auto-import', value: 'autoAPIs', description: 'Auto importing Vue APIs',
@@ -126,13 +122,13 @@ async function vueProjectScript(scope: VueScope) {
   compileTemplate(join(__dirname, '../templates/vue/public'), scope)
   switch (scope.ui) {
     case 'quasar':
-      quasar(scope)
+      await quasar(scope)
       break
     case 'default':
-      defaultVite(scope)
+      await defaultVite(scope)
       break
     default:
-      defaultVite(scope)
+      await defaultVite(scope)
       break
   }
 }

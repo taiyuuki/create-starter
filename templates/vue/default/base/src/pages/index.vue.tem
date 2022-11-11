@@ -12,12 +12,8 @@
 </template>
 
 <script setup lang="ts">
-<% if(!plugins.autoComponents){ %>  
-import ExampleComponent from 'components/ExampleComponent.vue'
-<% } %> 
-<% if(!plugins.autoAPIs){ %>
-import { ref } from 'vue'
-<% } %> 
+<% if(!plugins.autoComponents){ %>import ExampleComponent from 'components/ExampleComponent.vue'<% } %> 
+<% if(!plugins.autoAPIs){ %>import { ref } from 'vue'<% } %> 
 import type { Todo, Meta } from '../components/models'
 
 const todos = ref<Todo[]>([

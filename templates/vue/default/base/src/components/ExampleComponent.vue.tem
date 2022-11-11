@@ -18,7 +18,7 @@
 
 <script setup lang="ts">
 import type { Todo, Meta } from './models'
-import { computed, ref } from 'vue'
+<% if(!plugins.autoAPIs){ %>import { computed, ref } from 'vue'<% } %>  
 
 interface Props {
   title: string

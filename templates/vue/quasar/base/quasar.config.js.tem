@@ -252,7 +252,7 @@ module.exports = configure(function (/* ctx */) {
       // extendSSRWebserverConf (esbuildConf) {},
       // extendPackageJson (json) {},
 
-      pwa: <% if(features.pwa){ %>true<% }else{ %>false<% } %>,
+      pwa: <% if(mode.pwa){ %>true<% }else{ %>false<% } %>,
 
       // manualStoreHydration: true,
       // manualPostHydrationTrigger: true,

@@ -1,6 +1,6 @@
 import cfonts from 'cfonts'
 import type { Font } from 'cfonts'
-import { red, yellow, white } from 'kolorist'
+import { red, yellow, green } from 'kolorist'
 
 export const say = function (str: string, font: Font) {
   cfonts.say(str, {
@@ -20,7 +20,7 @@ export const say = function (str: string, font: Font) {
 }
 
 export const info = function (str: string) {
-  console.log(white(str))
+  console.log(green(str))
 }
 
 export const warn = function (str: string) {
