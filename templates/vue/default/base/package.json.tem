@@ -29,6 +29,7 @@
     "@taiyuuki/eslint-config-vue-unimport": "^0.0.5",
     "@types/node": "^18.11.9",
     <% if(features.vueuse){ %>"@vueuse/core": "^9.3.0",<% } %>
+    <% if(plugins.markdown){ %>"@vueuse/head": "^0.9.8",<% } %>
     <% if(features.unocss){ %> 
     <% if(unoPreset.attributify){ %>"@unocss/preset-attributify": "^0.45.29",<% } %>
     <% if(unoPreset.icons){ %>"@unocss/preset-icons": "^0.45.29",<% } %>

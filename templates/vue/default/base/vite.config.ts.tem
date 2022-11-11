@@ -5,7 +5,7 @@ import path from 'path'
 import pages from 'vite-plugin-pages'
 import layouts from 'vite-plugin-vue-layouts'
 <% } %> 
-<% if(features.unocss){ %>import unocss from 'unocss'
+<% if(features.unocss){ %>import unocss from 'unocss'<% } %>  
 <% if(plugins.autoAPIs){ %>import autoAPIs from 'unplugin-auto-import/vite'<% } %> 
 <% if(plugins.autoComponents){ %>import autoComponents from 'unplugin-vue-components/vite'<% } %> 
 <% if(features.i18n){ %>import i18n from '@intlify/vite-plugin-vue-i18n'<% } %> 

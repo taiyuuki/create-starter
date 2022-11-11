@@ -14,6 +14,8 @@ Templates:
 
 * vue3: Vue 3 starter template. UI:
 
+  * default: no any ui lib
+
   * Quasar
 
 ### Install
