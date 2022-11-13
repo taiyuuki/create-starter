@@ -142,11 +142,18 @@ async function run() {
       scope.packageManager = false
       process.exit(0)
     }
+    try {
+      await runCommand(scope.packageManager, scope.packageManager === 'npm' ? ['run', 'lint', '--', '--fix'] : ['run', 'lint', '--fix'], { cwd: scope.projectFolder })
+    }
+    catch {
+      logger.warn('Could not auto lint fix the project folder.')
+      scope.packageManager = false
+      process.exit(0)
+    }
   }
   logger.say('COMPLATE', 'block')
   console.log()
   logger.info('Project has been created')
-  console.log()
 }
 
 run()

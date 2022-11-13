@@ -29,5 +29,5 @@ export const arrToObj = function (arr: string[]) {
 }
 
 export const replaceSpace = (str: string) => {
-  return str.replace(/\n[\s]+\n/g, '\n').replace(/[ \t]+\n/g, '\n').replace(/\[\s+\]/g, '[]').replace(/{\s+}/g, '{}')
+  return str.replace(/\n[\n]+\n/g, '\n').replace(/[ \f\r\t\v]+\n/g, '\n').replace(/\[\s+\]/g, '[]').replace(/{\s+}/g, '{}')
 }
