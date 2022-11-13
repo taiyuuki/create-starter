@@ -1,6 +1,6 @@
 {
   "name": "@taiyuuki/create-starter",
-  "version": "0.1.4",
+  "version": "0.1.5",
   "description": "Creating starter template",
   "main": "index.js",
   "bin": {
