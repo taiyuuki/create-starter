@@ -1,5 +1,5 @@
 import fglob from 'fast-glob'
-import getTemplateCompiler from 'lodash-es/template'
+import getTemplateCompiler from 'lodash/template'
 import { resolve, extname } from 'path'
 import { readFileSync, writeFileSync } from 'fs'
 import { ensureFileSync, copySync } from 'fs-extra'
