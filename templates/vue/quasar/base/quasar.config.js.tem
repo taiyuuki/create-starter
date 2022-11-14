@@ -105,7 +105,10 @@ module.exports = configure(function (/* ctx */) {
         }
         <% } %> 
       },
-      viteVuePluginOptions: { <% if(features.ref){ %> reactivityTransform: true,<% } %> include: [/\.vue$/<% if( plugins.markdown ){ %>, /\.md$/ <% } %>] },
+      viteVuePluginOptions: { 
+        <% if(features.ref){ %>reactivityTransform: true,<% } %>
+        <% if( plugins.markdown ){ %>include: [/\.vue$/, /\.md$/],<% } %>
+      },
 
       vitePlugins: [
         <% if(features.i18n){ %>  
