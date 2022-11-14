@@ -7,8 +7,10 @@ import { question, runCommand } from './command'
 import logger from './command/logger'
 import { getGitUserName, getGitUserInfo } from './utils'
 import createProject from './core'
+import parseArgs from './argv'
 
 async function run() {
+  parseArgs()
   logger.say('Starter', 'block')
   const scope = {} as Scope
   scope.year = new Date().getFullYear()

@@ -13,7 +13,7 @@ export const compileTemplate = function (templateDir: string, scope: Scope) {
       if (name.startsWith('_')) {
         name = name.slice(1)
       }
-      if (name.endsWith('.tem')) {
+      if (name.endsWith('.ejs')) {
         name = name.slice(0, name.length - 4)
       }
       return name
@@ -23,7 +23,7 @@ export const compileTemplate = function (templateDir: string, scope: Scope) {
     const sourcePath = resolve(templateDir, rawPath)
 
     ensureFileSync(targetPath)
-    if (ext === '.tem') {
+    if (ext === '.ejs') {
       const rawContent = readFileSync(sourcePath, 'utf-8')
       const templateCompile = getTemplateCompiler(rawContent, { 'interpolate': /<%=([\s\S]+?)%>/g })
       const newContent = targetPath.endsWith('.json') ? JSON.stringify(JSON.parse(templateCompile(scope)), null, 2) : templateCompile(scope)

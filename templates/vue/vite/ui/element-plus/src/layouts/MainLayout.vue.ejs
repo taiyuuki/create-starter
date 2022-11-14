@@ -1,0 +1,95 @@
+<template>
+  <el-container>
+    <el-header class="cs-header">
+      <el-page-header :icon="null">
+        <template #title>
+          <a
+            href="https://element-plus.gitee.io/zh-CN/"
+            target="_blank"
+          >
+            <img
+              src="element-plus-logo.svg"
+              alt="element-plus-logo"
+              class="logo"
+            >
+          </a>
+        </template>
+        <template #extra>
+          <div class="theme">
+            <el-color-picker
+              v-model="theme.color"
+              show-alpha
+              size="small"
+            />
+            <el-switch
+              v-model="isDark"
+              :active-icon="Moon"
+              :inactive-icon="Sunny"
+              @change="setDark"
+            />
+          </div>
+        </template>
+      </el-page-header>
+    </el-header>
+    <el-main>
+      <RouterView />
+    </el-main>
+  </el-container>
+</template>
+
+<script setup lang="ts">
+import { useTheme, useDark } from 'stores/theme'
+import { Moon, Sunny } from '@element-plus/icons-vue'
+<% if(!plugins.autoAPIs){ %>import { ref, onMounted } from 'vue'<% } %> 
+
+const theme = useTheme()
+const dark = useDark()
+const isDark = ref(dark.value)
+
+theme.$subscribe(() => {
+  setTheme(theme.color)
+})
+
+function setTheme(color: string) {
+  document.body.setAttribute('style', `--el-color-primary: ${color}`,)
+}
+function setDark(val: boolean) {
+  dark.value = val
+  if (dark.value) {
+    document.documentElement.classList.add('dark')
+  }
+  else {
+    document.documentElement.classList.remove('dark')
+  }
+}
+onMounted(() => {
+  setTheme(theme.color)
+  setDark(dark.value)
+})
+</script>
+
+<style lang="scss">
+.cs-header {
+  padding: 0 20px;
+  color: var(--fcolor);
+  box-shadow: 0 0 1px var(--fcolor);
+
+  .logo {
+    width: 120px;
+  }
+
+  .theme {
+    display: flex;
+    align-items: center;
+
+    & > div {
+      margin: 0 10px;
+    }
+  }
+
+  .el-switch {
+    --el-switch-on-color: #2b333e;
+    --el-switch-of-color: #f8f4ed;
+  }
+}
+</style>

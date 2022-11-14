@@ -1,0 +1,71 @@
+<template>
+  <div class="example-com">
+    <div
+      class="logo"
+      title="github/taiyuuki/create-starter"
+    >
+      <a
+        href="https://github.com/taiyuuki/create-starter"
+        target="_blank"
+      >
+        <img
+          src="icons/android-chrome-192x192.png"
+          alt="logo"
+        >
+      </a>
+    </div>
+    <p class="title">
+      Vue3 Starter Template
+    </p>
+    <p>You have created a application with Vite + Vue3 + Element-plus</p>
+    <div class="click-count">
+      <el-button
+        type="primary"
+        size="small"
+        @click="clickCount--"
+      >
+        -
+      </el-button>
+      <div>{{ clickCount }}</div>
+      <el-button
+        type="primary"
+        size="small"
+        @click="clickCount++"
+      >
+        +
+      </el-button>
+    </div>
+  </div>
+</template>
+
+<script setup lang="ts">
+<% if(!plugins.autoAPIs){ %>import { ref } from 'vue'<% } %> 
+const clickCount = ref(0)
+</script>
+
+<style lang="scss">
+.example-com {
+  width: 600px;
+
+  .logo {
+    text-align: center;
+  }
+
+  .title {
+    width: 100%;
+    color: var(--el-color-primary);
+    font-size: 2rem;
+    text-align: center;
+  }
+
+  .click-count {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+
+    & > div {
+      margin: 0 15px;
+    }
+  }
+}
+</style>

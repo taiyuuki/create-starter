@@ -2,22 +2,22 @@ import { arrToObj } from '../../utils'
 import { question } from '../../command'
 import { compileTemplate } from '../../compile'
 import { join } from 'path'
-import quasar from './quasar'
-import defaultVite from './default'
+import quasar from './quasar-cli'
+import vite from './vite'
 
 async function vueProjectScript(scope: VueScope) {
   await question(scope, [
     {
       type: 'select',
-      name: 'ui',
-      message: 'Check UI framework:',
+      name: 'scaffold',
+      message: 'Check scaffold:',
       initial: 0,
       choices: [
         {
-          title: 'default', value: 'default', description: 'No any UI framework',
+          title: 'Vite', value: 'vite', description: 'Basic',
         },
         {
-          title: 'Quasar', value: 'quasar', description: 'Quasar CLI with vite',
+          title: 'Quasar-CLI', value: 'quasar', description: 'Quasar CLI based on vite',
         },
       ],
     },
@@ -120,15 +120,15 @@ async function vueProjectScript(scope: VueScope) {
     },
   ])
   compileTemplate(join(__dirname, '../templates/vue/public'), scope)
-  switch (scope.ui) {
+  switch (scope.scaffold) {
     case 'quasar':
       await quasar(scope)
       break
-    case 'default':
-      await defaultVite(scope)
+    case 'vite':
+      await vite(scope)
       break
     default:
-      await defaultVite(scope)
+      await vite(scope)
       break
   }
 }

@@ -18,6 +18,8 @@ Templates:
 
   * Quasar
 
+  * Element-Plus
+
 ### Install
 
 Globally install:

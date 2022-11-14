@@ -13,6 +13,7 @@ declare interface TsScope extends Scope {
   build: 'rollup' | 'tsup' | 'unbuild'
 }
 declare interface VueScope extends Scope {
+  scaffold: string
   ui: string
   features: {
     axios: boolean
@@ -63,7 +64,7 @@ declare module 'cfonts' {
     env: 'node',
   }
   export interface Cfont {
-    say: (str:string,options:CfontOptions)=>void
+    say: (str:string, options:CfontOptions)=>void
   }
   const cfonts: Cfont
   export default cfonts
