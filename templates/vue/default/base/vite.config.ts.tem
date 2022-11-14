@@ -63,7 +63,8 @@ export default defineConfig({
         'vue',
         'pinia',
         'vue-router',
-        <% if(features.i18n){ %>'vue-i18n'<% } %>
+        <% if(features.i18n){ %>'vue-i18n',<% } %>
+        <% if(features.ref){ %>'vue/macros'<% } %>
       ],
       dts: 'src/auto-imports.d.ts',
     }),

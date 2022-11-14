@@ -163,6 +163,7 @@ module.exports = configure(function (/* ctx */) {
               'vue-router',
               <% if(features.i18n){ %>'vue-i18n',<% } %>
               <% if(features.vueuse){ %>'@vueuse/core',<% } %>
+              <% if(features.ref){ %> 'vue/macros', <% } %>
               {
                 quasar: [
                   'useQuasar',

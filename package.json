@@ -1,6 +1,6 @@
 {
   "name": "@taiyuuki/create-starter",
-  "version": "0.1.5",
+  "version": "0.1.6",
   "description": "Creating starter template",
   "main": "index.js",
   "bin": {
@@ -34,7 +34,7 @@
   "devDependencies": {
     "@taiyuuki/eslint-config-ts": "^0.0.5",
     "@types/fs-extra": "^9.0.13",
-    "@types/lodash": "^4.14.188",
+    "@types/lodash-es": "^4.17.6",
     "@types/node": "^18.11.9",
     "@types/prompts": "^2.4.1",
     "eslint": "^8.26.0",
@@ -46,7 +46,7 @@
     "fast-glob": "^3.2.12",
     "fs-extra": "^10.1.0",
     "kolorist": "^1.6.0",
-    "lodash": "^4.17.21",
+    "lodash-es": "^4.17.21",
     "tsup": "^6.4.0"
   }
 }
