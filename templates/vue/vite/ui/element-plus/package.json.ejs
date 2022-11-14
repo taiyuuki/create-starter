@@ -65,7 +65,11 @@
     "stylelint-scss": "^4.3.0",
     "typescript": "^4.6.4",
     <% if(plugins.autoAPIs){ %>"unplugin-auto-import": "^0.11.2",<% } %>
-    <% if(plugins.autoComponents){ %>"unplugin-vue-components": "^0.22.8",<% } %>
+    <% if(plugins.autoComponents){ %>
+      "unplugin-vue-components": "^0.22.8",
+    <% }else{ %>
+      "unplugin-element-plus": "^0.4.1",
+    <% } %>
     <% if(plugins.markdown){ %>
     "vite-plugin-vue-markdown": "^0.22.1",
     <% } %>

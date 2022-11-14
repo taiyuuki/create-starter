@@ -40,6 +40,7 @@
 
 <script setup lang="ts">
 <% if(!plugins.autoAPIs){ %>import { ref } from 'vue'<% } %> 
+<% if(!plugins.autoComponents){ %>import { ElButton } from 'element-plus'<% } %>
 const clickCount = ref(0)
 </script>
 

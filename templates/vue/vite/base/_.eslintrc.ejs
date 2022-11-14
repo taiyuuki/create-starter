@@ -11,8 +11,11 @@
           "~pages",
           "virtual:generated-layouts",
           "virtual:generated-pages",
-          "virtual:vue-component-preview"
+          "virtual:vue-component-preview",
           <% } %>
+          <% if(ui.element!plugins.autoComponents&&!plugins.autoAPIs){ %> 
+          "unplugin-element-plus/vite",
+          <% } %> 
         ]
       }]
   }

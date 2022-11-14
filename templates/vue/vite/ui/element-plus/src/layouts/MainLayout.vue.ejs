@@ -40,7 +40,12 @@
 <script setup lang="ts">
 import { useTheme, useDark } from 'stores/theme'
 import { Moon, Sunny } from '@element-plus/icons-vue'
-<% if(!plugins.autoAPIs){ %>import { ref, onMounted } from 'vue'<% } %> 
+<% if(!plugins.autoAPIs){ %>
+import { ref, onMounted } from 'vue'
+<% if(!plugins.plugins.autoComponents) %>
+import { ElContainer, ElHeader, ElMain, ElPageHeader, ElColorPicker, ElSwitch } from 'element-plus'
+<% } %> 
+<% } %> 
 
 const theme = useTheme()
 const dark = useDark()
@@ -53,8 +58,8 @@ theme.$subscribe(() => {
 function setTheme(color: string) {
   document.body.setAttribute('style', `--el-color-primary: ${color}`,)
 }
-function setDark(val: boolean) {
-  dark.value = val
+function setDark(val: boolean | string | number) {
+  dark.value = val as boolean
   if (dark.value) {
     document.documentElement.classList.add('dark')
   }

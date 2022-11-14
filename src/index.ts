@@ -10,7 +10,9 @@ import createProject from './core'
 import parseArgs from './argv'
 
 async function run() {
-  parseArgs()
+  if (process.argv[2]) {
+    parseArgs()
+  }
   logger.say('Starter', 'block')
   const scope = {} as Scope
   scope.year = new Date().getFullYear()
