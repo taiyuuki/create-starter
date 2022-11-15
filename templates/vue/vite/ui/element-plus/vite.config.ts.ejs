@@ -10,7 +10,9 @@ import layouts from 'vite-plugin-vue-layouts'
 <% if(plugins.autoComponents){ %> 
 import autoComponents from 'unplugin-vue-components/vite'
 import { ElementPlusResolver as elementPlus } from 'unplugin-vue-components/resolvers'
-<% } %> 
+<% }else{ %>
+import elementPlugin from 'unplugin-element-plus/vite'
+<% } %>
 <% if(features.i18n){ %>import i18n from '@intlify/vite-plugin-vue-i18n'<% } %> 
 <% if(plugins.markdown){ %> 
 import markdown from 'vite-plugin-vue-markdown'
@@ -65,6 +67,8 @@ export default defineConfig({
       dts: 'src/components.d.ts',
       resolvers: [elementPlus()],
     }),
+    <% }else{ %>
+    elementPlugin(),
     <% } %> 
     <% if(plugins.autoAPIs){ %> 
     autoAPIs({

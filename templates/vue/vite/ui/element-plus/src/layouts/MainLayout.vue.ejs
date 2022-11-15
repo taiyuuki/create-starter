@@ -40,12 +40,8 @@
 <script setup lang="ts">
 import { useTheme, useDark } from 'stores/theme'
 import { Moon, Sunny } from '@element-plus/icons-vue'
-<% if(!plugins.autoAPIs){ %>
-import { ref, onMounted } from 'vue'
-<% if(!plugins.plugins.autoComponents) %>
-import { ElContainer, ElHeader, ElMain, ElPageHeader, ElColorPicker, ElSwitch } from 'element-plus'
-<% } %> 
-<% } %> 
+<% if(!plugins.autoAPIs){ %>import { ref, onMounted } from 'vue'<% } %> 
+<% if(!plugins.autoComponents){ %>import { ElContainer, ElHeader, ElMain, ElPageHeader, ElColorPicker, ElSwitch } from 'element-plus'<% } %> 
 
 const theme = useTheme()
 const dark = useDark()
