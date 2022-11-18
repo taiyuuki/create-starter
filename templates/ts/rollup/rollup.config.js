@@ -1,7 +1,7 @@
 import ts from 'rollup-plugin-typescript2'
-import commonjs from 'rollup-plugin-commonjs'
-import babel from 'rollup-plugin-babel'
-import resolve from 'rollup-plugin-node-resolve'
+import commonjs from '@rollup/plugin-commonjs'
+import babelPlugin from '@rollup/plugin-babel'
+import resolve from '@rollup/plugin-node-resolve'
 import globals from 'rollup-plugin-node-globals'
 import builtins from 'rollup-plugin-node-builtins'
 import { terser } from 'rollup-plugin-terser'
@@ -24,7 +24,7 @@ const config = [
     ],
     plugins: [
       ts(),
-      babel({ exclude: '**/node_modules/**' }),
+      babelPlugin({ exclude: '**/node_modules/**' }),
       commonjs(),
       terser(),
     ],
@@ -41,7 +41,7 @@ const config = [
     ],
     plugins: [
       ts(),
-      babel({ exclude: '**/node_modules/**' }),
+      babelPlugin({ exclude: '**/node_modules/**' }),
       commonjs(),
       resolve({ preferBuiltins: true, mainFields: ['browser'] }),
       globals(),

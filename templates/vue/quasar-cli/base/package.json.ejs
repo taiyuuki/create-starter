@@ -14,10 +14,10 @@
   "private": true,
   "scripts": {
     "lint": "eslint --ext .js,.ts,.vue ./",
-    "dev": "quasar dev<% if(features.pwa){ %> -m pwa<% } %>",
-    <% if(features.ssr){ %>"dev:ssr": "quasar dev -m ssr",<% } %>
-    "build": "quasar build<% if(features.pwa){ %> -m pwa<% } %>",
-    <% if(features.ssr){ %>"build:ssr": "quasar build -m ssr",<% } %>
+    "dev": "quasar dev<% if(mode.pwa){ %> -m pwa<% } %>",
+    <% if(mode.ssr){ %>"dev:ssr": "quasar dev -m ssr",<% } %>
+    "build": "quasar build<% if(mode.pwa){ %> -m pwa<% } %>",
+    <% if(mode.ssr){ %>"build:ssr": "quasar build -m ssr",<% } %>
     "test": "vitest"
   },
   "dependencies": {

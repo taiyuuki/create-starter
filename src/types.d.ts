@@ -8,6 +8,9 @@ declare interface Scope {
   author: string
   overwrite: boolean
   packageManager: 'npm' | 'yarn' | 'pnpm' | false
+  version: {
+    [k:string]: string
+  }
 }
 declare interface TsScope extends Scope {
   build: 'rollup' | 'tsup' | 'unbuild'
