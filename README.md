@@ -20,6 +20,8 @@ Templates:
 
   * Element-Plus
 
+* Vue components library starter template
+
 ### Install
 
 Globally install:

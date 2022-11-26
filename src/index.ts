@@ -29,10 +29,13 @@ async function run() {
       initial: 0,
       choices: [
         {
-          title: 'vue3', value: 'vue3', description: 'Vue 3 Starter Template',
+          title: 'vue3', value: 'vue3', description: 'Vue 3 starter template',
         },
         {
-          title: 'ts-starter', value: 'ts', description: 'TypeScript Starter Template',
+          title: 'ts-starter', value: 'ts', description: 'TypeScript starter template',
+        },
+        {
+          title: 'vue-components', value: 'components', description: 'Vue components library starter template',
         },
       ],
       format: (val) => {

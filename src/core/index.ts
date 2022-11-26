@@ -1,5 +1,6 @@
 import ts from './ts'
 import vue3 from './vue3'
+import components from './components'
 import { compileTemplate } from '../compile'
 import { join } from 'path'
 
@@ -11,6 +12,9 @@ async function createProject(scope: Scope) {
       break
     case 'vue3':
       await vue3(scope as VueScope)
+      break
+    case 'components':
+      await components(scope)
       break
     default:
       await ts(scope as TsScope)
