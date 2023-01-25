@@ -22,6 +22,8 @@ Templates:
 
 * Vue components library starter template
 
+* VSCode extension starter template
+
 ### Install
 
 Globally install:
