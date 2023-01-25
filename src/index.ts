@@ -8,7 +8,7 @@ import logger from './command/logger'
 import { getGitUserName, getGitUserInfo } from './utils'
 import createProject from './core'
 import parseArgs from './argv'
-import { version } from './dependencies/version'
+// import { version } from './dependencies/version'
 
 async function run() {
   if (process.argv[2]) {
@@ -16,7 +16,7 @@ async function run() {
   }
   logger.say('Starter', 'block')
   const scope = {} as Scope
-  scope.version = version
+  // scope.version = version
   scope.year = new Date().getFullYear()
   scope.projectName = process.argv[2] || ''
   scope.userName = getGitUserName()
@@ -36,6 +36,9 @@ async function run() {
         },
         {
           title: 'vue-components', value: 'components', description: 'Vue components library starter template',
+        },
+        {
+          title: 'vscode-extension', value: 'vscode', description: 'VSCode extension starter template',
         },
       ],
       format: (val) => {

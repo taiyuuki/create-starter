@@ -1,15 +1,13 @@
-import { compileTemplate } from '../../compile'
 import path from 'path'
+import { compileTemplate } from '../../compile'
+import { setDependencies } from '../../utils'
 import { devList } from './dependencies'
-import { versions } from '../../versions'
 
 function projectScript(scope: Scope) {
   const dev = {} as Record<string, string>
-  devList.forEach(dpd => {
-    dev[dpd] = versions[dpd]
-  })
+  setDependencies(devList, dev)
   scope.devDependencies = JSON.stringify(dev)
-  compileTemplate(path.join(__dirname, '../templates/components'), scope)
+  compileTemplate(path.join(__dirname, '../templates/vscode'), scope)
 }
 
 export default projectScript

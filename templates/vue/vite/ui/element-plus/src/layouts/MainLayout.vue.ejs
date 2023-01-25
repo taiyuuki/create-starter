@@ -71,9 +71,15 @@ onMounted(() => {
 
 <style lang="scss">
 .cs-header {
-  padding: 0 20px;
+  display: flex;
+  align-items: center;
+  padding: 20px;
   color: var(--fcolor);
   box-shadow: 0 0 1px var(--fcolor);
+
+  & > div {
+    width: 100%;
+  }
 
   .logo {
     width: 120px;

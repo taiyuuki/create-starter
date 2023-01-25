@@ -6,4 +6,8 @@ export default defineConfig({
   splitting: false,
   sourcemap: true,
   clean: true,
+  external: [
+    'vscode',
+  ],
+  format: ['cjs'],
 })

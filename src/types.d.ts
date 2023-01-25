@@ -5,12 +5,11 @@ declare interface Scope {
   projectFolder: string
   projectName: string
   description: string
+  devDependencies: string
   author: string
   overwrite: boolean
   packageManager: 'npm' | 'yarn' | 'pnpm' | false
-  version: {
-    [k:string]: string
-  }
+  dependencies: string
 }
 declare interface TsScope extends Scope {
   build: 'rollup' | 'tsup' | 'unbuild'
@@ -18,6 +17,7 @@ declare interface TsScope extends Scope {
 declare interface VueScope extends Scope {
   scaffold: string
   ui: string
+  pwa: boolean
   features: {
     axios: boolean
     unocss: boolean
@@ -47,6 +47,7 @@ declare interface VueScope extends Scope {
     tagify: boolean
     remToPx: boolean
   }
+  persist: boolean
 }
  
 declare module 'cfonts' {
