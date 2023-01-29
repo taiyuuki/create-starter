@@ -40,6 +40,9 @@ async function run() {
         {
           title: 'vscode-extension', value: 'vscode', description: 'VSCode extension starter template',
         },
+        {
+          title: 'vite-plugin', value: 'vite-plugin', description: 'Vite plugin starter template',
+        },
       ],
       format: (val) => {
         if (template.dirName === '') {
@@ -62,7 +65,7 @@ async function run() {
     },
     {
       type: 'text',
-      name: 'projectFolder',
+      name: 'output',
       message: 'Project folder:',
       initial: () => template.dirName,
       format: (val: string) => {
@@ -71,7 +74,7 @@ async function run() {
       },
     },
     {
-      type: (_, { projectFolder }) => !existsSync(projectFolder) || readdirSync(projectFolder).length === 0 ? null : 'select',
+      type: (_, { output }) => !existsSync(output) || readdirSync(output).length === 0 ? null : 'select',
       name: 'overwrite',
       message: () => {
         if (template.dirName === '.') {
@@ -112,7 +115,7 @@ async function run() {
     },
   ])
   if (scope.overwrite) {
-    emptyDirSync(scope.projectFolder)
+    emptyDirSync(scope.output)
   }
   await createProject(scope)
   console.log()
@@ -147,7 +150,7 @@ async function run() {
 
   if (scope.packageManager !== false) {
     try {
-      await runCommand(scope.packageManager, ['install'], { cwd: scope.projectFolder })
+      await runCommand(scope.packageManager, ['install'], { cwd: scope.output })
     }
     catch {
       logger.warn('Could not auto install dependencies. Probably a temporary npm registry issue?')
@@ -155,7 +158,7 @@ async function run() {
       process.exit(0)
     }
     try {
-      await runCommand(scope.packageManager, scope.packageManager === 'npm' ? ['run', 'lint', '--', '--fix'] : ['run', 'lint', '--fix'], { cwd: scope.projectFolder })
+      await runCommand(scope.packageManager, scope.packageManager === 'npm' ? ['run', 'lint', '--', '--fix'] : ['run', 'lint', '--fix'], { cwd: scope.output })
     }
     catch {
       logger.warn('Could not auto lint fix the project folder.')

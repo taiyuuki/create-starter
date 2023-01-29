@@ -1,0 +1,5038 @@
+卷 Windows 的文件夹 PATH 列表
+卷序列号为 001E-E5EE
+C:.
+├─.vscode
+├─dist
+├─node_modules
+│  ├─.bin
+│  ├─.pnpm
+│  │  ├─@eslint+eslintrc@1.3.3
+│  │  │  └─node_modules
+│  │  │      ├─@eslint
+│  │  │      │  └─eslintrc
+│  │  │      │      ├─conf
+│  │  │      │      ├─dist
+│  │  │      │      ├─lib
+│  │  │      │      │  ├─config-array
+│  │  │      │      │  └─shared
+│  │  │      │      └─node_modules
+│  │  │      │          └─.bin
+│  │  │      ├─ajv
+│  │  │      │  ├─dist
+│  │  │      │  ├─lib
+│  │  │      │  │  ├─compile
+│  │  │      │  │  ├─dot
+│  │  │      │  │  ├─dotjs
+│  │  │      │  │  └─refs
+│  │  │      │  └─scripts
+│  │  │      ├─debug
+│  │  │      │  └─src
+│  │  │      ├─espree
+│  │  │      │  ├─dist
+│  │  │      │  ├─lib
+│  │  │      │  └─node_modules
+│  │  │      │      └─.bin
+│  │  │      ├─globals
+│  │  │      ├─ignore
+│  │  │      ├─import-fresh
+│  │  │      ├─js-yaml
+│  │  │      │  ├─bin
+│  │  │      │  ├─dist
+│  │  │      │  └─lib
+│  │  │      │      ├─schema
+│  │  │      │      └─type
+│  │  │      ├─minimatch
+│  │  │      └─strip-json-comments
+│  │  ├─@humanwhocodes+config-array@0.11.7
+│  │  │  └─node_modules
+│  │  │      ├─@humanwhocodes
+│  │  │      │  ├─config-array
+│  │  │      │  └─object-schema
+│  │  │      │      ├─.github
+│  │  │      │      │  └─workflows
+│  │  │      │      ├─src
+│  │  │      │      └─tests
+│  │  │      ├─debug
+│  │  │      │  └─src
+│  │  │      └─minimatch
+│  │  ├─@humanwhocodes+module-importer@1.0.1
+│  │  │  └─node_modules
+│  │  │      └─@humanwhocodes
+│  │  │          └─module-importer
+│  │  │              ├─dist
+│  │  │              └─src
+│  │  ├─@humanwhocodes+object-schema@1.2.1
+│  │  │  └─node_modules
+│  │  │      └─@humanwhocodes
+│  │  │          └─object-schema
+│  │  │              ├─.github
+│  │  │              │  └─workflows
+│  │  │              ├─src
+│  │  │              └─tests
+│  │  ├─@nodelib+fs.scandir@2.1.5
+│  │  │  └─node_modules
+│  │  │      ├─@nodelib
+│  │  │      │  ├─fs.scandir
+│  │  │      │  │  └─out
+│  │  │      │  │      ├─adapters
+│  │  │      │  │      ├─providers
+│  │  │      │  │      ├─types
+│  │  │      │  │      └─utils
+│  │  │      │  └─fs.stat
+│  │  │      │      └─out
+│  │  │      │          ├─adapters
+│  │  │      │          ├─providers
+│  │  │      │          └─types
+│  │  │      └─run-parallel
+│  │  ├─@nodelib+fs.stat@2.0.5
+│  │  │  └─node_modules
+│  │  │      └─@nodelib
+│  │  │          └─fs.stat
+│  │  │              └─out
+│  │  │                  ├─adapters
+│  │  │                  ├─providers
+│  │  │                  └─types
+│  │  ├─@nodelib+fs.walk@1.2.8
+│  │  │  └─node_modules
+│  │  │      ├─@nodelib
+│  │  │      │  ├─fs.scandir
+│  │  │      │  │  └─out
+│  │  │      │  │      ├─adapters
+│  │  │      │  │      ├─providers
+│  │  │      │  │      ├─types
+│  │  │      │  │      └─utils
+│  │  │      │  └─fs.walk
+│  │  │      │      └─out
+│  │  │      │          ├─providers
+│  │  │      │          ├─readers
+│  │  │      │          └─types
+│  │  │      └─fastq
+│  │  │          ├─.github
+│  │  │          │  └─workflows
+│  │  │          └─test
+│  │  ├─@taiyuuki+eslint-config-ts@0.0.5_eslint@8.26.0
+│  │  │  └─node_modules
+│  │  │      ├─@taiyuuki
+│  │  │      │  ├─eslint-config
+│  │  │      │  └─eslint-config-ts
+│  │  │      │      └─node_modules
+│  │  │      │          └─.bin
+│  │  │      ├─@typescript-eslint
+│  │  │      │  ├─eslint-plugin
+│  │  │      │  │  ├─dist
+│  │  │      │  │  │  ├─configs
+│  │  │      │  │  │  ├─rules
+│  │  │      │  │  │  │  └─naming-convention-utils
+│  │  │      │  │  │  └─util
+│  │  │      │  │  ├─docs
+│  │  │      │  │  │  └─rules
+│  │  │      │  │  └─node_modules
+│  │  │      │  │      └─.bin
+│  │  │      │  └─parser
+│  │  │      │      ├─dist
+│  │  │      │      ├─node_modules
+│  │  │      │      │  └─.bin
+│  │  │      │      └─_ts3.4
+│  │  │      │          └─dist
+│  │  │      ├─eslint-plugin-import
+│  │  │      │  ├─config
+│  │  │      │  ├─docs
+│  │  │      │  │  └─rules
+│  │  │      │  ├─lib
+│  │  │      │  │  ├─core
+│  │  │      │  │  └─rules
+│  │  │      │  ├─memo-parser
+│  │  │      │  └─node_modules
+│  │  │      │      └─.bin
+│  │  │      └─typescript
+│  │  │          ├─bin
+│  │  │          ├─lib
+│  │  │          │  ├─cs
+│  │  │          │  ├─de
+│  │  │          │  ├─es
+│  │  │          │  ├─fr
+│  │  │          │  ├─it
+│  │  │          │  ├─ja
+│  │  │          │  ├─ko
+│  │  │          │  ├─pl
+│  │  │          │  ├─pt-br
+│  │  │          │  ├─ru
+│  │  │          │  ├─tr
+│  │  │          │  ├─zh-cn
+│  │  │          │  └─zh-tw
+│  │  │          └─loc
+│  │  │              └─lcl
+│  │  │                  ├─CHS
+│  │  │                  │  ├─Targets
+│  │  │                  │  ├─TypeScriptDebugEngine
+│  │  │                  │  ├─TypeScriptLanguageService
+│  │  │                  │  └─TypeScriptTasks
+│  │  │                  ├─CHT
+│  │  │                  │  ├─Targets
+│  │  │                  │  ├─TypeScriptDebugEngine
+│  │  │                  │  ├─TypeScriptLanguageService
+│  │  │                  │  └─TypeScriptTasks
+│  │  │                  ├─CSY
+│  │  │                  │  ├─Targets
+│  │  │                  │  ├─TypeScriptDebugEngine
+│  │  │                  │  ├─TypeScriptLanguageService
+│  │  │                  │  └─TypeScriptTasks
+│  │  │                  ├─DEU
+│  │  │                  │  ├─Targets
+│  │  │                  │  ├─TypeScriptDebugEngine
+│  │  │                  │  ├─TypeScriptLanguageService
+│  │  │                  │  └─TypeScriptTasks
+│  │  │                  ├─ESN
+│  │  │                  │  ├─Targets
+│  │  │                  │  ├─TypeScriptDebugEngine
+│  │  │                  │  ├─TypeScriptLanguageService
+│  │  │                  │  └─TypeScriptTasks
+│  │  │                  ├─FRA
+│  │  │                  │  ├─Targets
+│  │  │                  │  ├─TypeScriptDebugEngine
+│  │  │                  │  ├─TypeScriptLanguageService
+│  │  │                  │  └─TypeScriptTasks
+│  │  │                  ├─ITA
+│  │  │                  │  ├─Targets
+│  │  │                  │  ├─TypeScriptDebugEngine
+│  │  │                  │  ├─TypeScriptLanguageService
+│  │  │                  │  └─TypeScriptTasks
+│  │  │                  ├─JPN
+│  │  │                  │  ├─Targets
+│  │  │                  │  ├─TypeScriptDebugEngine
+│  │  │                  │  ├─TypeScriptLanguageService
+│  │  │                  │  └─TypeScriptTasks
+│  │  │                  ├─KOR
+│  │  │                  │  ├─Targets
+│  │  │                  │  ├─TypeScriptDebugEngine
+│  │  │                  │  ├─TypeScriptLanguageService
+│  │  │                  │  └─TypeScriptTasks
+│  │  │                  ├─PLK
+│  │  │                  │  ├─Targets
+│  │  │                  │  ├─TypeScriptDebugEngine
+│  │  │                  │  ├─TypeScriptLanguageService
+│  │  │                  │  └─TypeScriptTasks
+│  │  │                  ├─PTB
+│  │  │                  │  ├─Targets
+│  │  │                  │  ├─TypeScriptDebugEngine
+│  │  │                  │  ├─TypeScriptLanguageService
+│  │  │                  │  └─TypeScriptTasks
+│  │  │                  ├─RUS
+│  │  │                  │  ├─Targets
+│  │  │                  │  ├─TypeScriptDebugEngine
+│  │  │                  │  ├─TypeScriptLanguageService
+│  │  │                  │  └─TypeScriptTasks
+│  │  │                  └─TRK
+│  │  │                      ├─Targets
+│  │  │                      ├─TypeScriptDebugEngine
+│  │  │                      ├─TypeScriptLanguageService
+│  │  │                      └─TypeScriptTasks
+│  │  ├─@taiyuuki+eslint-config@0.0.4_5aea5dp4n23mfv4y2mmjxole3e
+│  │  │  └─node_modules
+│  │  │      ├─@taiyuuki
+│  │  │      │  └─eslint-config
+│  │  │      ├─eslint-plugin-eslint-comments
+│  │  │      │  ├─lib
+│  │  │      │  │  ├─configs
+│  │  │      │  │  ├─internal
+│  │  │      │  │  ├─rules
+│  │  │      │  │  └─utils
+│  │  │      │  └─node_modules
+│  │  │      │      └─.bin
+│  │  │      ├─eslint-plugin-html
+│  │  │      │  └─src
+│  │  │      ├─eslint-plugin-import
+│  │  │      │  ├─config
+│  │  │      │  ├─docs
+│  │  │      │  │  └─rules
+│  │  │      │  ├─lib
+│  │  │      │  │  ├─core
+│  │  │      │  │  └─rules
+│  │  │      │  ├─memo-parser
+│  │  │      │  └─node_modules
+│  │  │      │      └─.bin
+│  │  │      ├─eslint-plugin-jsonc
+│  │  │      │  ├─conf
+│  │  │      │  ├─dist
+│  │  │      │  │  ├─configs
+│  │  │      │  │  ├─rules
+│  │  │      │  │  │  └─vue-custom-block
+│  │  │      │  │  └─utils
+│  │  │      │  └─node_modules
+│  │  │      │      └─.bin
+│  │  │      └─jsonc-eslint-parser
+│  │  │          ├─lib
+│  │  │          │  ├─parser
+│  │  │          │  │  └─modules
+│  │  │          │  └─utils
+│  │  │          └─node_modules
+│  │  │              └─.bin
+│  │  ├─@types+chai-subset@1.3.3
+│  │  │  └─node_modules
+│  │  │      └─@types
+│  │  │          ├─chai
+│  │  │          └─chai-subset
+│  │  ├─@types+chai@4.3.4
+│  │  │  └─node_modules
+│  │  │      └─@types
+│  │  │          └─chai
+│  │  ├─@types+fs-extra@9.0.13
+│  │  │  └─node_modules
+│  │  │      └─@types
+│  │  │          ├─fs-extra
+│  │  │          └─node
+│  │  │              ├─assert
+│  │  │              ├─dns
+│  │  │              ├─fs
+│  │  │              ├─readline
+│  │  │              ├─stream
+│  │  │              ├─timers
+│  │  │              └─ts4.8
+│  │  │                  ├─assert
+│  │  │                  ├─dns
+│  │  │                  ├─fs
+│  │  │                  ├─readline
+│  │  │                  ├─stream
+│  │  │                  └─timers
+│  │  ├─@types+json-schema@7.0.11
+│  │  │  └─node_modules
+│  │  │      └─@types
+│  │  │          └─json-schema
+│  │  ├─@types+json5@0.0.29
+│  │  │  └─node_modules
+│  │  │      └─@types
+│  │  │          └─json5
+│  │  ├─@types+lodash-es@4.17.6
+│  │  │  └─node_modules
+│  │  │      └─@types
+│  │  │          ├─lodash
+│  │  │          │  ├─common
+│  │  │          │  ├─fp
+│  │  │          │  └─ts4.1
+│  │  │          │      ├─common
+│  │  │          │      └─fp
+│  │  │          └─lodash-es
+│  │  ├─@types+lodash@4.14.188
+│  │  │  └─node_modules
+│  │  │      └─@types
+│  │  │          └─lodash
+│  │  │              ├─common
+│  │  │              ├─fp
+│  │  │              └─ts4.1
+│  │  │                  ├─common
+│  │  │                  └─fp
+│  │  ├─@types+node@18.11.9
+│  │  │  └─node_modules
+│  │  │      └─@types
+│  │  │          └─node
+│  │  │              ├─assert
+│  │  │              ├─dns
+│  │  │              ├─fs
+│  │  │              ├─readline
+│  │  │              ├─stream
+│  │  │              ├─timers
+│  │  │              └─ts4.8
+│  │  │                  ├─assert
+│  │  │                  ├─dns
+│  │  │                  ├─fs
+│  │  │                  ├─readline
+│  │  │                  ├─stream
+│  │  │                  └─timers
+│  │  ├─@types+prompts@2.4.1
+│  │  │  └─node_modules
+│  │  │      └─@types
+│  │  │          ├─node
+│  │  │          │  ├─assert
+│  │  │          │  ├─dns
+│  │  │          │  ├─fs
+│  │  │          │  ├─readline
+│  │  │          │  ├─stream
+│  │  │          │  ├─timers
+│  │  │          │  └─ts4.8
+│  │  │          │      ├─assert
+│  │  │          │      ├─dns
+│  │  │          │      ├─fs
+│  │  │          │      ├─readline
+│  │  │          │      ├─stream
+│  │  │          │      └─timers
+│  │  │          └─prompts
+│  │  ├─@types+semver@7.3.13
+│  │  │  └─node_modules
+│  │  │      └─@types
+│  │  │          └─semver
+│  │  │              ├─classes
+│  │  │              ├─functions
+│  │  │              ├─internals
+│  │  │              └─ranges
+│  │  ├─@typescript-eslint+eslint-plugin@5.42.0_6xw5wg2354iw4zujk2f3vyfrzu
+│  │  │  └─node_modules
+│  │  │      ├─@typescript-eslint
+│  │  │      │  ├─eslint-plugin
+│  │  │      │  │  ├─dist
+│  │  │      │  │  │  ├─configs
+│  │  │      │  │  │  ├─rules
+│  │  │      │  │  │  │  └─naming-convention-utils
+│  │  │      │  │  │  └─util
+│  │  │      │  │  ├─docs
+│  │  │      │  │  │  └─rules
+│  │  │      │  │  └─node_modules
+│  │  │      │  │      └─.bin
+│  │  │      │  ├─parser
+│  │  │      │  │  ├─dist
+│  │  │      │  │  ├─node_modules
+│  │  │      │  │  │  └─.bin
+│  │  │      │  │  └─_ts3.4
+│  │  │      │  │      └─dist
+│  │  │      │  ├─scope-manager
+│  │  │      │  │  └─dist
+│  │  │      │  │      ├─definition
+│  │  │      │  │      ├─lib
+│  │  │      │  │      ├─referencer
+│  │  │      │  │      ├─scope
+│  │  │      │  │      └─variable
+│  │  │      │  ├─type-utils
+│  │  │      │  │  ├─dist
+│  │  │      │  │  ├─node_modules
+│  │  │      │  │  │  └─.bin
+│  │  │      │  │  └─_ts3.4
+│  │  │      │  │      └─dist
+│  │  │      │  └─utils
+│  │  │      │      ├─dist
+│  │  │      │      │  ├─ast-utils
+│  │  │      │      │  │  └─eslint-utils
+│  │  │      │      │  ├─eslint-utils
+│  │  │      │      │  │  └─rule-tester
+│  │  │      │      │  ├─ts-eslint
+│  │  │      │      │  └─ts-eslint-scope
+│  │  │      │      ├─node_modules
+│  │  │      │      │  └─.bin
+│  │  │      │      └─_ts3.4
+│  │  │      │          └─dist
+│  │  │      │              ├─ast-utils
+│  │  │      │              │  └─eslint-utils
+│  │  │      │              ├─eslint-utils
+│  │  │      │              │  └─rule-tester
+│  │  │      │              ├─ts-eslint
+│  │  │      │              └─ts-eslint-scope
+│  │  │      ├─debug
+│  │  │      │  └─src
+│  │  │      ├─eslint
+│  │  │      │  ├─bin
+│  │  │      │  ├─conf
+│  │  │      │  ├─lib
+│  │  │      │  │  ├─cli-engine
+│  │  │      │  │  │  └─formatters
+│  │  │      │  │  ├─config
+│  │  │      │  │  ├─eslint
+│  │  │      │  │  ├─linter
+│  │  │      │  │  │  └─code-path-analysis
+│  │  │      │  │  ├─rule-tester
+│  │  │      │  │  ├─rules
+│  │  │      │  │  │  └─utils
+│  │  │      │  │  │      ├─patterns
+│  │  │      │  │  │      └─unicode
+│  │  │      │  │  ├─shared
+│  │  │      │  │  └─source-code
+│  │  │      │  │      └─token-store
+│  │  │      │  ├─messages
+│  │  │      │  └─node_modules
+│  │  │      │      └─.bin
+│  │  │      ├─ignore
+│  │  │      ├─natural-compare-lite
+│  │  │      ├─regexpp
+│  │  │      ├─semver
+│  │  │      │  ├─bin
+│  │  │      │  ├─classes
+│  │  │      │  ├─functions
+│  │  │      │  ├─internal
+│  │  │      │  └─ranges
+│  │  │      ├─tsutils
+│  │  │      │  ├─node_modules
+│  │  │      │  │  └─.bin
+│  │  │      │  ├─typeguard
+│  │  │      │  │  ├─2.8
+│  │  │      │  │  ├─2.9
+│  │  │      │  │  ├─3.0
+│  │  │      │  │  ├─3.2
+│  │  │      │  │  └─next
+│  │  │      │  └─util
+│  │  │      └─typescript
+│  │  │          ├─bin
+│  │  │          ├─lib
+│  │  │          │  ├─cs
+│  │  │          │  ├─de
+│  │  │          │  ├─es
+│  │  │          │  ├─fr
+│  │  │          │  ├─it
+│  │  │          │  ├─ja
+│  │  │          │  ├─ko
+│  │  │          │  ├─pl
+│  │  │          │  ├─pt-br
+│  │  │          │  ├─ru
+│  │  │          │  ├─tr
+│  │  │          │  ├─zh-cn
+│  │  │          │  └─zh-tw
+│  │  │          └─loc
+│  │  │              └─lcl
+│  │  │                  ├─CHS
+│  │  │                  │  ├─Targets
+│  │  │                  │  ├─TypeScriptDebugEngine
+│  │  │                  │  ├─TypeScriptLanguageService
+│  │  │                  │  └─TypeScriptTasks
+│  │  │                  ├─CHT
+│  │  │                  │  ├─Targets
+│  │  │                  │  ├─TypeScriptDebugEngine
+│  │  │                  │  ├─TypeScriptLanguageService
+│  │  │                  │  └─TypeScriptTasks
+│  │  │                  ├─CSY
+│  │  │                  │  ├─Targets
+│  │  │                  │  ├─TypeScriptDebugEngine
+│  │  │                  │  ├─TypeScriptLanguageService
+│  │  │                  │  └─TypeScriptTasks
+│  │  │                  ├─DEU
+│  │  │                  │  ├─Targets
+│  │  │                  │  ├─TypeScriptDebugEngine
+│  │  │                  │  ├─TypeScriptLanguageService
+│  │  │                  │  └─TypeScriptTasks
+│  │  │                  ├─ESN
+│  │  │                  │  ├─Targets
+│  │  │                  │  ├─TypeScriptDebugEngine
+│  │  │                  │  ├─TypeScriptLanguageService
+│  │  │                  │  └─TypeScriptTasks
+│  │  │                  ├─FRA
+│  │  │                  │  ├─Targets
+│  │  │                  │  ├─TypeScriptDebugEngine
+│  │  │                  │  ├─TypeScriptLanguageService
+│  │  │                  │  └─TypeScriptTasks
+│  │  │                  ├─ITA
+│  │  │                  │  ├─Targets
+│  │  │                  │  ├─TypeScriptDebugEngine
+│  │  │                  │  ├─TypeScriptLanguageService
+│  │  │                  │  └─TypeScriptTasks
+│  │  │                  ├─JPN
+│  │  │                  │  ├─Targets
+│  │  │                  │  ├─TypeScriptDebugEngine
+│  │  │                  │  ├─TypeScriptLanguageService
+│  │  │                  │  └─TypeScriptTasks
+│  │  │                  ├─KOR
+│  │  │                  │  ├─Targets
+│  │  │                  │  ├─TypeScriptDebugEngine
+│  │  │                  │  ├─TypeScriptLanguageService
+│  │  │                  │  └─TypeScriptTasks
+│  │  │                  ├─PLK
+│  │  │                  │  ├─Targets
+│  │  │                  │  ├─TypeScriptDebugEngine
+│  │  │                  │  ├─TypeScriptLanguageService
+│  │  │                  │  └─TypeScriptTasks
+│  │  │                  ├─PTB
+│  │  │                  │  ├─Targets
+│  │  │                  │  ├─TypeScriptDebugEngine
+│  │  │                  │  ├─TypeScriptLanguageService
+│  │  │                  │  └─TypeScriptTasks
+│  │  │                  ├─RUS
+│  │  │                  │  ├─Targets
+│  │  │                  │  ├─TypeScriptDebugEngine
+│  │  │                  │  ├─TypeScriptLanguageService
+│  │  │                  │  └─TypeScriptTasks
+│  │  │                  └─TRK
+│  │  │                      ├─Targets
+│  │  │                      ├─TypeScriptDebugEngine
+│  │  │                      ├─TypeScriptLanguageService
+│  │  │                      └─TypeScriptTasks
+│  │  ├─@typescript-eslint+parser@5.42.0_wyqvi574yv7oiwfeinomdzmc3m
+│  │  │  └─node_modules
+│  │  │      ├─@typescript-eslint
+│  │  │      │  ├─parser
+│  │  │      │  │  ├─dist
+│  │  │      │  │  ├─node_modules
+│  │  │      │  │  │  └─.bin
+│  │  │      │  │  └─_ts3.4
+│  │  │      │  │      └─dist
+│  │  │      │  ├─scope-manager
+│  │  │      │  │  └─dist
+│  │  │      │  │      ├─definition
+│  │  │      │  │      ├─lib
+│  │  │      │  │      ├─referencer
+│  │  │      │  │      ├─scope
+│  │  │      │  │      └─variable
+│  │  │      │  ├─types
+│  │  │      │  │  ├─dist
+│  │  │      │  │  │  └─generated
+│  │  │      │  │  └─_ts3.4
+│  │  │      │  │      └─dist
+│  │  │      │  │          └─generated
+│  │  │      │  └─typescript-estree
+│  │  │      │      ├─dist
+│  │  │      │      │  ├─create-program
+│  │  │      │      │  ├─jsx
+│  │  │      │      │  ├─parseSettings
+│  │  │      │      │  └─ts-estree
+│  │  │      │      ├─node_modules
+│  │  │      │      │  └─.bin
+│  │  │      │      └─_ts3.4
+│  │  │      │          └─dist
+│  │  │      │              ├─create-program
+│  │  │      │              ├─jsx
+│  │  │      │              ├─parseSettings
+│  │  │      │              └─ts-estree
+│  │  │      ├─debug
+│  │  │      │  └─src
+│  │  │      ├─eslint
+│  │  │      │  ├─bin
+│  │  │      │  ├─conf
+│  │  │      │  ├─lib
+│  │  │      │  │  ├─cli-engine
+│  │  │      │  │  │  └─formatters
+│  │  │      │  │  ├─config
+│  │  │      │  │  ├─eslint
+│  │  │      │  │  ├─linter
+│  │  │      │  │  │  └─code-path-analysis
+│  │  │      │  │  ├─rule-tester
+│  │  │      │  │  ├─rules
+│  │  │      │  │  │  └─utils
+│  │  │      │  │  │      ├─patterns
+│  │  │      │  │  │      └─unicode
+│  │  │      │  │  ├─shared
+│  │  │      │  │  └─source-code
+│  │  │      │  │      └─token-store
+│  │  │      │  ├─messages
+│  │  │      │  └─node_modules
+│  │  │      │      └─.bin
+│  │  │      └─typescript
+│  │  │          ├─bin
+│  │  │          ├─lib
+│  │  │          │  ├─cs
+│  │  │          │  ├─de
+│  │  │          │  ├─es
+│  │  │          │  ├─fr
+│  │  │          │  ├─it
+│  │  │          │  ├─ja
+│  │  │          │  ├─ko
+│  │  │          │  ├─pl
+│  │  │          │  ├─pt-br
+│  │  │          │  ├─ru
+│  │  │          │  ├─tr
+│  │  │          │  ├─zh-cn
+│  │  │          │  └─zh-tw
+│  │  │          └─loc
+│  │  │              └─lcl
+│  │  │                  ├─CHS
+│  │  │                  │  ├─Targets
+│  │  │                  │  ├─TypeScriptDebugEngine
+│  │  │                  │  ├─TypeScriptLanguageService
+│  │  │                  │  └─TypeScriptTasks
+│  │  │                  ├─CHT
+│  │  │                  │  ├─Targets
+│  │  │                  │  ├─TypeScriptDebugEngine
+│  │  │                  │  ├─TypeScriptLanguageService
+│  │  │                  │  └─TypeScriptTasks
+│  │  │                  ├─CSY
+│  │  │                  │  ├─Targets
+│  │  │                  │  ├─TypeScriptDebugEngine
+│  │  │                  │  ├─TypeScriptLanguageService
+│  │  │                  │  └─TypeScriptTasks
+│  │  │                  ├─DEU
+│  │  │                  │  ├─Targets
+│  │  │                  │  ├─TypeScriptDebugEngine
+│  │  │                  │  ├─TypeScriptLanguageService
+│  │  │                  │  └─TypeScriptTasks
+│  │  │                  ├─ESN
+│  │  │                  │  ├─Targets
+│  │  │                  │  ├─TypeScriptDebugEngine
+│  │  │                  │  ├─TypeScriptLanguageService
+│  │  │                  │  └─TypeScriptTasks
+│  │  │                  ├─FRA
+│  │  │                  │  ├─Targets
+│  │  │                  │  ├─TypeScriptDebugEngine
+│  │  │                  │  ├─TypeScriptLanguageService
+│  │  │                  │  └─TypeScriptTasks
+│  │  │                  ├─ITA
+│  │  │                  │  ├─Targets
+│  │  │                  │  ├─TypeScriptDebugEngine
+│  │  │                  │  ├─TypeScriptLanguageService
+│  │  │                  │  └─TypeScriptTasks
+│  │  │                  ├─JPN
+│  │  │                  │  ├─Targets
+│  │  │                  │  ├─TypeScriptDebugEngine
+│  │  │                  │  ├─TypeScriptLanguageService
+│  │  │                  │  └─TypeScriptTasks
+│  │  │                  ├─KOR
+│  │  │                  │  ├─Targets
+│  │  │                  │  ├─TypeScriptDebugEngine
+│  │  │                  │  ├─TypeScriptLanguageService
+│  │  │                  │  └─TypeScriptTasks
+│  │  │                  ├─PLK
+│  │  │                  │  ├─Targets
+│  │  │                  │  ├─TypeScriptDebugEngine
+│  │  │                  │  ├─TypeScriptLanguageService
+│  │  │                  │  └─TypeScriptTasks
+│  │  │                  ├─PTB
+│  │  │                  │  ├─Targets
+│  │  │                  │  ├─TypeScriptDebugEngine
+│  │  │                  │  ├─TypeScriptLanguageService
+│  │  │                  │  └─TypeScriptTasks
+│  │  │                  ├─RUS
+│  │  │                  │  ├─Targets
+│  │  │                  │  ├─TypeScriptDebugEngine
+│  │  │                  │  ├─TypeScriptLanguageService
+│  │  │                  │  └─TypeScriptTasks
+│  │  │                  └─TRK
+│  │  │                      ├─Targets
+│  │  │                      ├─TypeScriptDebugEngine
+│  │  │                      ├─TypeScriptLanguageService
+│  │  │                      └─TypeScriptTasks
+│  │  ├─@typescript-eslint+scope-manager@5.42.0
+│  │  │  └─node_modules
+│  │  │      └─@typescript-eslint
+│  │  │          ├─scope-manager
+│  │  │          │  └─dist
+│  │  │          │      ├─definition
+│  │  │          │      ├─lib
+│  │  │          │      ├─referencer
+│  │  │          │      ├─scope
+│  │  │          │      └─variable
+│  │  │          ├─types
+│  │  │          │  ├─dist
+│  │  │          │  │  └─generated
+│  │  │          │  └─_ts3.4
+│  │  │          │      └─dist
+│  │  │          │          └─generated
+│  │  │          └─visitor-keys
+│  │  │              ├─dist
+│  │  │              └─_ts3.4
+│  │  │                  └─dist
+│  │  ├─@typescript-eslint+type-utils@5.42.0_wyqvi574yv7oiwfeinomdzmc3m
+│  │  │  └─node_modules
+│  │  │      ├─@typescript-eslint
+│  │  │      │  ├─type-utils
+│  │  │      │  │  ├─dist
+│  │  │      │  │  ├─node_modules
+│  │  │      │  │  │  └─.bin
+│  │  │      │  │  └─_ts3.4
+│  │  │      │  │      └─dist
+│  │  │      │  ├─typescript-estree
+│  │  │      │  │  ├─dist
+│  │  │      │  │  │  ├─create-program
+│  │  │      │  │  │  ├─jsx
+│  │  │      │  │  │  ├─parseSettings
+│  │  │      │  │  │  └─ts-estree
+│  │  │      │  │  ├─node_modules
+│  │  │      │  │  │  └─.bin
+│  │  │      │  │  └─_ts3.4
+│  │  │      │  │      └─dist
+│  │  │      │  │          ├─create-program
+│  │  │      │  │          ├─jsx
+│  │  │      │  │          ├─parseSettings
+│  │  │      │  │          └─ts-estree
+│  │  │      │  └─utils
+│  │  │      │      ├─dist
+│  │  │      │      │  ├─ast-utils
+│  │  │      │      │  │  └─eslint-utils
+│  │  │      │      │  ├─eslint-utils
+│  │  │      │      │  │  └─rule-tester
+│  │  │      │      │  ├─ts-eslint
+│  │  │      │      │  └─ts-eslint-scope
+│  │  │      │      ├─node_modules
+│  │  │      │      │  └─.bin
+│  │  │      │      └─_ts3.4
+│  │  │      │          └─dist
+│  │  │      │              ├─ast-utils
+│  │  │      │              │  └─eslint-utils
+│  │  │      │              ├─eslint-utils
+│  │  │      │              │  └─rule-tester
+│  │  │      │              ├─ts-eslint
+│  │  │      │              └─ts-eslint-scope
+│  │  │      ├─debug
+│  │  │      │  └─src
+│  │  │      ├─eslint
+│  │  │      │  ├─bin
+│  │  │      │  ├─conf
+│  │  │      │  ├─lib
+│  │  │      │  │  ├─cli-engine
+│  │  │      │  │  │  └─formatters
+│  │  │      │  │  ├─config
+│  │  │      │  │  ├─eslint
+│  │  │      │  │  ├─linter
+│  │  │      │  │  │  └─code-path-analysis
+│  │  │      │  │  ├─rule-tester
+│  │  │      │  │  ├─rules
+│  │  │      │  │  │  └─utils
+│  │  │      │  │  │      ├─patterns
+│  │  │      │  │  │      └─unicode
+│  │  │      │  │  ├─shared
+│  │  │      │  │  └─source-code
+│  │  │      │  │      └─token-store
+│  │  │      │  ├─messages
+│  │  │      │  └─node_modules
+│  │  │      │      └─.bin
+│  │  │      ├─tsutils
+│  │  │      │  ├─node_modules
+│  │  │      │  │  └─.bin
+│  │  │      │  ├─typeguard
+│  │  │      │  │  ├─2.8
+│  │  │      │  │  ├─2.9
+│  │  │      │  │  ├─3.0
+│  │  │      │  │  ├─3.2
+│  │  │      │  │  └─next
+│  │  │      │  └─util
+│  │  │      └─typescript
+│  │  │          ├─bin
+│  │  │          ├─lib
+│  │  │          │  ├─cs
+│  │  │          │  ├─de
+│  │  │          │  ├─es
+│  │  │          │  ├─fr
+│  │  │          │  ├─it
+│  │  │          │  ├─ja
+│  │  │          │  ├─ko
+│  │  │          │  ├─pl
+│  │  │          │  ├─pt-br
+│  │  │          │  ├─ru
+│  │  │          │  ├─tr
+│  │  │          │  ├─zh-cn
+│  │  │          │  └─zh-tw
+│  │  │          └─loc
+│  │  │              └─lcl
+│  │  │                  ├─CHS
+│  │  │                  │  ├─Targets
+│  │  │                  │  ├─TypeScriptDebugEngine
+│  │  │                  │  ├─TypeScriptLanguageService
+│  │  │                  │  └─TypeScriptTasks
+│  │  │                  ├─CHT
+│  │  │                  │  ├─Targets
+│  │  │                  │  ├─TypeScriptDebugEngine
+│  │  │                  │  ├─TypeScriptLanguageService
+│  │  │                  │  └─TypeScriptTasks
+│  │  │                  ├─CSY
+│  │  │                  │  ├─Targets
+│  │  │                  │  ├─TypeScriptDebugEngine
+│  │  │                  │  ├─TypeScriptLanguageService
+│  │  │                  │  └─TypeScriptTasks
+│  │  │                  ├─DEU
+│  │  │                  │  ├─Targets
+│  │  │                  │  ├─TypeScriptDebugEngine
+│  │  │                  │  ├─TypeScriptLanguageService
+│  │  │                  │  └─TypeScriptTasks
+│  │  │                  ├─ESN
+│  │  │                  │  ├─Targets
+│  │  │                  │  ├─TypeScriptDebugEngine
+│  │  │                  │  ├─TypeScriptLanguageService
+│  │  │                  │  └─TypeScriptTasks
+│  │  │                  ├─FRA
+│  │  │                  │  ├─Targets
+│  │  │                  │  ├─TypeScriptDebugEngine
+│  │  │                  │  ├─TypeScriptLanguageService
+│  │  │                  │  └─TypeScriptTasks
+│  │  │                  ├─ITA
+│  │  │                  │  ├─Targets
+│  │  │                  │  ├─TypeScriptDebugEngine
+│  │  │                  │  ├─TypeScriptLanguageService
+│  │  │                  │  └─TypeScriptTasks
+│  │  │                  ├─JPN
+│  │  │                  │  ├─Targets
+│  │  │                  │  ├─TypeScriptDebugEngine
+│  │  │                  │  ├─TypeScriptLanguageService
+│  │  │                  │  └─TypeScriptTasks
+│  │  │                  ├─KOR
+│  │  │                  │  ├─Targets
+│  │  │                  │  ├─TypeScriptDebugEngine
+│  │  │                  │  ├─TypeScriptLanguageService
+│  │  │                  │  └─TypeScriptTasks
+│  │  │                  ├─PLK
+│  │  │                  │  ├─Targets
+│  │  │                  │  ├─TypeScriptDebugEngine
+│  │  │                  │  ├─TypeScriptLanguageService
+│  │  │                  │  └─TypeScriptTasks
+│  │  │                  ├─PTB
+│  │  │                  │  ├─Targets
+│  │  │                  │  ├─TypeScriptDebugEngine
+│  │  │                  │  ├─TypeScriptLanguageService
+│  │  │                  │  └─TypeScriptTasks
+│  │  │                  ├─RUS
+│  │  │                  │  ├─Targets
+│  │  │                  │  ├─TypeScriptDebugEngine
+│  │  │                  │  ├─TypeScriptLanguageService
+│  │  │                  │  └─TypeScriptTasks
+│  │  │                  └─TRK
+│  │  │                      ├─Targets
+│  │  │                      ├─TypeScriptDebugEngine
+│  │  │                      ├─TypeScriptLanguageService
+│  │  │                      └─TypeScriptTasks
+│  │  ├─@typescript-eslint+types@5.42.0
+│  │  │  └─node_modules
+│  │  │      └─@typescript-eslint
+│  │  │          └─types
+│  │  │              ├─dist
+│  │  │              │  └─generated
+│  │  │              └─_ts3.4
+│  │  │                  └─dist
+│  │  │                      └─generated
+│  │  ├─@typescript-eslint+typescript-estree@5.42.0_typescript@4.8.4
+│  │  │  └─node_modules
+│  │  │      ├─@typescript-eslint
+│  │  │      │  ├─types
+│  │  │      │  │  ├─dist
+│  │  │      │  │  │  └─generated
+│  │  │      │  │  └─_ts3.4
+│  │  │      │  │      └─dist
+│  │  │      │  │          └─generated
+│  │  │      │  ├─typescript-estree
+│  │  │      │  │  ├─dist
+│  │  │      │  │  │  ├─create-program
+│  │  │      │  │  │  ├─jsx
+│  │  │      │  │  │  ├─parseSettings
+│  │  │      │  │  │  └─ts-estree
+│  │  │      │  │  ├─node_modules
+│  │  │      │  │  │  └─.bin
+│  │  │      │  │  └─_ts3.4
+│  │  │      │  │      └─dist
+│  │  │      │  │          ├─create-program
+│  │  │      │  │          ├─jsx
+│  │  │      │  │          ├─parseSettings
+│  │  │      │  │          └─ts-estree
+│  │  │      │  └─visitor-keys
+│  │  │      │      ├─dist
+│  │  │      │      └─_ts3.4
+│  │  │      │          └─dist
+│  │  │      ├─debug
+│  │  │      │  └─src
+│  │  │      ├─globby
+│  │  │      ├─is-glob
+│  │  │      ├─semver
+│  │  │      │  ├─bin
+│  │  │      │  ├─classes
+│  │  │      │  ├─functions
+│  │  │      │  ├─internal
+│  │  │      │  └─ranges
+│  │  │      ├─tsutils
+│  │  │      │  ├─node_modules
+│  │  │      │  │  └─.bin
+│  │  │      │  ├─typeguard
+│  │  │      │  │  ├─2.8
+│  │  │      │  │  ├─2.9
+│  │  │      │  │  ├─3.0
+│  │  │      │  │  ├─3.2
+│  │  │      │  │  └─next
+│  │  │      │  └─util
+│  │  │      └─typescript
+│  │  │          ├─bin
+│  │  │          ├─lib
+│  │  │          │  ├─cs
+│  │  │          │  ├─de
+│  │  │          │  ├─es
+│  │  │          │  ├─fr
+│  │  │          │  ├─it
+│  │  │          │  ├─ja
+│  │  │          │  ├─ko
+│  │  │          │  ├─pl
+│  │  │          │  ├─pt-br
+│  │  │          │  ├─ru
+│  │  │          │  ├─tr
+│  │  │          │  ├─zh-cn
+│  │  │          │  └─zh-tw
+│  │  │          └─loc
+│  │  │              └─lcl
+│  │  │                  ├─CHS
+│  │  │                  │  ├─Targets
+│  │  │                  │  ├─TypeScriptDebugEngine
+│  │  │                  │  ├─TypeScriptLanguageService
+│  │  │                  │  └─TypeScriptTasks
+│  │  │                  ├─CHT
+│  │  │                  │  ├─Targets
+│  │  │                  │  ├─TypeScriptDebugEngine
+│  │  │                  │  ├─TypeScriptLanguageService
+│  │  │                  │  └─TypeScriptTasks
+│  │  │                  ├─CSY
+│  │  │                  │  ├─Targets
+│  │  │                  │  ├─TypeScriptDebugEngine
+│  │  │                  │  ├─TypeScriptLanguageService
+│  │  │                  │  └─TypeScriptTasks
+│  │  │                  ├─DEU
+│  │  │                  │  ├─Targets
+│  │  │                  │  ├─TypeScriptDebugEngine
+│  │  │                  │  ├─TypeScriptLanguageService
+│  │  │                  │  └─TypeScriptTasks
+│  │  │                  ├─ESN
+│  │  │                  │  ├─Targets
+│  │  │                  │  ├─TypeScriptDebugEngine
+│  │  │                  │  ├─TypeScriptLanguageService
+│  │  │                  │  └─TypeScriptTasks
+│  │  │                  ├─FRA
+│  │  │                  │  ├─Targets
+│  │  │                  │  ├─TypeScriptDebugEngine
+│  │  │                  │  ├─TypeScriptLanguageService
+│  │  │                  │  └─TypeScriptTasks
+│  │  │                  ├─ITA
+│  │  │                  │  ├─Targets
+│  │  │                  │  ├─TypeScriptDebugEngine
+│  │  │                  │  ├─TypeScriptLanguageService
+│  │  │                  │  └─TypeScriptTasks
+│  │  │                  ├─JPN
+│  │  │                  │  ├─Targets
+│  │  │                  │  ├─TypeScriptDebugEngine
+│  │  │                  │  ├─TypeScriptLanguageService
+│  │  │                  │  └─TypeScriptTasks
+│  │  │                  ├─KOR
+│  │  │                  │  ├─Targets
+│  │  │                  │  ├─TypeScriptDebugEngine
+│  │  │                  │  ├─TypeScriptLanguageService
+│  │  │                  │  └─TypeScriptTasks
+│  │  │                  ├─PLK
+│  │  │                  │  ├─Targets
+│  │  │                  │  ├─TypeScriptDebugEngine
+│  │  │                  │  ├─TypeScriptLanguageService
+│  │  │                  │  └─TypeScriptTasks
+│  │  │                  ├─PTB
+│  │  │                  │  ├─Targets
+│  │  │                  │  ├─TypeScriptDebugEngine
+│  │  │                  │  ├─TypeScriptLanguageService
+│  │  │                  │  └─TypeScriptTasks
+│  │  │                  ├─RUS
+│  │  │                  │  ├─Targets
+│  │  │                  │  ├─TypeScriptDebugEngine
+│  │  │                  │  ├─TypeScriptLanguageService
+│  │  │                  │  └─TypeScriptTasks
+│  │  │                  └─TRK
+│  │  │                      ├─Targets
+│  │  │                      ├─TypeScriptDebugEngine
+│  │  │                      ├─TypeScriptLanguageService
+│  │  │                      └─TypeScriptTasks
+│  │  ├─@typescript-eslint+utils@5.42.0_wyqvi574yv7oiwfeinomdzmc3m
+│  │  │  └─node_modules
+│  │  │      ├─@types
+│  │  │      │  ├─json-schema
+│  │  │      │  └─semver
+│  │  │      │      ├─classes
+│  │  │      │      ├─functions
+│  │  │      │      ├─internals
+│  │  │      │      └─ranges
+│  │  │      ├─@typescript-eslint
+│  │  │      │  ├─scope-manager
+│  │  │      │  │  └─dist
+│  │  │      │  │      ├─definition
+│  │  │      │  │      ├─lib
+│  │  │      │  │      ├─referencer
+│  │  │      │  │      ├─scope
+│  │  │      │  │      └─variable
+│  │  │      │  ├─types
+│  │  │      │  │  ├─dist
+│  │  │      │  │  │  └─generated
+│  │  │      │  │  └─_ts3.4
+│  │  │      │  │      └─dist
+│  │  │      │  │          └─generated
+│  │  │      │  ├─typescript-estree
+│  │  │      │  │  ├─dist
+│  │  │      │  │  │  ├─create-program
+│  │  │      │  │  │  ├─jsx
+│  │  │      │  │  │  ├─parseSettings
+│  │  │      │  │  │  └─ts-estree
+│  │  │      │  │  ├─node_modules
+│  │  │      │  │  │  └─.bin
+│  │  │      │  │  └─_ts3.4
+│  │  │      │  │      └─dist
+│  │  │      │  │          ├─create-program
+│  │  │      │  │          ├─jsx
+│  │  │      │  │          ├─parseSettings
+│  │  │      │  │          └─ts-estree
+│  │  │      │  └─utils
+│  │  │      │      ├─dist
+│  │  │      │      │  ├─ast-utils
+│  │  │      │      │  │  └─eslint-utils
+│  │  │      │      │  ├─eslint-utils
+│  │  │      │      │  │  └─rule-tester
+│  │  │      │      │  ├─ts-eslint
+│  │  │      │      │  └─ts-eslint-scope
+│  │  │      │      ├─node_modules
+│  │  │      │      │  └─.bin
+│  │  │      │      └─_ts3.4
+│  │  │      │          └─dist
+│  │  │      │              ├─ast-utils
+│  │  │      │              │  └─eslint-utils
+│  │  │      │              ├─eslint-utils
+│  │  │      │              │  └─rule-tester
+│  │  │      │              ├─ts-eslint
+│  │  │      │              └─ts-eslint-scope
+│  │  │      ├─eslint
+│  │  │      │  ├─bin
+│  │  │      │  ├─conf
+│  │  │      │  ├─lib
+│  │  │      │  │  ├─cli-engine
+│  │  │      │  │  │  └─formatters
+│  │  │      │  │  ├─config
+│  │  │      │  │  ├─eslint
+│  │  │      │  │  ├─linter
+│  │  │      │  │  │  └─code-path-analysis
+│  │  │      │  │  ├─rule-tester
+│  │  │      │  │  ├─rules
+│  │  │      │  │  │  └─utils
+│  │  │      │  │  │      ├─patterns
+│  │  │      │  │  │      └─unicode
+│  │  │      │  │  ├─shared
+│  │  │      │  │  └─source-code
+│  │  │      │  │      └─token-store
+│  │  │      │  ├─messages
+│  │  │      │  └─node_modules
+│  │  │      │      └─.bin
+│  │  │      ├─eslint-scope
+│  │  │      │  └─lib
+│  │  │      ├─eslint-utils
+│  │  │      │  └─node_modules
+│  │  │      │      └─.bin
+│  │  │      └─semver
+│  │  │          ├─bin
+│  │  │          ├─classes
+│  │  │          ├─functions
+│  │  │          ├─internal
+│  │  │          └─ranges
+│  │  ├─@typescript-eslint+visitor-keys@5.42.0
+│  │  │  └─node_modules
+│  │  │      ├─@typescript-eslint
+│  │  │      │  ├─types
+│  │  │      │  │  ├─dist
+│  │  │      │  │  │  └─generated
+│  │  │      │  │  └─_ts3.4
+│  │  │      │  │      └─dist
+│  │  │      │  │          └─generated
+│  │  │      │  └─visitor-keys
+│  │  │      │      ├─dist
+│  │  │      │      └─_ts3.4
+│  │  │      │          └─dist
+│  │  │      └─eslint-visitor-keys
+│  │  │          ├─dist
+│  │  │          └─lib
+│  │  ├─acorn-jsx@5.3.2_acorn@8.8.1
+│  │  │  └─node_modules
+│  │  │      ├─acorn
+│  │  │      │  ├─bin
+│  │  │      │  └─dist
+│  │  │      └─acorn-jsx
+│  │  │          └─node_modules
+│  │  │              └─.bin
+│  │  ├─acorn-walk@8.2.0
+│  │  │  └─node_modules
+│  │  │      └─acorn-walk
+│  │  │          └─dist
+│  │  ├─acorn@8.8.1
+│  │  │  └─node_modules
+│  │  │      └─acorn
+│  │  │          ├─bin
+│  │  │          └─dist
+│  │  ├─ajv@6.12.6
+│  │  │  └─node_modules
+│  │  │      ├─ajv
+│  │  │      │  ├─dist
+│  │  │      │  ├─lib
+│  │  │      │  │  ├─compile
+│  │  │      │  │  ├─dot
+│  │  │      │  │  ├─dotjs
+│  │  │      │  │  └─refs
+│  │  │      │  └─scripts
+│  │  │      ├─fast-deep-equal
+│  │  │      │  └─es6
+│  │  │      ├─fast-json-stable-stringify
+│  │  │      │  ├─.github
+│  │  │      │  ├─benchmark
+│  │  │      │  ├─example
+│  │  │      │  └─test
+│  │  │      ├─json-schema-traverse
+│  │  │      │  └─spec
+│  │  │      │      └─fixtures
+│  │  │      └─uri-js
+│  │  │          └─dist
+│  │  │              ├─es5
+│  │  │              └─esnext
+│  │  │                  └─schemes
+│  │  ├─ansi-regex@5.0.1
+│  │  │  └─node_modules
+│  │  │      └─ansi-regex
+│  │  ├─ansi-styles@4.3.0
+│  │  │  └─node_modules
+│  │  │      ├─ansi-styles
+│  │  │      └─color-convert
+│  │  ├─any-promise@1.3.0
+│  │  │  └─node_modules
+│  │  │      └─any-promise
+│  │  │          └─register
+│  │  ├─anymatch@3.1.2
+│  │  │  └─node_modules
+│  │  │      ├─anymatch
+│  │  │      ├─normalize-path
+│  │  │      └─picomatch
+│  │  │          └─lib
+│  │  ├─argparse@2.0.1
+│  │  │  └─node_modules
+│  │  │      └─argparse
+│  │  │          └─lib
+│  │  ├─array-includes@3.1.5
+│  │  │  └─node_modules
+│  │  │      ├─array-includes
+│  │  │      │  ├─.github
+│  │  │      │  └─test
+│  │  │      ├─call-bind
+│  │  │      │  ├─.github
+│  │  │      │  └─test
+│  │  │      ├─define-properties
+│  │  │      │  └─.github
+│  │  │      ├─es-abstract
+│  │  │      │  ├─2015
+│  │  │      │  ├─2016
+│  │  │      │  ├─2017
+│  │  │      │  ├─2018
+│  │  │      │  ├─2019
+│  │  │      │  ├─2020
+│  │  │      │  │  ├─BigInt
+│  │  │      │  │  └─Number
+│  │  │      │  ├─2021
+│  │  │      │  │  ├─BigInt
+│  │  │      │  │  └─Number
+│  │  │      │  ├─2022
+│  │  │      │  │  ├─BigInt
+│  │  │      │  │  └─Number
+│  │  │      │  ├─5
+│  │  │      │  ├─helpers
+│  │  │      │  └─operations
+│  │  │      ├─get-intrinsic
+│  │  │      │  ├─.github
+│  │  │      │  └─test
+│  │  │      └─is-string
+│  │  │          ├─.github
+│  │  │          └─test
+│  │  ├─array-union@2.1.0
+│  │  │  └─node_modules
+│  │  │      └─array-union
+│  │  ├─array.prototype.flat@1.3.1
+│  │  │  └─node_modules
+│  │  │      ├─array.prototype.flat
+│  │  │      │  ├─.github
+│  │  │      │  └─test
+│  │  │      ├─call-bind
+│  │  │      │  ├─.github
+│  │  │      │  └─test
+│  │  │      ├─define-properties
+│  │  │      │  └─.github
+│  │  │      ├─es-abstract
+│  │  │      │  ├─2015
+│  │  │      │  ├─2016
+│  │  │      │  ├─2017
+│  │  │      │  ├─2018
+│  │  │      │  ├─2019
+│  │  │      │  ├─2020
+│  │  │      │  │  ├─BigInt
+│  │  │      │  │  └─Number
+│  │  │      │  ├─2021
+│  │  │      │  │  ├─BigInt
+│  │  │      │  │  └─Number
+│  │  │      │  ├─2022
+│  │  │      │  │  ├─BigInt
+│  │  │      │  │  └─Number
+│  │  │      │  ├─5
+│  │  │      │  ├─helpers
+│  │  │      │  └─operations
+│  │  │      └─es-shim-unscopables
+│  │  │          ├─.github
+│  │  │          └─test
+│  │  ├─assertion-error@1.1.0
+│  │  │  └─node_modules
+│  │  │      └─assertion-error
+│  │  ├─balanced-match@1.0.2
+│  │  │  └─node_modules
+│  │  │      └─balanced-match
+│  │  │          └─.github
+│  │  ├─binary-extensions@2.2.0
+│  │  │  └─node_modules
+│  │  │      └─binary-extensions
+│  │  ├─brace-expansion@1.1.11
+│  │  │  └─node_modules
+│  │  │      ├─balanced-match
+│  │  │      │  └─.github
+│  │  │      ├─brace-expansion
+│  │  │      └─concat-map
+│  │  │          ├─example
+│  │  │          └─test
+│  │  ├─braces@3.0.2
+│  │  │  └─node_modules
+│  │  │      ├─braces
+│  │  │      │  └─lib
+│  │  │      └─fill-range
+│  │  ├─bundle-require@3.1.2_esbuild@0.15.13
+│  │  │  └─node_modules
+│  │  │      ├─bundle-require
+│  │  │      │  ├─dist
+│  │  │      │  └─node_modules
+│  │  │      │      └─.bin
+│  │  │      ├─esbuild
+│  │  │      │  ├─bin
+│  │  │      │  ├─lib
+│  │  │      │  └─node_modules
+│  │  │      │      └─.bin
+│  │  │      └─load-tsconfig
+│  │  │          └─dist
+│  │  ├─cac@6.7.14
+│  │  │  └─node_modules
+│  │  │      └─cac
+│  │  │          ├─deno
+│  │  │          └─dist
+│  │  ├─call-bind@1.0.2
+│  │  │  └─node_modules
+│  │  │      ├─call-bind
+│  │  │      │  ├─.github
+│  │  │      │  └─test
+│  │  │      ├─function-bind
+│  │  │      │  └─test
+│  │  │      └─get-intrinsic
+│  │  │          ├─.github
+│  │  │          └─test
+│  │  ├─callsites@3.1.0
+│  │  │  └─node_modules
+│  │  │      └─callsites
+│  │  ├─cfonts@3.1.1
+│  │  │  └─node_modules
+│  │  │      ├─cfonts
+│  │  │      │  ├─bin
+│  │  │      │  ├─fonts
+│  │  │      │  ├─lib
+│  │  │      │  └─node_modules
+│  │  │      │      └─.bin
+│  │  │      ├─supports-color
+│  │  │      └─window-size
+│  │  ├─chai@4.3.7
+│  │  │  └─node_modules
+│  │  │      ├─assertion-error
+│  │  │      ├─chai
+│  │  │      │  └─lib
+│  │  │      │      └─chai
+│  │  │      │          ├─core
+│  │  │      │          ├─interface
+│  │  │      │          └─utils
+│  │  │      ├─check-error
+│  │  │      ├─deep-eql
+│  │  │      ├─get-func-name
+│  │  │      ├─loupe
+│  │  │      │  └─lib
+│  │  │      ├─pathval
+│  │  │      └─type-detect
+│  │  ├─chalk@4.1.2
+│  │  │  └─node_modules
+│  │  │      ├─ansi-styles
+│  │  │      ├─chalk
+│  │  │      │  └─source
+│  │  │      └─supports-color
+│  │  ├─check-error@1.0.2
+│  │  │  └─node_modules
+│  │  │      └─check-error
+│  │  ├─chokidar@3.5.3
+│  │  │  └─node_modules
+│  │  │      ├─anymatch
+│  │  │      ├─braces
+│  │  │      │  └─lib
+│  │  │      ├─chokidar
+│  │  │      │  ├─lib
+│  │  │      │  └─types
+│  │  │      ├─glob-parent
+│  │  │      ├─is-binary-path
+│  │  │      ├─is-glob
+│  │  │      ├─normalize-path
+│  │  │      └─readdirp
+│  │  ├─color-convert@2.0.1
+│  │  │  └─node_modules
+│  │  │      ├─color-convert
+│  │  │      └─color-name
+│  │  ├─color-name@1.1.4
+│  │  │  └─node_modules
+│  │  │      └─color-name
+│  │  ├─commander@4.1.1
+│  │  │  └─node_modules
+│  │  │      └─commander
+│  │  │          └─typings
+│  │  ├─concat-map@0.0.1
+│  │  │  └─node_modules
+│  │  │      └─concat-map
+│  │  │          ├─example
+│  │  │          └─test
+│  │  ├─cross-spawn@7.0.3
+│  │  │  └─node_modules
+│  │  │      ├─cross-spawn
+│  │  │      │  ├─lib
+│  │  │      │  │  └─util
+│  │  │      │  └─node_modules
+│  │  │      │      └─.bin
+│  │  │      ├─path-key
+│  │  │      ├─shebang-command
+│  │  │      └─which
+│  │  │          └─bin
+│  │  ├─debug@2.6.9
+│  │  │  └─node_modules
+│  │  │      ├─debug
+│  │  │      │  └─src
+│  │  │      └─ms
+│  │  ├─debug@3.2.7
+│  │  │  └─node_modules
+│  │  │      ├─debug
+│  │  │      │  └─src
+│  │  │      └─ms
+│  │  ├─debug@4.3.4
+│  │  │  └─node_modules
+│  │  │      ├─debug
+│  │  │      │  └─src
+│  │  │      └─ms
+│  │  ├─deep-eql@4.1.2
+│  │  │  └─node_modules
+│  │  │      ├─deep-eql
+│  │  │      └─type-detect
+│  │  ├─deep-is@0.1.4
+│  │  │  └─node_modules
+│  │  │      └─deep-is
+│  │  │          ├─example
+│  │  │          └─test
+│  │  ├─define-properties@1.1.4
+│  │  │  └─node_modules
+│  │  │      ├─define-properties
+│  │  │      │  └─.github
+│  │  │      ├─has-property-descriptors
+│  │  │      │  ├─.github
+│  │  │      │  └─test
+│  │  │      └─object-keys
+│  │  │          └─test
+│  │  ├─define-property@1.0.0
+│  │  │  └─node_modules
+│  │  │      ├─define-property
+│  │  │      └─is-descriptor
+│  │  ├─dir-glob@3.0.1
+│  │  │  └─node_modules
+│  │  │      ├─dir-glob
+│  │  │      └─path-type
+│  │  ├─doctrine@2.1.0
+│  │  │  └─node_modules
+│  │  │      ├─doctrine
+│  │  │      │  └─lib
+│  │  │      └─esutils
+│  │  │          └─lib
+│  │  ├─doctrine@3.0.0
+│  │  │  └─node_modules
+│  │  │      ├─doctrine
+│  │  │      │  └─lib
+│  │  │      └─esutils
+│  │  │          └─lib
+│  │  ├─dom-serializer@2.0.0
+│  │  │  └─node_modules
+│  │  │      ├─dom-serializer
+│  │  │      │  └─lib
+│  │  │      │      └─esm
+│  │  │      ├─domelementtype
+│  │  │      │  └─lib
+│  │  │      │      └─esm
+│  │  │      ├─domhandler
+│  │  │      │  └─lib
+│  │  │      │      └─esm
+│  │  │      └─entities
+│  │  │          └─lib
+│  │  │              ├─esm
+│  │  │              │  └─generated
+│  │  │              └─generated
+│  │  ├─domelementtype@2.3.0
+│  │  │  └─node_modules
+│  │  │      └─domelementtype
+│  │  │          └─lib
+│  │  │              └─esm
+│  │  ├─domhandler@5.0.3
+│  │  │  └─node_modules
+│  │  │      ├─domelementtype
+│  │  │      │  └─lib
+│  │  │      │      └─esm
+│  │  │      └─domhandler
+│  │  │          └─lib
+│  │  │              └─esm
+│  │  ├─domutils@3.0.1
+│  │  │  └─node_modules
+│  │  │      ├─dom-serializer
+│  │  │      │  └─lib
+│  │  │      │      └─esm
+│  │  │      ├─domelementtype
+│  │  │      │  └─lib
+│  │  │      │      └─esm
+│  │  │      ├─domhandler
+│  │  │      │  └─lib
+│  │  │      │      └─esm
+│  │  │      └─domutils
+│  │  │          └─lib
+│  │  │              └─esm
+│  │  ├─entities@4.4.0
+│  │  │  └─node_modules
+│  │  │      └─entities
+│  │  │          └─lib
+│  │  │              ├─esm
+│  │  │              │  └─generated
+│  │  │              └─generated
+│  │  ├─es-abstract@1.20.4
+│  │  │  └─node_modules
+│  │  │      ├─call-bind
+│  │  │      │  ├─.github
+│  │  │      │  └─test
+│  │  │      ├─es-abstract
+│  │  │      │  ├─2015
+│  │  │      │  ├─2016
+│  │  │      │  ├─2017
+│  │  │      │  ├─2018
+│  │  │      │  ├─2019
+│  │  │      │  ├─2020
+│  │  │      │  │  ├─BigInt
+│  │  │      │  │  └─Number
+│  │  │      │  ├─2021
+│  │  │      │  │  ├─BigInt
+│  │  │      │  │  └─Number
+│  │  │      │  ├─2022
+│  │  │      │  │  ├─BigInt
+│  │  │      │  │  └─Number
+│  │  │      │  ├─5
+│  │  │      │  ├─helpers
+│  │  │      │  └─operations
+│  │  │      ├─es-to-primitive
+│  │  │      │  ├─.github
+│  │  │      │  ├─helpers
+│  │  │      │  └─test
+│  │  │      ├─function-bind
+│  │  │      │  └─test
+│  │  │      ├─function.prototype.name
+│  │  │      │  ├─.github
+│  │  │      │  ├─helpers
+│  │  │      │  └─test
+│  │  │      ├─get-intrinsic
+│  │  │      │  ├─.github
+│  │  │      │  └─test
+│  │  │      ├─get-symbol-description
+│  │  │      │  ├─.github
+│  │  │      │  └─test
+│  │  │      ├─has
+│  │  │      │  ├─src
+│  │  │      │  └─test
+│  │  │      ├─has-property-descriptors
+│  │  │      │  ├─.github
+│  │  │      │  └─test
+│  │  │      ├─has-symbols
+│  │  │      │  ├─.github
+│  │  │      │  └─test
+│  │  │      │      └─shams
+│  │  │      ├─internal-slot
+│  │  │      │  ├─.github
+│  │  │      │  └─test
+│  │  │      ├─is-callable
+│  │  │      │  ├─.github
+│  │  │      │  └─test
+│  │  │      ├─is-negative-zero
+│  │  │      │  ├─.github
+│  │  │      │  └─test
+│  │  │      ├─is-regex
+│  │  │      │  └─test
+│  │  │      ├─is-shared-array-buffer
+│  │  │      │  ├─.github
+│  │  │      │  └─test
+│  │  │      ├─is-string
+│  │  │      │  ├─.github
+│  │  │      │  └─test
+│  │  │      ├─is-weakref
+│  │  │      │  ├─.github
+│  │  │      │  └─test
+│  │  │      ├─object-inspect
+│  │  │      │  ├─.github
+│  │  │      │  ├─example
+│  │  │      │  └─test
+│  │  │      │      └─browser
+│  │  │      ├─object-keys
+│  │  │      │  └─test
+│  │  │      ├─object.assign
+│  │  │      │  ├─.github
+│  │  │      │  ├─dist
+│  │  │      │  └─test
+│  │  │      ├─regexp.prototype.flags
+│  │  │      │  └─test
+│  │  │      ├─safe-regex-test
+│  │  │      │  ├─.github
+│  │  │      │  └─test
+│  │  │      ├─string.prototype.trimend
+│  │  │      │  └─test
+│  │  │      ├─string.prototype.trimstart
+│  │  │      │  └─test
+│  │  │      └─unbox-primitive
+│  │  │          ├─.github
+│  │  │          └─test
+│  │  ├─es-shim-unscopables@1.0.0
+│  │  │  └─node_modules
+│  │  │      ├─es-shim-unscopables
+│  │  │      │  ├─.github
+│  │  │      │  └─test
+│  │  │      └─has
+│  │  │          ├─src
+│  │  │          └─test
+│  │  ├─es-to-primitive@1.2.1
+│  │  │  └─node_modules
+│  │  │      ├─es-to-primitive
+│  │  │      │  ├─.github
+│  │  │      │  ├─helpers
+│  │  │      │  └─test
+│  │  │      ├─is-callable
+│  │  │      │  ├─.github
+│  │  │      │  └─test
+│  │  │      ├─is-date-object
+│  │  │      │  ├─.github
+│  │  │      │  └─test
+│  │  │      └─is-symbol
+│  │  │          ├─.github
+│  │  │          └─test
+│  │  ├─esbuild-windows-64@0.15.13
+│  │  │  └─node_modules
+│  │  │      ├─esbuild-windows-64
+│  │  │      │  └─bin
+│  │  │      ├─_tmp_13808_ea35aaea7d57e5cef6f8d342ccc2ced4
+│  │  │      ├─_tmp_9356_593229d9830ea45a7c0fce035e9d77e0
+│  │  │      └─_tmp_9356_fdd370fd896dd805fe91bc5db24f1a02
+│  │  ├─esbuild@0.15.13
+│  │  │  └─node_modules
+│  │  │      ├─esbuild
+│  │  │      │  ├─bin
+│  │  │      │  ├─lib
+│  │  │      │  └─node_modules
+│  │  │      │      └─.bin
+│  │  │      └─esbuild-windows-64
+│  │  │          └─bin
+│  │  ├─escape-string-regexp@1.0.5
+│  │  │  └─node_modules
+│  │  │      └─escape-string-regexp
+│  │  ├─escape-string-regexp@4.0.0
+│  │  │  └─node_modules
+│  │  │      └─escape-string-regexp
+│  │  ├─eslint-import-resolver-node@0.3.6
+│  │  │  └─node_modules
+│  │  │      ├─debug
+│  │  │      │  └─src
+│  │  │      ├─eslint-import-resolver-node
+│  │  │      │  └─node_modules
+│  │  │      │      └─.bin
+│  │  │      └─resolve
+│  │  │          ├─.github
+│  │  │          ├─bin
+│  │  │          ├─example
+│  │  │          ├─lib
+│  │  │          └─test
+│  │  │              ├─dotdot
+│  │  │              │  └─abc
+│  │  │              ├─module_dir
+│  │  │              │  ├─xmodules
+│  │  │              │  │  └─aaa
+│  │  │              │  ├─ymodules
+│  │  │              │  │  └─aaa
+│  │  │              │  └─zmodules
+│  │  │              │      └─bbb
+│  │  │              ├─node_path
+│  │  │              │  ├─x
+│  │  │              │  │  ├─aaa
+│  │  │              │  │  └─ccc
+│  │  │              │  └─y
+│  │  │              │      ├─bbb
+│  │  │              │      └─ccc
+│  │  │              ├─pathfilter
+│  │  │              │  └─deep_ref
+│  │  │              ├─precedence
+│  │  │              │  ├─aaa
+│  │  │              │  └─bbb
+│  │  │              ├─resolver
+│  │  │              │  ├─baz
+│  │  │              │  ├─browser_field
+│  │  │              │  ├─dot_main
+│  │  │              │  ├─dot_slash_main
+│  │  │              │  ├─false_main
+│  │  │              │  ├─incorrect_main
+│  │  │              │  ├─invalid_main
+│  │  │              │  ├─malformed_package_json
+│  │  │              │  ├─multirepo
+│  │  │              │  │  └─packages
+│  │  │              │  │      ├─package-a
+│  │  │              │  │      └─package-b
+│  │  │              │  ├─nested_symlinks
+│  │  │              │  │  └─mylib
+│  │  │              │  ├─other_path
+│  │  │              │  │  └─lib
+│  │  │              │  ├─quux
+│  │  │              │  │  └─foo
+│  │  │              │  ├─same_names
+│  │  │              │  │  └─foo
+│  │  │              │  ├─symlinked
+│  │  │              │  │  ├─package
+│  │  │              │  │  └─_
+│  │  │              │  │      ├─node_modules
+│  │  │              │  │      └─symlink_target
+│  │  │              │  └─without_basedir
+│  │  │              └─shadowed_core
+│  │  │                  └─node_modules
+│  │  │                      └─util
+│  │  ├─eslint-module-utils@2.7.4_yytd4qhylm3dyr3j4r4rwmq2vy
+│  │  │  └─node_modules
+│  │  │      ├─@typescript-eslint
+│  │  │      │  └─parser
+│  │  │      │      ├─dist
+│  │  │      │      ├─node_modules
+│  │  │      │      │  └─.bin
+│  │  │      │      └─_ts3.4
+│  │  │      │          └─dist
+│  │  │      ├─debug
+│  │  │      │  └─src
+│  │  │      ├─eslint
+│  │  │      │  ├─bin
+│  │  │      │  ├─conf
+│  │  │      │  ├─lib
+│  │  │      │  │  ├─cli-engine
+│  │  │      │  │  │  └─formatters
+│  │  │      │  │  ├─config
+│  │  │      │  │  ├─eslint
+│  │  │      │  │  ├─linter
+│  │  │      │  │  │  └─code-path-analysis
+│  │  │      │  │  ├─rule-tester
+│  │  │      │  │  ├─rules
+│  │  │      │  │  │  └─utils
+│  │  │      │  │  │      ├─patterns
+│  │  │      │  │  │      └─unicode
+│  │  │      │  │  ├─shared
+│  │  │      │  │  └─source-code
+│  │  │      │  │      └─token-store
+│  │  │      │  ├─messages
+│  │  │      │  └─node_modules
+│  │  │      │      └─.bin
+│  │  │      ├─eslint-import-resolver-node
+│  │  │      │  └─node_modules
+│  │  │      │      └─.bin
+│  │  │      └─eslint-module-utils
+│  │  │          └─node_modules
+│  │  │              └─.bin
+│  │  ├─eslint-plugin-eslint-comments@3.2.0_eslint@8.26.0
+│  │  │  └─node_modules
+│  │  │      ├─escape-string-regexp
+│  │  │      ├─eslint
+│  │  │      │  ├─bin
+│  │  │      │  ├─conf
+│  │  │      │  ├─lib
+│  │  │      │  │  ├─cli-engine
+│  │  │      │  │  │  └─formatters
+│  │  │      │  │  ├─config
+│  │  │      │  │  ├─eslint
+│  │  │      │  │  ├─linter
+│  │  │      │  │  │  └─code-path-analysis
+│  │  │      │  │  ├─rule-tester
+│  │  │      │  │  ├─rules
+│  │  │      │  │  │  └─utils
+│  │  │      │  │  │      ├─patterns
+│  │  │      │  │  │      └─unicode
+│  │  │      │  │  ├─shared
+│  │  │      │  │  └─source-code
+│  │  │      │  │      └─token-store
+│  │  │      │  ├─messages
+│  │  │      │  └─node_modules
+│  │  │      │      └─.bin
+│  │  │      ├─eslint-plugin-eslint-comments
+│  │  │      │  ├─lib
+│  │  │      │  │  ├─configs
+│  │  │      │  │  ├─internal
+│  │  │      │  │  ├─rules
+│  │  │      │  │  └─utils
+│  │  │      │  └─node_modules
+│  │  │      │      └─.bin
+│  │  │      └─ignore
+│  │  ├─eslint-plugin-html@7.1.0
+│  │  │  └─node_modules
+│  │  │      ├─eslint-plugin-html
+│  │  │      │  └─src
+│  │  │      └─htmlparser2
+│  │  │          └─lib
+│  │  │              └─esm
+│  │  ├─eslint-plugin-import@2.26.0_5aea5dp4n23mfv4y2mmjxole3e
+│  │  │  └─node_modules
+│  │  │      ├─@typescript-eslint
+│  │  │      │  └─parser
+│  │  │      │      ├─dist
+│  │  │      │      ├─node_modules
+│  │  │      │      │  └─.bin
+│  │  │      │      └─_ts3.4
+│  │  │      │          └─dist
+│  │  │      ├─array-includes
+│  │  │      │  ├─.github
+│  │  │      │  └─test
+│  │  │      ├─array.prototype.flat
+│  │  │      │  ├─.github
+│  │  │      │  └─test
+│  │  │      ├─debug
+│  │  │      │  └─src
+│  │  │      ├─doctrine
+│  │  │      │  └─lib
+│  │  │      ├─eslint
+│  │  │      │  ├─bin
+│  │  │      │  ├─conf
+│  │  │      │  ├─lib
+│  │  │      │  │  ├─cli-engine
+│  │  │      │  │  │  └─formatters
+│  │  │      │  │  ├─config
+│  │  │      │  │  ├─eslint
+│  │  │      │  │  ├─linter
+│  │  │      │  │  │  └─code-path-analysis
+│  │  │      │  │  ├─rule-tester
+│  │  │      │  │  ├─rules
+│  │  │      │  │  │  └─utils
+│  │  │      │  │  │      ├─patterns
+│  │  │      │  │  │      └─unicode
+│  │  │      │  │  ├─shared
+│  │  │      │  │  └─source-code
+│  │  │      │  │      └─token-store
+│  │  │      │  ├─messages
+│  │  │      │  └─node_modules
+│  │  │      │      └─.bin
+│  │  │      ├─eslint-import-resolver-node
+│  │  │      │  └─node_modules
+│  │  │      │      └─.bin
+│  │  │      ├─eslint-module-utils
+│  │  │      │  └─node_modules
+│  │  │      │      └─.bin
+│  │  │      ├─eslint-plugin-import
+│  │  │      │  ├─config
+│  │  │      │  ├─docs
+│  │  │      │  │  └─rules
+│  │  │      │  ├─lib
+│  │  │      │  │  ├─core
+│  │  │      │  │  └─rules
+│  │  │      │  ├─memo-parser
+│  │  │      │  └─node_modules
+│  │  │      │      └─.bin
+│  │  │      ├─has
+│  │  │      │  ├─src
+│  │  │      │  └─test
+│  │  │      ├─is-core-module
+│  │  │      │  └─test
+│  │  │      ├─is-glob
+│  │  │      ├─minimatch
+│  │  │      ├─object.values
+│  │  │      │  └─test
+│  │  │      ├─resolve
+│  │  │      │  ├─.github
+│  │  │      │  ├─bin
+│  │  │      │  ├─example
+│  │  │      │  ├─lib
+│  │  │      │  └─test
+│  │  │      │      ├─dotdot
+│  │  │      │      │  └─abc
+│  │  │      │      ├─module_dir
+│  │  │      │      │  ├─xmodules
+│  │  │      │      │  │  └─aaa
+│  │  │      │      │  ├─ymodules
+│  │  │      │      │  │  └─aaa
+│  │  │      │      │  └─zmodules
+│  │  │      │      │      └─bbb
+│  │  │      │      ├─node_path
+│  │  │      │      │  ├─x
+│  │  │      │      │  │  ├─aaa
+│  │  │      │      │  │  └─ccc
+│  │  │      │      │  └─y
+│  │  │      │      │      ├─bbb
+│  │  │      │      │      └─ccc
+│  │  │      │      ├─pathfilter
+│  │  │      │      │  └─deep_ref
+│  │  │      │      ├─precedence
+│  │  │      │      │  ├─aaa
+│  │  │      │      │  └─bbb
+│  │  │      │      ├─resolver
+│  │  │      │      │  ├─baz
+│  │  │      │      │  ├─browser_field
+│  │  │      │      │  ├─dot_main
+│  │  │      │      │  ├─dot_slash_main
+│  │  │      │      │  ├─false_main
+│  │  │      │      │  ├─incorrect_main
+│  │  │      │      │  ├─invalid_main
+│  │  │      │      │  ├─malformed_package_json
+│  │  │      │      │  ├─multirepo
+│  │  │      │      │  │  └─packages
+│  │  │      │      │  │      ├─package-a
+│  │  │      │      │  │      └─package-b
+│  │  │      │      │  ├─nested_symlinks
+│  │  │      │      │  │  └─mylib
+│  │  │      │      │  ├─other_path
+│  │  │      │      │  │  └─lib
+│  │  │      │      │  ├─quux
+│  │  │      │      │  │  └─foo
+│  │  │      │      │  ├─same_names
+│  │  │      │      │  │  └─foo
+│  │  │      │      │  ├─symlinked
+│  │  │      │      │  │  ├─package
+│  │  │      │      │  │  └─_
+│  │  │      │      │  │      ├─node_modules
+│  │  │      │      │  │      └─symlink_target
+│  │  │      │      │  └─without_basedir
+│  │  │      │      └─shadowed_core
+│  │  │      │          └─node_modules
+│  │  │      │              └─util
+│  │  │      └─tsconfig-paths
+│  │  │          ├─lib
+│  │  │          │  └─__tests__
+│  │  │          │      └─data
+│  │  │          ├─node_modules
+│  │  │          │  └─.bin
+│  │  │          └─src
+│  │  │              └─__tests__
+│  │  │                  └─data
+│  │  ├─eslint-plugin-jsonc@2.5.0_eslint@8.26.0
+│  │  │  └─node_modules
+│  │  │      ├─eslint
+│  │  │      │  ├─bin
+│  │  │      │  ├─conf
+│  │  │      │  ├─lib
+│  │  │      │  │  ├─cli-engine
+│  │  │      │  │  │  └─formatters
+│  │  │      │  │  ├─config
+│  │  │      │  │  ├─eslint
+│  │  │      │  │  ├─linter
+│  │  │      │  │  │  └─code-path-analysis
+│  │  │      │  │  ├─rule-tester
+│  │  │      │  │  ├─rules
+│  │  │      │  │  │  └─utils
+│  │  │      │  │  │      ├─patterns
+│  │  │      │  │  │      └─unicode
+│  │  │      │  │  ├─shared
+│  │  │      │  │  └─source-code
+│  │  │      │  │      └─token-store
+│  │  │      │  ├─messages
+│  │  │      │  └─node_modules
+│  │  │      │      └─.bin
+│  │  │      ├─eslint-plugin-jsonc
+│  │  │      │  ├─conf
+│  │  │      │  ├─dist
+│  │  │      │  │  ├─configs
+│  │  │      │  │  ├─rules
+│  │  │      │  │  │  └─vue-custom-block
+│  │  │      │  │  └─utils
+│  │  │      │  └─node_modules
+│  │  │      │      └─.bin
+│  │  │      ├─eslint-utils
+│  │  │      │  └─node_modules
+│  │  │      │      └─.bin
+│  │  │      ├─jsonc-eslint-parser
+│  │  │      │  ├─lib
+│  │  │      │  │  ├─parser
+│  │  │      │  │  │  └─modules
+│  │  │      │  │  └─utils
+│  │  │      │  └─node_modules
+│  │  │      │      └─.bin
+│  │  │      └─natural-compare
+│  │  ├─eslint-scope@5.1.1
+│  │  │  └─node_modules
+│  │  │      ├─eslint-scope
+│  │  │      │  └─lib
+│  │  │      ├─esrecurse
+│  │  │      └─estraverse
+│  │  ├─eslint-scope@7.1.1
+│  │  │  └─node_modules
+│  │  │      ├─eslint-scope
+│  │  │      │  ├─dist
+│  │  │      │  └─lib
+│  │  │      ├─esrecurse
+│  │  │      └─estraverse
+│  │  ├─eslint-utils@3.0.0_eslint@8.26.0
+│  │  │  └─node_modules
+│  │  │      ├─eslint
+│  │  │      │  ├─bin
+│  │  │      │  ├─conf
+│  │  │      │  ├─lib
+│  │  │      │  │  ├─cli-engine
+│  │  │      │  │  │  └─formatters
+│  │  │      │  │  ├─config
+│  │  │      │  │  ├─eslint
+│  │  │      │  │  ├─linter
+│  │  │      │  │  │  └─code-path-analysis
+│  │  │      │  │  ├─rule-tester
+│  │  │      │  │  ├─rules
+│  │  │      │  │  │  └─utils
+│  │  │      │  │  │      ├─patterns
+│  │  │      │  │  │      └─unicode
+│  │  │      │  │  ├─shared
+│  │  │      │  │  └─source-code
+│  │  │      │  │      └─token-store
+│  │  │      │  ├─messages
+│  │  │      │  └─node_modules
+│  │  │      │      └─.bin
+│  │  │      ├─eslint-utils
+│  │  │      │  └─node_modules
+│  │  │      │      └─.bin
+│  │  │      └─eslint-visitor-keys
+│  │  │          └─lib
+│  │  ├─eslint-visitor-keys@2.1.0
+│  │  │  └─node_modules
+│  │  │      └─eslint-visitor-keys
+│  │  │          └─lib
+│  │  ├─eslint-visitor-keys@3.3.0
+│  │  │  └─node_modules
+│  │  │      └─eslint-visitor-keys
+│  │  │          ├─dist
+│  │  │          └─lib
+│  │  ├─eslint@8.26.0
+│  │  │  └─node_modules
+│  │  │      ├─@eslint
+│  │  │      │  └─eslintrc
+│  │  │      │      ├─conf
+│  │  │      │      ├─dist
+│  │  │      │      ├─lib
+│  │  │      │      │  ├─config-array
+│  │  │      │      │  └─shared
+│  │  │      │      └─node_modules
+│  │  │      │          └─.bin
+│  │  │      ├─@humanwhocodes
+│  │  │      │  ├─config-array
+│  │  │      │  └─module-importer
+│  │  │      │      ├─dist
+│  │  │      │      └─src
+│  │  │      ├─@nodelib
+│  │  │      │  └─fs.walk
+│  │  │      │      └─out
+│  │  │      │          ├─providers
+│  │  │      │          ├─readers
+│  │  │      │          └─types
+│  │  │      ├─ajv
+│  │  │      │  ├─dist
+│  │  │      │  ├─lib
+│  │  │      │  │  ├─compile
+│  │  │      │  │  ├─dot
+│  │  │      │  │  ├─dotjs
+│  │  │      │  │  └─refs
+│  │  │      │  └─scripts
+│  │  │      ├─chalk
+│  │  │      │  └─source
+│  │  │      ├─cross-spawn
+│  │  │      │  ├─lib
+│  │  │      │  │  └─util
+│  │  │      │  └─node_modules
+│  │  │      │      └─.bin
+│  │  │      ├─debug
+│  │  │      │  └─src
+│  │  │      ├─doctrine
+│  │  │      │  └─lib
+│  │  │      ├─escape-string-regexp
+│  │  │      ├─eslint
+│  │  │      │  ├─bin
+│  │  │      │  ├─conf
+│  │  │      │  ├─lib
+│  │  │      │  │  ├─cli-engine
+│  │  │      │  │  │  └─formatters
+│  │  │      │  │  ├─config
+│  │  │      │  │  ├─eslint
+│  │  │      │  │  ├─linter
+│  │  │      │  │  │  └─code-path-analysis
+│  │  │      │  │  ├─rule-tester
+│  │  │      │  │  ├─rules
+│  │  │      │  │  │  └─utils
+│  │  │      │  │  │      ├─patterns
+│  │  │      │  │  │      └─unicode
+│  │  │      │  │  ├─shared
+│  │  │      │  │  └─source-code
+│  │  │      │  │      └─token-store
+│  │  │      │  ├─messages
+│  │  │      │  └─node_modules
+│  │  │      │      └─.bin
+│  │  │      ├─eslint-scope
+│  │  │      │  ├─dist
+│  │  │      │  └─lib
+│  │  │      ├─eslint-utils
+│  │  │      │  └─node_modules
+│  │  │      │      └─.bin
+│  │  │      ├─eslint-visitor-keys
+│  │  │      │  ├─dist
+│  │  │      │  └─lib
+│  │  │      ├─espree
+│  │  │      │  ├─dist
+│  │  │      │  ├─lib
+│  │  │      │  └─node_modules
+│  │  │      │      └─.bin
+│  │  │      ├─esquery
+│  │  │      │  └─dist
+│  │  │      ├─esutils
+│  │  │      │  └─lib
+│  │  │      ├─fast-deep-equal
+│  │  │      │  └─es6
+│  │  │      ├─file-entry-cache
+│  │  │      ├─find-up
+│  │  │      ├─glob-parent
+│  │  │      ├─globals
+│  │  │      ├─grapheme-splitter
+│  │  │      │  └─tests
+│  │  │      ├─ignore
+│  │  │      ├─import-fresh
+│  │  │      ├─imurmurhash
+│  │  │      ├─is-glob
+│  │  │      ├─is-path-inside
+│  │  │      ├─js-sdsl
+│  │  │      │  └─dist
+│  │  │      │      ├─cjs
+│  │  │      │      │  └─container
+│  │  │      │      │      ├─ContainerBase
+│  │  │      │      │      ├─HashContainer
+│  │  │      │      │      │  └─Base
+│  │  │      │      │      ├─OtherContainer
+│  │  │      │      │      ├─SequentialContainer
+│  │  │      │      │      │  └─Base
+│  │  │      │      │      └─TreeContainer
+│  │  │      │      │          └─Base
+│  │  │      │      ├─esm
+│  │  │      │      │  └─container
+│  │  │      │      │      ├─ContainerBase
+│  │  │      │      │      ├─HashContainer
+│  │  │      │      │      │  └─Base
+│  │  │      │      │      ├─OtherContainer
+│  │  │      │      │      ├─SequentialContainer
+│  │  │      │      │      │  └─Base
+│  │  │      │      │      └─TreeContainer
+│  │  │      │      │          └─Base
+│  │  │      │      └─umd
+│  │  │      ├─js-yaml
+│  │  │      │  ├─bin
+│  │  │      │  ├─dist
+│  │  │      │  └─lib
+│  │  │      │      ├─schema
+│  │  │      │      └─type
+│  │  │      ├─json-stable-stringify-without-jsonify
+│  │  │      │  ├─example
+│  │  │      │  └─test
+│  │  │      ├─levn
+│  │  │      │  └─lib
+│  │  │      ├─lodash.merge
+│  │  │      ├─minimatch
+│  │  │      ├─natural-compare
+│  │  │      ├─optionator
+│  │  │      │  └─lib
+│  │  │      ├─regexpp
+│  │  │      ├─strip-ansi
+│  │  │      ├─strip-json-comments
+│  │  │      └─text-table
+│  │  │          ├─example
+│  │  │          └─test
+│  │  ├─espree@9.4.0
+│  │  │  └─node_modules
+│  │  │      ├─acorn
+│  │  │      │  ├─bin
+│  │  │      │  └─dist
+│  │  │      ├─acorn-jsx
+│  │  │      │  └─node_modules
+│  │  │      │      └─.bin
+│  │  │      ├─eslint-visitor-keys
+│  │  │      │  ├─dist
+│  │  │      │  └─lib
+│  │  │      └─espree
+│  │  │          ├─dist
+│  │  │          ├─lib
+│  │  │          └─node_modules
+│  │  │              └─.bin
+│  │  ├─esquery@1.4.0
+│  │  │  └─node_modules
+│  │  │      ├─esquery
+│  │  │      │  └─dist
+│  │  │      └─estraverse
+│  │  ├─esrecurse@4.3.0
+│  │  │  └─node_modules
+│  │  │      ├─esrecurse
+│  │  │      └─estraverse
+│  │  ├─estraverse@4.3.0
+│  │  │  └─node_modules
+│  │  │      └─estraverse
+│  │  ├─estraverse@5.3.0
+│  │  │  └─node_modules
+│  │  │      └─estraverse
+│  │  ├─esutils@2.0.3
+│  │  │  └─node_modules
+│  │  │      └─esutils
+│  │  │          └─lib
+│  │  ├─execa@5.1.1
+│  │  │  └─node_modules
+│  │  │      ├─cross-spawn
+│  │  │      │  ├─lib
+│  │  │      │  │  └─util
+│  │  │      │  └─node_modules
+│  │  │      │      └─.bin
+│  │  │      ├─execa
+│  │  │      │  └─lib
+│  │  │      ├─get-stream
+│  │  │      ├─human-signals
+│  │  │      │  └─build
+│  │  │      │      └─src
+│  │  │      ├─is-stream
+│  │  │      ├─merge-stream
+│  │  │      ├─npm-run-path
+│  │  │      ├─onetime
+│  │  │      ├─signal-exit
+│  │  │      └─strip-final-newline
+│  │  ├─fast-deep-equal@3.1.3
+│  │  │  └─node_modules
+│  │  │      └─fast-deep-equal
+│  │  │          └─es6
+│  │  ├─fast-glob@3.2.12
+│  │  │  └─node_modules
+│  │  │      ├─@nodelib
+│  │  │      │  ├─fs.stat
+│  │  │      │  │  └─out
+│  │  │      │  │      ├─adapters
+│  │  │      │  │      ├─providers
+│  │  │      │  │      └─types
+│  │  │      │  └─fs.walk
+│  │  │      │      └─out
+│  │  │      │          ├─providers
+│  │  │      │          ├─readers
+│  │  │      │          └─types
+│  │  │      ├─fast-glob
+│  │  │      │  └─out
+│  │  │      │      ├─managers
+│  │  │      │      ├─providers
+│  │  │      │      │  ├─filters
+│  │  │      │      │  ├─matchers
+│  │  │      │      │  └─transformers
+│  │  │      │      ├─readers
+│  │  │      │      ├─types
+│  │  │      │      └─utils
+│  │  │      ├─glob-parent
+│  │  │      ├─merge2
+│  │  │      └─micromatch
+│  │  ├─fast-json-stable-stringify@2.1.0
+│  │  │  └─node_modules
+│  │  │      └─fast-json-stable-stringify
+│  │  │          ├─.github
+│  │  │          ├─benchmark
+│  │  │          ├─example
+│  │  │          └─test
+│  │  ├─fast-levenshtein@2.0.6
+│  │  │  └─node_modules
+│  │  │      └─fast-levenshtein
+│  │  ├─fastq@1.13.0
+│  │  │  └─node_modules
+│  │  │      ├─fastq
+│  │  │      │  ├─.github
+│  │  │      │  │  └─workflows
+│  │  │      │  └─test
+│  │  │      └─reusify
+│  │  │          └─benchmarks
+│  │  ├─file-entry-cache@6.0.1
+│  │  │  └─node_modules
+│  │  │      ├─file-entry-cache
+│  │  │      └─flat-cache
+│  │  │          ├─node_modules
+│  │  │          │  └─.bin
+│  │  │          └─src
+│  │  ├─fill-range@7.0.1
+│  │  │  └─node_modules
+│  │  │      ├─fill-range
+│  │  │      └─to-regex-range
+│  │  ├─find-up@5.0.0
+│  │  │  └─node_modules
+│  │  │      ├─find-up
+│  │  │      ├─locate-path
+│  │  │      └─path-exists
+│  │  ├─flat-cache@3.0.4
+│  │  │  └─node_modules
+│  │  │      ├─flat-cache
+│  │  │      │  ├─node_modules
+│  │  │      │  │  └─.bin
+│  │  │      │  └─src
+│  │  │      ├─flatted
+│  │  │      │  ├─cjs
+│  │  │      │  ├─esm
+│  │  │      │  └─php
+│  │  │      └─rimraf
+│  │  ├─flatted@3.2.7
+│  │  │  └─node_modules
+│  │  │      └─flatted
+│  │  │          ├─cjs
+│  │  │          ├─esm
+│  │  │          └─php
+│  │  ├─fs-extra@10.1.0
+│  │  │  └─node_modules
+│  │  │      ├─fs-extra
+│  │  │      │  └─lib
+│  │  │      │      ├─copy
+│  │  │      │      ├─empty
+│  │  │      │      ├─ensure
+│  │  │      │      ├─fs
+│  │  │      │      ├─json
+│  │  │      │      ├─mkdirs
+│  │  │      │      ├─move
+│  │  │      │      ├─output-file
+│  │  │      │      ├─path-exists
+│  │  │      │      ├─remove
+│  │  │      │      └─util
+│  │  │      ├─graceful-fs
+│  │  │      ├─jsonfile
+│  │  │      └─universalify
+│  │  ├─fs.realpath@1.0.0
+│  │  │  └─node_modules
+│  │  │      └─fs.realpath
+│  │  ├─function-bind@1.1.1
+│  │  │  └─node_modules
+│  │  │      └─function-bind
+│  │  │          └─test
+│  │  ├─function.prototype.name@1.1.5
+│  │  │  └─node_modules
+│  │  │      ├─call-bind
+│  │  │      │  ├─.github
+│  │  │      │  └─test
+│  │  │      ├─define-properties
+│  │  │      │  └─.github
+│  │  │      ├─es-abstract
+│  │  │      │  ├─2015
+│  │  │      │  ├─2016
+│  │  │      │  ├─2017
+│  │  │      │  ├─2018
+│  │  │      │  ├─2019
+│  │  │      │  ├─2020
+│  │  │      │  │  ├─BigInt
+│  │  │      │  │  └─Number
+│  │  │      │  ├─2021
+│  │  │      │  │  ├─BigInt
+│  │  │      │  │  └─Number
+│  │  │      │  ├─2022
+│  │  │      │  │  ├─BigInt
+│  │  │      │  │  └─Number
+│  │  │      │  ├─5
+│  │  │      │  ├─helpers
+│  │  │      │  └─operations
+│  │  │      ├─function.prototype.name
+│  │  │      │  ├─.github
+│  │  │      │  ├─helpers
+│  │  │      │  └─test
+│  │  │      └─functions-have-names
+│  │  │          ├─.github
+│  │  │          └─test
+│  │  ├─functions-have-names@1.2.3
+│  │  │  └─node_modules
+│  │  │      └─functions-have-names
+│  │  │          ├─.github
+│  │  │          └─test
+│  │  ├─get-func-name@2.0.0
+│  │  │  └─node_modules
+│  │  │      └─get-func-name
+│  │  ├─get-intrinsic@1.1.3
+│  │  │  └─node_modules
+│  │  │      ├─function-bind
+│  │  │      │  └─test
+│  │  │      ├─get-intrinsic
+│  │  │      │  ├─.github
+│  │  │      │  └─test
+│  │  │      ├─has
+│  │  │      │  ├─src
+│  │  │      │  └─test
+│  │  │      └─has-symbols
+│  │  │          ├─.github
+│  │  │          └─test
+│  │  │              └─shams
+│  │  ├─get-stream@6.0.1
+│  │  │  └─node_modules
+│  │  │      └─get-stream
+│  │  ├─get-symbol-description@1.0.0
+│  │  │  └─node_modules
+│  │  │      ├─call-bind
+│  │  │      │  ├─.github
+│  │  │      │  └─test
+│  │  │      ├─get-intrinsic
+│  │  │      │  ├─.github
+│  │  │      │  └─test
+│  │  │      └─get-symbol-description
+│  │  │          ├─.github
+│  │  │          └─test
+│  │  ├─glob-parent@5.1.2
+│  │  │  └─node_modules
+│  │  │      ├─glob-parent
+│  │  │      └─is-glob
+│  │  ├─glob-parent@6.0.2
+│  │  │  └─node_modules
+│  │  │      ├─glob-parent
+│  │  │      └─is-glob
+│  │  ├─glob@7.1.6
+│  │  │  └─node_modules
+│  │  │      ├─fs.realpath
+│  │  │      ├─glob
+│  │  │      ├─inflight
+│  │  │      ├─inherits
+│  │  │      ├─minimatch
+│  │  │      ├─once
+│  │  │      └─path-is-absolute
+│  │  ├─globals@13.17.0
+│  │  │  └─node_modules
+│  │  │      ├─globals
+│  │  │      └─type-fest
+│  │  │          ├─source
+│  │  │          └─ts41
+│  │  ├─globby@11.1.0
+│  │  │  └─node_modules
+│  │  │      ├─array-union
+│  │  │      ├─dir-glob
+│  │  │      ├─fast-glob
+│  │  │      │  └─out
+│  │  │      │      ├─managers
+│  │  │      │      ├─providers
+│  │  │      │      │  ├─filters
+│  │  │      │      │  ├─matchers
+│  │  │      │      │  └─transformers
+│  │  │      │      ├─readers
+│  │  │      │      ├─types
+│  │  │      │      └─utils
+│  │  │      ├─globby
+│  │  │      ├─ignore
+│  │  │      ├─merge2
+│  │  │      └─slash
+│  │  ├─graceful-fs@4.2.10
+│  │  │  └─node_modules
+│  │  │      └─graceful-fs
+│  │  ├─grapheme-splitter@1.0.4
+│  │  │  └─node_modules
+│  │  │      └─grapheme-splitter
+│  │  │          └─tests
+│  │  ├─has-bigints@1.0.2
+│  │  │  └─node_modules
+│  │  │      └─has-bigints
+│  │  │          ├─.github
+│  │  │          └─test
+│  │  ├─has-flag@4.0.0
+│  │  │  └─node_modules
+│  │  │      └─has-flag
+│  │  ├─has-property-descriptors@1.0.0
+│  │  │  └─node_modules
+│  │  │      ├─get-intrinsic
+│  │  │      │  ├─.github
+│  │  │      │  └─test
+│  │  │      └─has-property-descriptors
+│  │  │          ├─.github
+│  │  │          └─test
+│  │  ├─has-symbols@1.0.3
+│  │  │  └─node_modules
+│  │  │      └─has-symbols
+│  │  │          ├─.github
+│  │  │          └─test
+│  │  │              └─shams
+│  │  ├─has-tostringtag@1.0.0
+│  │  │  └─node_modules
+│  │  │      ├─has-symbols
+│  │  │      │  ├─.github
+│  │  │      │  └─test
+│  │  │      │      └─shams
+│  │  │      └─has-tostringtag
+│  │  │          ├─.github
+│  │  │          └─test
+│  │  │              └─shams
+│  │  ├─has@1.0.3
+│  │  │  └─node_modules
+│  │  │      ├─function-bind
+│  │  │      │  └─test
+│  │  │      └─has
+│  │  │          ├─src
+│  │  │          └─test
+│  │  ├─htmlparser2@8.0.1
+│  │  │  └─node_modules
+│  │  │      ├─domelementtype
+│  │  │      │  └─lib
+│  │  │      │      └─esm
+│  │  │      ├─domhandler
+│  │  │      │  └─lib
+│  │  │      │      └─esm
+│  │  │      ├─domutils
+│  │  │      │  └─lib
+│  │  │      │      └─esm
+│  │  │      ├─entities
+│  │  │      │  └─lib
+│  │  │      │      ├─esm
+│  │  │      │      │  └─generated
+│  │  │      │      └─generated
+│  │  │      └─htmlparser2
+│  │  │          └─lib
+│  │  │              └─esm
+│  │  ├─human-signals@2.1.0
+│  │  │  └─node_modules
+│  │  │      └─human-signals
+│  │  │          └─build
+│  │  │              └─src
+│  │  ├─ignore@5.2.0
+│  │  │  └─node_modules
+│  │  │      └─ignore
+│  │  ├─import-fresh@3.3.0
+│  │  │  └─node_modules
+│  │  │      ├─import-fresh
+│  │  │      ├─parent-module
+│  │  │      └─resolve-from
+│  │  ├─imurmurhash@0.1.4
+│  │  │  └─node_modules
+│  │  │      └─imurmurhash
+│  │  ├─inflight@1.0.6
+│  │  │  └─node_modules
+│  │  │      ├─inflight
+│  │  │      ├─once
+│  │  │      └─wrappy
+│  │  ├─inherits@2.0.4
+│  │  │  └─node_modules
+│  │  │      └─inherits
+│  │  ├─internal-slot@1.0.3
+│  │  │  └─node_modules
+│  │  │      ├─get-intrinsic
+│  │  │      │  ├─.github
+│  │  │      │  └─test
+│  │  │      ├─has
+│  │  │      │  ├─src
+│  │  │      │  └─test
+│  │  │      ├─internal-slot
+│  │  │      │  ├─.github
+│  │  │      │  └─test
+│  │  │      └─side-channel
+│  │  │          ├─.github
+│  │  │          └─test
+│  │  ├─is-accessor-descriptor@1.0.0
+│  │  │  └─node_modules
+│  │  │      ├─is-accessor-descriptor
+│  │  │      └─kind-of
+│  │  ├─is-bigint@1.0.4
+│  │  │  └─node_modules
+│  │  │      ├─has-bigints
+│  │  │      │  ├─.github
+│  │  │      │  └─test
+│  │  │      └─is-bigint
+│  │  │          ├─.github
+│  │  │          └─test
+│  │  ├─is-binary-path@2.1.0
+│  │  │  └─node_modules
+│  │  │      ├─binary-extensions
+│  │  │      └─is-binary-path
+│  │  ├─is-boolean-object@1.1.2
+│  │  │  └─node_modules
+│  │  │      ├─call-bind
+│  │  │      │  ├─.github
+│  │  │      │  └─test
+│  │  │      ├─has-tostringtag
+│  │  │      │  ├─.github
+│  │  │      │  └─test
+│  │  │      │      └─shams
+│  │  │      └─is-boolean-object
+│  │  │          ├─.github
+│  │  │          └─test
+│  │  ├─is-buffer@1.1.6
+│  │  │  └─node_modules
+│  │  │      └─is-buffer
+│  │  │          └─test
+│  │  ├─is-callable@1.2.7
+│  │  │  └─node_modules
+│  │  │      └─is-callable
+│  │  │          ├─.github
+│  │  │          └─test
+│  │  ├─is-core-module@2.11.0
+│  │  │  └─node_modules
+│  │  │      ├─has
+│  │  │      │  ├─src
+│  │  │      │  └─test
+│  │  │      └─is-core-module
+│  │  │          └─test
+│  │  ├─is-data-descriptor@1.0.0
+│  │  │  └─node_modules
+│  │  │      ├─is-data-descriptor
+│  │  │      └─kind-of
+│  │  ├─is-date-object@1.0.5
+│  │  │  └─node_modules
+│  │  │      ├─has-tostringtag
+│  │  │      │  ├─.github
+│  │  │      │  └─test
+│  │  │      │      └─shams
+│  │  │      └─is-date-object
+│  │  │          ├─.github
+│  │  │          └─test
+│  │  ├─is-descriptor@1.0.2
+│  │  │  └─node_modules
+│  │  │      ├─is-accessor-descriptor
+│  │  │      ├─is-data-descriptor
+│  │  │      ├─is-descriptor
+│  │  │      └─kind-of
+│  │  ├─is-extglob@2.1.1
+│  │  │  └─node_modules
+│  │  │      └─is-extglob
+│  │  ├─is-glob@4.0.3
+│  │  │  └─node_modules
+│  │  │      ├─is-extglob
+│  │  │      └─is-glob
+│  │  ├─is-negative-zero@2.0.2
+│  │  │  └─node_modules
+│  │  │      └─is-negative-zero
+│  │  │          ├─.github
+│  │  │          └─test
+│  │  ├─is-number-object@1.0.7
+│  │  │  └─node_modules
+│  │  │      ├─has-tostringtag
+│  │  │      │  ├─.github
+│  │  │      │  └─test
+│  │  │      │      └─shams
+│  │  │      └─is-number-object
+│  │  │          ├─.github
+│  │  │          └─test
+│  │  ├─is-number@3.0.0
+│  │  │  └─node_modules
+│  │  │      ├─is-number
+│  │  │      └─kind-of
+│  │  ├─is-number@7.0.0
+│  │  │  └─node_modules
+│  │  │      └─is-number
+│  │  ├─is-path-inside@3.0.3
+│  │  │  └─node_modules
+│  │  │      └─is-path-inside
+│  │  ├─is-regex@1.1.4
+│  │  │  └─node_modules
+│  │  │      ├─call-bind
+│  │  │      │  ├─.github
+│  │  │      │  └─test
+│  │  │      ├─has-tostringtag
+│  │  │      │  ├─.github
+│  │  │      │  └─test
+│  │  │      │      └─shams
+│  │  │      └─is-regex
+│  │  │          └─test
+│  │  ├─is-shared-array-buffer@1.0.2
+│  │  │  └─node_modules
+│  │  │      ├─call-bind
+│  │  │      │  ├─.github
+│  │  │      │  └─test
+│  │  │      └─is-shared-array-buffer
+│  │  │          ├─.github
+│  │  │          └─test
+│  │  ├─is-stream@2.0.1
+│  │  │  └─node_modules
+│  │  │      └─is-stream
+│  │  ├─is-string@1.0.7
+│  │  │  └─node_modules
+│  │  │      ├─has-tostringtag
+│  │  │      │  ├─.github
+│  │  │      │  └─test
+│  │  │      │      └─shams
+│  │  │      └─is-string
+│  │  │          ├─.github
+│  │  │          └─test
+│  │  ├─is-symbol@1.0.4
+│  │  │  └─node_modules
+│  │  │      ├─has-symbols
+│  │  │      │  ├─.github
+│  │  │      │  └─test
+│  │  │      │      └─shams
+│  │  │      └─is-symbol
+│  │  │          ├─.github
+│  │  │          └─test
+│  │  ├─is-weakref@1.0.2
+│  │  │  └─node_modules
+│  │  │      ├─call-bind
+│  │  │      │  ├─.github
+│  │  │      │  └─test
+│  │  │      └─is-weakref
+│  │  │          ├─.github
+│  │  │          └─test
+│  │  ├─isexe@2.0.0
+│  │  │  └─node_modules
+│  │  │      └─isexe
+│  │  │          └─test
+│  │  ├─joycon@3.1.1
+│  │  │  └─node_modules
+│  │  │      └─joycon
+│  │  │          ├─lib
+│  │  │          └─types
+│  │  ├─js-sdsl@4.1.5
+│  │  │  └─node_modules
+│  │  │      └─js-sdsl
+│  │  │          └─dist
+│  │  │              ├─cjs
+│  │  │              │  └─container
+│  │  │              │      ├─ContainerBase
+│  │  │              │      ├─HashContainer
+│  │  │              │      │  └─Base
+│  │  │              │      ├─OtherContainer
+│  │  │              │      ├─SequentialContainer
+│  │  │              │      │  └─Base
+│  │  │              │      └─TreeContainer
+│  │  │              │          └─Base
+│  │  │              ├─esm
+│  │  │              │  └─container
+│  │  │              │      ├─ContainerBase
+│  │  │              │      ├─HashContainer
+│  │  │              │      │  └─Base
+│  │  │              │      ├─OtherContainer
+│  │  │              │      ├─SequentialContainer
+│  │  │              │      │  └─Base
+│  │  │              │      └─TreeContainer
+│  │  │              │          └─Base
+│  │  │              └─umd
+│  │  ├─js-yaml@4.1.0
+│  │  │  └─node_modules
+│  │  │      ├─argparse
+│  │  │      │  └─lib
+│  │  │      └─js-yaml
+│  │  │          ├─bin
+│  │  │          ├─dist
+│  │  │          └─lib
+│  │  │              ├─schema
+│  │  │              └─type
+│  │  ├─json-schema-traverse@0.4.1
+│  │  │  └─node_modules
+│  │  │      └─json-schema-traverse
+│  │  │          └─spec
+│  │  │              └─fixtures
+│  │  ├─json-stable-stringify-without-jsonify@1.0.1
+│  │  │  └─node_modules
+│  │  │      └─json-stable-stringify-without-jsonify
+│  │  │          ├─example
+│  │  │          └─test
+│  │  ├─json5@1.0.1
+│  │  │  └─node_modules
+│  │  │      ├─json5
+│  │  │      │  ├─dist
+│  │  │      │  └─lib
+│  │  │      └─minimist
+│  │  │          ├─.github
+│  │  │          ├─example
+│  │  │          └─test
+│  │  ├─jsonc-eslint-parser@2.1.0
+│  │  │  └─node_modules
+│  │  │      ├─acorn
+│  │  │      │  ├─bin
+│  │  │      │  └─dist
+│  │  │      ├─eslint-visitor-keys
+│  │  │      │  ├─dist
+│  │  │      │  └─lib
+│  │  │      ├─espree
+│  │  │      │  ├─dist
+│  │  │      │  ├─lib
+│  │  │      │  └─node_modules
+│  │  │      │      └─.bin
+│  │  │      ├─jsonc-eslint-parser
+│  │  │      │  ├─lib
+│  │  │      │  │  ├─parser
+│  │  │      │  │  │  └─modules
+│  │  │      │  │  └─utils
+│  │  │      │  └─node_modules
+│  │  │      │      └─.bin
+│  │  │      └─semver
+│  │  │          ├─bin
+│  │  │          ├─classes
+│  │  │          ├─functions
+│  │  │          ├─internal
+│  │  │          └─ranges
+│  │  ├─jsonfile@6.1.0
+│  │  │  └─node_modules
+│  │  │      ├─graceful-fs
+│  │  │      ├─jsonfile
+│  │  │      └─universalify
+│  │  ├─kind-of@3.2.2
+│  │  │  └─node_modules
+│  │  │      ├─is-buffer
+│  │  │      │  └─test
+│  │  │      └─kind-of
+│  │  ├─kind-of@6.0.3
+│  │  │  └─node_modules
+│  │  │      └─kind-of
+│  │  ├─kleur@3.0.3
+│  │  │  └─node_modules
+│  │  │      └─kleur
+│  │  ├─kolorist@1.6.0
+│  │  │  └─node_modules
+│  │  │      └─kolorist
+│  │  │          └─dist
+│  │  │              ├─cjs
+│  │  │              ├─esm
+│  │  │              ├─module
+│  │  │              └─types
+│  │  ├─levn@0.4.1
+│  │  │  └─node_modules
+│  │  │      ├─levn
+│  │  │      │  └─lib
+│  │  │      ├─prelude-ls
+│  │  │      │  └─lib
+│  │  │      └─type-check
+│  │  │          └─lib
+│  │  ├─lilconfig@2.0.6
+│  │  │  └─node_modules
+│  │  │      └─lilconfig
+│  │  │          └─dist
+│  │  ├─lines-and-columns@1.2.4
+│  │  │  └─node_modules
+│  │  │      └─lines-and-columns
+│  │  │          └─build
+│  │  ├─load-tsconfig@0.2.3
+│  │  │  └─node_modules
+│  │  │      └─load-tsconfig
+│  │  │          └─dist
+│  │  ├─local-pkg@0.4.2
+│  │  │  └─node_modules
+│  │  │      └─local-pkg
+│  │  │          └─dist
+│  │  ├─locate-path@6.0.0
+│  │  │  └─node_modules
+│  │  │      ├─locate-path
+│  │  │      └─p-locate
+│  │  ├─lodash-es@4.17.21
+│  │  │  └─node_modules
+│  │  │      └─lodash-es
+│  │  ├─lodash.merge@4.6.2
+│  │  │  └─node_modules
+│  │  │      └─lodash.merge
+│  │  ├─lodash.sortby@4.7.0
+│  │  │  └─node_modules
+│  │  │      └─lodash.sortby
+│  │  ├─lodash@4.17.21
+│  │  │  └─node_modules
+│  │  │      └─lodash
+│  │  │          └─fp
+│  │  ├─loupe@2.3.6
+│  │  │  └─node_modules
+│  │  │      ├─get-func-name
+│  │  │      └─loupe
+│  │  │          └─lib
+│  │  ├─lru-cache@6.0.0
+│  │  │  └─node_modules
+│  │  │      ├─lru-cache
+│  │  │      └─yallist
+│  │  ├─merge-stream@2.0.0
+│  │  │  └─node_modules
+│  │  │      └─merge-stream
+│  │  ├─merge2@1.4.1
+│  │  │  └─node_modules
+│  │  │      └─merge2
+│  │  ├─micromatch@4.0.5
+│  │  │  └─node_modules
+│  │  │      ├─braces
+│  │  │      │  └─lib
+│  │  │      ├─micromatch
+│  │  │      └─picomatch
+│  │  │          └─lib
+│  │  ├─mimic-fn@2.1.0
+│  │  │  └─node_modules
+│  │  │      └─mimic-fn
+│  │  ├─minimatch@3.1.2
+│  │  │  └─node_modules
+│  │  │      ├─brace-expansion
+│  │  │      └─minimatch
+│  │  ├─minimist@1.2.7
+│  │  │  └─node_modules
+│  │  │      └─minimist
+│  │  │          ├─.github
+│  │  │          ├─example
+│  │  │          └─test
+│  │  ├─ms@2.0.0
+│  │  │  └─node_modules
+│  │  │      └─ms
+│  │  ├─ms@2.1.2
+│  │  │  └─node_modules
+│  │  │      └─ms
+│  │  ├─mz@2.7.0
+│  │  │  └─node_modules
+│  │  │      ├─any-promise
+│  │  │      │  └─register
+│  │  │      ├─mz
+│  │  │      ├─object-assign
+│  │  │      └─thenify-all
+│  │  ├─nanoid@3.3.4
+│  │  │  └─node_modules
+│  │  │      └─nanoid
+│  │  │          ├─async
+│  │  │          ├─bin
+│  │  │          ├─node_modules
+│  │  │          │  └─.bin
+│  │  │          ├─non-secure
+│  │  │          └─url-alphabet
+│  │  ├─natural-compare-lite@1.4.0
+│  │  │  └─node_modules
+│  │  │      └─natural-compare-lite
+│  │  ├─natural-compare@1.4.0
+│  │  │  └─node_modules
+│  │  │      └─natural-compare
+│  │  ├─node_modules
+│  │  │  ├─.bin
+│  │  │  ├─@humanwhocodes
+│  │  │  │  ├─config-array
+│  │  │  │  ├─module-importer
+│  │  │  │  │  ├─dist
+│  │  │  │  │  └─src
+│  │  │  │  └─object-schema
+│  │  │  │      ├─.github
+│  │  │  │      │  └─workflows
+│  │  │  │      ├─src
+│  │  │  │      └─tests
+│  │  │  ├─@nodelib
+│  │  │  │  ├─fs.scandir
+│  │  │  │  │  └─out
+│  │  │  │  │      ├─adapters
+│  │  │  │  │      ├─providers
+│  │  │  │  │      ├─types
+│  │  │  │  │      └─utils
+│  │  │  │  ├─fs.stat
+│  │  │  │  │  └─out
+│  │  │  │  │      ├─adapters
+│  │  │  │  │      ├─providers
+│  │  │  │  │      └─types
+│  │  │  │  └─fs.walk
+│  │  │  │      └─out
+│  │  │  │          ├─providers
+│  │  │  │          ├─readers
+│  │  │  │          └─types
+│  │  │  ├─@types
+│  │  │  │  ├─chai
+│  │  │  │  ├─chai-subset
+│  │  │  │  ├─json-schema
+│  │  │  │  ├─json5
+│  │  │  │  ├─lodash
+│  │  │  │  │  ├─common
+│  │  │  │  │  ├─fp
+│  │  │  │  │  └─ts4.1
+│  │  │  │  │      ├─common
+│  │  │  │  │      └─fp
+│  │  │  │  └─semver
+│  │  │  │      ├─classes
+│  │  │  │      ├─functions
+│  │  │  │      ├─internals
+│  │  │  │      └─ranges
+│  │  │  ├─acorn
+│  │  │  │  ├─bin
+│  │  │  │  └─dist
+│  │  │  ├─acorn-jsx
+│  │  │  │  └─node_modules
+│  │  │  │      └─.bin
+│  │  │  ├─acorn-walk
+│  │  │  │  └─dist
+│  │  │  ├─ajv
+│  │  │  │  ├─dist
+│  │  │  │  ├─lib
+│  │  │  │  │  ├─compile
+│  │  │  │  │  ├─dot
+│  │  │  │  │  ├─dotjs
+│  │  │  │  │  └─refs
+│  │  │  │  └─scripts
+│  │  │  ├─ansi-regex
+│  │  │  ├─ansi-styles
+│  │  │  ├─any-promise
+│  │  │  │  └─register
+│  │  │  ├─anymatch
+│  │  │  ├─argparse
+│  │  │  │  └─lib
+│  │  │  ├─array-includes
+│  │  │  │  ├─.github
+│  │  │  │  └─test
+│  │  │  ├─array-union
+│  │  │  ├─array.prototype.flat
+│  │  │  │  ├─.github
+│  │  │  │  └─test
+│  │  │  ├─assertion-error
+│  │  │  ├─balanced-match
+│  │  │  │  └─.github
+│  │  │  ├─binary-extensions
+│  │  │  ├─brace-expansion
+│  │  │  ├─braces
+│  │  │  │  └─lib
+│  │  │  ├─bundle-require
+│  │  │  │  ├─dist
+│  │  │  │  └─node_modules
+│  │  │  │      └─.bin
+│  │  │  ├─cac
+│  │  │  │  ├─deno
+│  │  │  │  └─dist
+│  │  │  ├─call-bind
+│  │  │  │  ├─.github
+│  │  │  │  └─test
+│  │  │  ├─callsites
+│  │  │  ├─chai
+│  │  │  │  └─lib
+│  │  │  │      └─chai
+│  │  │  │          ├─core
+│  │  │  │          ├─interface
+│  │  │  │          └─utils
+│  │  │  ├─chalk
+│  │  │  │  └─source
+│  │  │  ├─check-error
+│  │  │  ├─chokidar
+│  │  │  │  ├─lib
+│  │  │  │  └─types
+│  │  │  ├─color-convert
+│  │  │  ├─color-name
+│  │  │  ├─commander
+│  │  │  │  └─typings
+│  │  │  ├─concat-map
+│  │  │  │  ├─example
+│  │  │  │  └─test
+│  │  │  ├─cross-spawn
+│  │  │  │  ├─lib
+│  │  │  │  │  └─util
+│  │  │  │  └─node_modules
+│  │  │  │      └─.bin
+│  │  │  ├─debug
+│  │  │  │  └─src
+│  │  │  ├─deep-eql
+│  │  │  ├─deep-is
+│  │  │  │  ├─example
+│  │  │  │  └─test
+│  │  │  ├─define-properties
+│  │  │  │  └─.github
+│  │  │  ├─define-property
+│  │  │  ├─dir-glob
+│  │  │  ├─doctrine
+│  │  │  │  └─lib
+│  │  │  ├─dom-serializer
+│  │  │  │  └─lib
+│  │  │  │      └─esm
+│  │  │  ├─domelementtype
+│  │  │  │  └─lib
+│  │  │  │      └─esm
+│  │  │  ├─domhandler
+│  │  │  │  └─lib
+│  │  │  │      └─esm
+│  │  │  ├─domutils
+│  │  │  │  └─lib
+│  │  │  │      └─esm
+│  │  │  ├─entities
+│  │  │  │  └─lib
+│  │  │  │      ├─esm
+│  │  │  │      │  └─generated
+│  │  │  │      └─generated
+│  │  │  ├─es-abstract
+│  │  │  │  ├─2015
+│  │  │  │  ├─2016
+│  │  │  │  ├─2017
+│  │  │  │  ├─2018
+│  │  │  │  ├─2019
+│  │  │  │  ├─2020
+│  │  │  │  │  ├─BigInt
+│  │  │  │  │  └─Number
+│  │  │  │  ├─2021
+│  │  │  │  │  ├─BigInt
+│  │  │  │  │  └─Number
+│  │  │  │  ├─2022
+│  │  │  │  │  ├─BigInt
+│  │  │  │  │  └─Number
+│  │  │  │  ├─5
+│  │  │  │  ├─helpers
+│  │  │  │  └─operations
+│  │  │  ├─es-shim-unscopables
+│  │  │  │  ├─.github
+│  │  │  │  └─test
+│  │  │  ├─es-to-primitive
+│  │  │  │  ├─.github
+│  │  │  │  ├─helpers
+│  │  │  │  └─test
+│  │  │  ├─esbuild
+│  │  │  │  ├─bin
+│  │  │  │  ├─lib
+│  │  │  │  └─node_modules
+│  │  │  │      └─.bin
+│  │  │  ├─esbuild-windows-64
+│  │  │  │  └─bin
+│  │  │  ├─escape-string-regexp
+│  │  │  ├─espree
+│  │  │  │  ├─dist
+│  │  │  │  ├─lib
+│  │  │  │  └─node_modules
+│  │  │  │      └─.bin
+│  │  │  ├─esquery
+│  │  │  │  └─dist
+│  │  │  ├─esrecurse
+│  │  │  ├─estraverse
+│  │  │  ├─esutils
+│  │  │  │  └─lib
+│  │  │  ├─execa
+│  │  │  │  └─lib
+│  │  │  ├─fast-deep-equal
+│  │  │  │  └─es6
+│  │  │  ├─fast-json-stable-stringify
+│  │  │  │  ├─.github
+│  │  │  │  ├─benchmark
+│  │  │  │  ├─example
+│  │  │  │  └─test
+│  │  │  ├─fast-levenshtein
+│  │  │  ├─fastq
+│  │  │  │  ├─.github
+│  │  │  │  │  └─workflows
+│  │  │  │  └─test
+│  │  │  ├─file-entry-cache
+│  │  │  ├─fill-range
+│  │  │  ├─find-up
+│  │  │  ├─flat-cache
+│  │  │  │  ├─node_modules
+│  │  │  │  │  └─.bin
+│  │  │  │  └─src
+│  │  │  ├─flatted
+│  │  │  │  ├─cjs
+│  │  │  │  ├─esm
+│  │  │  │  └─php
+│  │  │  ├─fs.realpath
+│  │  │  ├─function-bind
+│  │  │  │  └─test
+│  │  │  ├─function.prototype.name
+│  │  │  │  ├─.github
+│  │  │  │  ├─helpers
+│  │  │  │  └─test
+│  │  │  ├─functions-have-names
+│  │  │  │  ├─.github
+│  │  │  │  └─test
+│  │  │  ├─get-func-name
+│  │  │  ├─get-intrinsic
+│  │  │  │  ├─.github
+│  │  │  │  └─test
+│  │  │  ├─get-stream
+│  │  │  ├─get-symbol-description
+│  │  │  │  ├─.github
+│  │  │  │  └─test
+│  │  │  ├─glob
+│  │  │  ├─glob-parent
+│  │  │  ├─globals
+│  │  │  ├─globby
+│  │  │  ├─graceful-fs
+│  │  │  ├─grapheme-splitter
+│  │  │  │  └─tests
+│  │  │  ├─has
+│  │  │  │  ├─src
+│  │  │  │  └─test
+│  │  │  ├─has-bigints
+│  │  │  │  ├─.github
+│  │  │  │  └─test
+│  │  │  ├─has-flag
+│  │  │  ├─has-property-descriptors
+│  │  │  │  ├─.github
+│  │  │  │  └─test
+│  │  │  ├─has-symbols
+│  │  │  │  ├─.github
+│  │  │  │  └─test
+│  │  │  │      └─shams
+│  │  │  ├─has-tostringtag
+│  │  │  │  ├─.github
+│  │  │  │  └─test
+│  │  │  │      └─shams
+│  │  │  ├─htmlparser2
+│  │  │  │  └─lib
+│  │  │  │      └─esm
+│  │  │  ├─human-signals
+│  │  │  │  └─build
+│  │  │  │      └─src
+│  │  │  ├─ignore
+│  │  │  ├─import-fresh
+│  │  │  ├─imurmurhash
+│  │  │  ├─inflight
+│  │  │  ├─inherits
+│  │  │  ├─internal-slot
+│  │  │  │  ├─.github
+│  │  │  │  └─test
+│  │  │  ├─is-accessor-descriptor
+│  │  │  ├─is-bigint
+│  │  │  │  ├─.github
+│  │  │  │  └─test
+│  │  │  ├─is-binary-path
+│  │  │  ├─is-boolean-object
+│  │  │  │  ├─.github
+│  │  │  │  └─test
+│  │  │  ├─is-buffer
+│  │  │  │  └─test
+│  │  │  ├─is-callable
+│  │  │  │  ├─.github
+│  │  │  │  └─test
+│  │  │  ├─is-core-module
+│  │  │  │  └─test
+│  │  │  ├─is-data-descriptor
+│  │  │  ├─is-date-object
+│  │  │  │  ├─.github
+│  │  │  │  └─test
+│  │  │  ├─is-descriptor
+│  │  │  ├─is-extglob
+│  │  │  ├─is-glob
+│  │  │  ├─is-negative-zero
+│  │  │  │  ├─.github
+│  │  │  │  └─test
+│  │  │  ├─is-number
+│  │  │  ├─is-number-object
+│  │  │  │  ├─.github
+│  │  │  │  └─test
+│  │  │  ├─is-path-inside
+│  │  │  ├─is-regex
+│  │  │  │  └─test
+│  │  │  ├─is-shared-array-buffer
+│  │  │  │  ├─.github
+│  │  │  │  └─test
+│  │  │  ├─is-stream
+│  │  │  ├─is-string
+│  │  │  │  ├─.github
+│  │  │  │  └─test
+│  │  │  ├─is-symbol
+│  │  │  │  ├─.github
+│  │  │  │  └─test
+│  │  │  ├─is-weakref
+│  │  │  │  ├─.github
+│  │  │  │  └─test
+│  │  │  ├─isexe
+│  │  │  │  └─test
+│  │  │  ├─joycon
+│  │  │  │  ├─lib
+│  │  │  │  └─types
+│  │  │  ├─js-sdsl
+│  │  │  │  └─dist
+│  │  │  │      ├─cjs
+│  │  │  │      │  └─container
+│  │  │  │      │      ├─ContainerBase
+│  │  │  │      │      ├─HashContainer
+│  │  │  │      │      │  └─Base
+│  │  │  │      │      ├─OtherContainer
+│  │  │  │      │      ├─SequentialContainer
+│  │  │  │      │      │  └─Base
+│  │  │  │      │      └─TreeContainer
+│  │  │  │      │          └─Base
+│  │  │  │      ├─esm
+│  │  │  │      │  └─container
+│  │  │  │      │      ├─ContainerBase
+│  │  │  │      │      ├─HashContainer
+│  │  │  │      │      │  └─Base
+│  │  │  │      │      ├─OtherContainer
+│  │  │  │      │      ├─SequentialContainer
+│  │  │  │      │      │  └─Base
+│  │  │  │      │      └─TreeContainer
+│  │  │  │      │          └─Base
+│  │  │  │      └─umd
+│  │  │  ├─js-yaml
+│  │  │  │  ├─bin
+│  │  │  │  ├─dist
+│  │  │  │  └─lib
+│  │  │  │      ├─schema
+│  │  │  │      └─type
+│  │  │  ├─json-schema-traverse
+│  │  │  │  └─spec
+│  │  │  │      └─fixtures
+│  │  │  ├─json-stable-stringify-without-jsonify
+│  │  │  │  ├─example
+│  │  │  │  └─test
+│  │  │  ├─json5
+│  │  │  │  ├─dist
+│  │  │  │  └─lib
+│  │  │  ├─jsonfile
+│  │  │  ├─kind-of
+│  │  │  ├─kleur
+│  │  │  ├─levn
+│  │  │  │  └─lib
+│  │  │  ├─lilconfig
+│  │  │  │  └─dist
+│  │  │  ├─lines-and-columns
+│  │  │  │  └─build
+│  │  │  ├─load-tsconfig
+│  │  │  │  └─dist
+│  │  │  ├─local-pkg
+│  │  │  │  └─dist
+│  │  │  ├─locate-path
+│  │  │  ├─lodash.merge
+│  │  │  ├─lodash.sortby
+│  │  │  ├─loupe
+│  │  │  │  └─lib
+│  │  │  ├─lru-cache
+│  │  │  ├─merge-stream
+│  │  │  ├─merge2
+│  │  │  ├─micromatch
+│  │  │  ├─mimic-fn
+│  │  │  ├─minimatch
+│  │  │  ├─minimist
+│  │  │  │  ├─.github
+│  │  │  │  ├─example
+│  │  │  │  └─test
+│  │  │  ├─ms
+│  │  │  ├─mz
+│  │  │  ├─nanoid
+│  │  │  │  ├─async
+│  │  │  │  ├─bin
+│  │  │  │  ├─node_modules
+│  │  │  │  │  └─.bin
+│  │  │  │  ├─non-secure
+│  │  │  │  └─url-alphabet
+│  │  │  ├─natural-compare
+│  │  │  ├─natural-compare-lite
+│  │  │  ├─normalize-path
+│  │  │  ├─npm-run-path
+│  │  │  ├─object-assign
+│  │  │  ├─object-inspect
+│  │  │  │  ├─.github
+│  │  │  │  ├─example
+│  │  │  │  └─test
+│  │  │  │      └─browser
+│  │  │  ├─object-keys
+│  │  │  │  └─test
+│  │  │  ├─object.assign
+│  │  │  │  ├─.github
+│  │  │  │  ├─dist
+│  │  │  │  └─test
+│  │  │  ├─object.values
+│  │  │  │  └─test
+│  │  │  ├─once
+│  │  │  ├─onetime
+│  │  │  ├─optionator
+│  │  │  │  └─lib
+│  │  │  ├─p-limit
+│  │  │  ├─p-locate
+│  │  │  ├─parent-module
+│  │  │  ├─path-exists
+│  │  │  ├─path-is-absolute
+│  │  │  ├─path-key
+│  │  │  ├─path-parse
+│  │  │  ├─path-type
+│  │  │  ├─pathval
+│  │  │  ├─picocolors
+│  │  │  ├─picomatch
+│  │  │  │  └─lib
+│  │  │  ├─pirates
+│  │  │  │  └─lib
+│  │  │  ├─postcss
+│  │  │  │  ├─lib
+│  │  │  │  └─node_modules
+│  │  │  │      └─.bin
+│  │  │  ├─postcss-load-config
+│  │  │  │  └─src
+│  │  │  ├─prelude-ls
+│  │  │  │  └─lib
+│  │  │  ├─punycode
+│  │  │  ├─queue-microtask
+│  │  │  ├─readdirp
+│  │  │  ├─regexp.prototype.flags
+│  │  │  │  └─test
+│  │  │  ├─regexpp
+│  │  │  ├─resolve
+│  │  │  │  ├─.github
+│  │  │  │  ├─bin
+│  │  │  │  ├─example
+│  │  │  │  ├─lib
+│  │  │  │  └─test
+│  │  │  │      ├─dotdot
+│  │  │  │      │  └─abc
+│  │  │  │      ├─module_dir
+│  │  │  │      │  ├─xmodules
+│  │  │  │      │  │  └─aaa
+│  │  │  │      │  ├─ymodules
+│  │  │  │      │  │  └─aaa
+│  │  │  │      │  └─zmodules
+│  │  │  │      │      └─bbb
+│  │  │  │      ├─node_path
+│  │  │  │      │  ├─x
+│  │  │  │      │  │  ├─aaa
+│  │  │  │      │  │  └─ccc
+│  │  │  │      │  └─y
+│  │  │  │      │      ├─bbb
+│  │  │  │      │      └─ccc
+│  │  │  │      ├─pathfilter
+│  │  │  │      │  └─deep_ref
+│  │  │  │      ├─precedence
+│  │  │  │      │  ├─aaa
+│  │  │  │      │  └─bbb
+│  │  │  │      ├─resolver
+│  │  │  │      │  ├─baz
+│  │  │  │      │  ├─browser_field
+│  │  │  │      │  ├─dot_main
+│  │  │  │      │  ├─dot_slash_main
+│  │  │  │      │  ├─false_main
+│  │  │  │      │  ├─incorrect_main
+│  │  │  │      │  ├─invalid_main
+│  │  │  │      │  ├─malformed_package_json
+│  │  │  │      │  ├─multirepo
+│  │  │  │      │  │  └─packages
+│  │  │  │      │  │      ├─package-a
+│  │  │  │      │  │      └─package-b
+│  │  │  │      │  ├─nested_symlinks
+│  │  │  │      │  │  └─mylib
+│  │  │  │      │  ├─other_path
+│  │  │  │      │  │  └─lib
+│  │  │  │      │  ├─quux
+│  │  │  │      │  │  └─foo
+│  │  │  │      │  ├─same_names
+│  │  │  │      │  │  └─foo
+│  │  │  │      │  ├─symlinked
+│  │  │  │      │  │  ├─package
+│  │  │  │      │  │  └─_
+│  │  │  │      │  │      ├─node_modules
+│  │  │  │      │  │      └─symlink_target
+│  │  │  │      │  └─without_basedir
+│  │  │  │      └─shadowed_core
+│  │  │  │          └─node_modules
+│  │  │  │              └─util
+│  │  │  ├─resolve-from
+│  │  │  ├─reusify
+│  │  │  │  └─benchmarks
+│  │  │  ├─rimraf
+│  │  │  ├─rollup
+│  │  │  │  └─dist
+│  │  │  │      ├─bin
+│  │  │  │      ├─es
+│  │  │  │      │  └─shared
+│  │  │  │      └─shared
+│  │  │  ├─run-parallel
+│  │  │  ├─safe-regex-test
+│  │  │  │  ├─.github
+│  │  │  │  └─test
+│  │  │  ├─semver
+│  │  │  │  ├─bin
+│  │  │  │  ├─classes
+│  │  │  │  ├─functions
+│  │  │  │  ├─internal
+│  │  │  │  └─ranges
+│  │  │  ├─shebang-command
+│  │  │  ├─shebang-regex
+│  │  │  ├─side-channel
+│  │  │  │  ├─.github
+│  │  │  │  └─test
+│  │  │  ├─signal-exit
+│  │  │  ├─sisteransi
+│  │  │  │  └─src
+│  │  │  ├─slash
+│  │  │  ├─source-map
+│  │  │  │  └─lib
+│  │  │  ├─source-map-js
+│  │  │  │  └─lib
+│  │  │  ├─string.prototype.trimend
+│  │  │  │  └─test
+│  │  │  ├─string.prototype.trimstart
+│  │  │  │  └─test
+│  │  │  ├─strip-ansi
+│  │  │  ├─strip-bom
+│  │  │  ├─strip-final-newline
+│  │  │  ├─strip-json-comments
+│  │  │  ├─strip-literal
+│  │  │  │  ├─dist
+│  │  │  │  └─node_modules
+│  │  │  │      └─.bin
+│  │  │  ├─sucrase
+│  │  │  │  ├─bin
+│  │  │  │  ├─dist
+│  │  │  │  │  ├─esm
+│  │  │  │  │  │  ├─parser
+│  │  │  │  │  │  │  ├─plugins
+│  │  │  │  │  │  │  │  └─jsx
+│  │  │  │  │  │  │  ├─tokenizer
+│  │  │  │  │  │  │  ├─traverser
+│  │  │  │  │  │  │  └─util
+│  │  │  │  │  │  ├─transformers
+│  │  │  │  │  │  └─util
+│  │  │  │  │  ├─parser
+│  │  │  │  │  │  ├─plugins
+│  │  │  │  │  │  │  └─jsx
+│  │  │  │  │  │  ├─tokenizer
+│  │  │  │  │  │  ├─traverser
+│  │  │  │  │  │  └─util
+│  │  │  │  │  ├─transformers
+│  │  │  │  │  ├─types
+│  │  │  │  │  │  ├─parser
+│  │  │  │  │  │  │  ├─plugins
+│  │  │  │  │  │  │  │  └─jsx
+│  │  │  │  │  │  │  ├─tokenizer
+│  │  │  │  │  │  │  ├─traverser
+│  │  │  │  │  │  │  └─util
+│  │  │  │  │  │  ├─transformers
+│  │  │  │  │  │  └─util
+│  │  │  │  │  └─util
+│  │  │  │  ├─register
+│  │  │  │  └─ts-node-plugin
+│  │  │  ├─supports-color
+│  │  │  ├─supports-preserve-symlinks-flag
+│  │  │  │  ├─.github
+│  │  │  │  └─test
+│  │  │  ├─text-table
+│  │  │  │  ├─example
+│  │  │  │  └─test
+│  │  │  ├─thenify
+│  │  │  ├─thenify-all
+│  │  │  ├─tinybench
+│  │  │  │  └─dist
+│  │  │  ├─tinypool
+│  │  │  │  └─dist
+│  │  │  │      └─esm
+│  │  │  ├─tinyspy
+│  │  │  │  └─dist
+│  │  │  ├─to-regex-range
+│  │  │  ├─tr46
+│  │  │  │  └─lib
+│  │  │  ├─tree-kill
+│  │  │  ├─ts-interface-checker
+│  │  │  │  └─dist
+│  │  │  ├─tsconfig-paths
+│  │  │  │  ├─lib
+│  │  │  │  │  └─__tests__
+│  │  │  │  │      └─data
+│  │  │  │  ├─node_modules
+│  │  │  │  │  └─.bin
+│  │  │  │  └─src
+│  │  │  │      └─__tests__
+│  │  │  │          └─data
+│  │  │  ├─tslib
+│  │  │  │  ├─modules
+│  │  │  │  └─test
+│  │  │  │      └─validateModuleExportsMatchCommonJS
+│  │  │  ├─tsutils
+│  │  │  │  ├─node_modules
+│  │  │  │  │  └─.bin
+│  │  │  │  ├─typeguard
+│  │  │  │  │  ├─2.8
+│  │  │  │  │  ├─2.9
+│  │  │  │  │  ├─3.0
+│  │  │  │  │  ├─3.2
+│  │  │  │  │  └─next
+│  │  │  │  └─util
+│  │  │  ├─type-check
+│  │  │  │  └─lib
+│  │  │  ├─type-detect
+│  │  │  ├─type-fest
+│  │  │  │  ├─source
+│  │  │  │  └─ts41
+│  │  │  ├─typescript
+│  │  │  │  ├─bin
+│  │  │  │  ├─lib
+│  │  │  │  │  ├─cs
+│  │  │  │  │  ├─de
+│  │  │  │  │  ├─es
+│  │  │  │  │  ├─fr
+│  │  │  │  │  ├─it
+│  │  │  │  │  ├─ja
+│  │  │  │  │  ├─ko
+│  │  │  │  │  ├─pl
+│  │  │  │  │  ├─pt-br
+│  │  │  │  │  ├─ru
+│  │  │  │  │  ├─tr
+│  │  │  │  │  ├─zh-cn
+│  │  │  │  │  └─zh-tw
+│  │  │  │  └─loc
+│  │  │  │      └─lcl
+│  │  │  │          ├─CHS
+│  │  │  │          │  ├─Targets
+│  │  │  │          │  ├─TypeScriptDebugEngine
+│  │  │  │          │  ├─TypeScriptLanguageService
+│  │  │  │          │  └─TypeScriptTasks
+│  │  │  │          ├─CHT
+│  │  │  │          │  ├─Targets
+│  │  │  │          │  ├─TypeScriptDebugEngine
+│  │  │  │          │  ├─TypeScriptLanguageService
+│  │  │  │          │  └─TypeScriptTasks
+│  │  │  │          ├─CSY
+│  │  │  │          │  ├─Targets
+│  │  │  │          │  ├─TypeScriptDebugEngine
+│  │  │  │          │  ├─TypeScriptLanguageService
+│  │  │  │          │  └─TypeScriptTasks
+│  │  │  │          ├─DEU
+│  │  │  │          │  ├─Targets
+│  │  │  │          │  ├─TypeScriptDebugEngine
+│  │  │  │          │  ├─TypeScriptLanguageService
+│  │  │  │          │  └─TypeScriptTasks
+│  │  │  │          ├─ESN
+│  │  │  │          │  ├─Targets
+│  │  │  │          │  ├─TypeScriptDebugEngine
+│  │  │  │          │  ├─TypeScriptLanguageService
+│  │  │  │          │  └─TypeScriptTasks
+│  │  │  │          ├─FRA
+│  │  │  │          │  ├─Targets
+│  │  │  │          │  ├─TypeScriptDebugEngine
+│  │  │  │          │  ├─TypeScriptLanguageService
+│  │  │  │          │  └─TypeScriptTasks
+│  │  │  │          ├─ITA
+│  │  │  │          │  ├─Targets
+│  │  │  │          │  ├─TypeScriptDebugEngine
+│  │  │  │          │  ├─TypeScriptLanguageService
+│  │  │  │          │  └─TypeScriptTasks
+│  │  │  │          ├─JPN
+│  │  │  │          │  ├─Targets
+│  │  │  │          │  ├─TypeScriptDebugEngine
+│  │  │  │          │  ├─TypeScriptLanguageService
+│  │  │  │          │  └─TypeScriptTasks
+│  │  │  │          ├─KOR
+│  │  │  │          │  ├─Targets
+│  │  │  │          │  ├─TypeScriptDebugEngine
+│  │  │  │          │  ├─TypeScriptLanguageService
+│  │  │  │          │  └─TypeScriptTasks
+│  │  │  │          ├─PLK
+│  │  │  │          │  ├─Targets
+│  │  │  │          │  ├─TypeScriptDebugEngine
+│  │  │  │          │  ├─TypeScriptLanguageService
+│  │  │  │          │  └─TypeScriptTasks
+│  │  │  │          ├─PTB
+│  │  │  │          │  ├─Targets
+│  │  │  │          │  ├─TypeScriptDebugEngine
+│  │  │  │          │  ├─TypeScriptLanguageService
+│  │  │  │          │  └─TypeScriptTasks
+│  │  │  │          ├─RUS
+│  │  │  │          │  ├─Targets
+│  │  │  │          │  ├─TypeScriptDebugEngine
+│  │  │  │          │  ├─TypeScriptLanguageService
+│  │  │  │          │  └─TypeScriptTasks
+│  │  │  │          └─TRK
+│  │  │  │              ├─Targets
+│  │  │  │              ├─TypeScriptDebugEngine
+│  │  │  │              ├─TypeScriptLanguageService
+│  │  │  │              └─TypeScriptTasks
+│  │  │  ├─unbox-primitive
+│  │  │  │  ├─.github
+│  │  │  │  └─test
+│  │  │  ├─universalify
+│  │  │  ├─uri-js
+│  │  │  │  └─dist
+│  │  │  │      ├─es5
+│  │  │  │      └─esnext
+│  │  │  │          └─schemes
+│  │  │  ├─vite
+│  │  │  │  ├─bin
+│  │  │  │  ├─dist
+│  │  │  │  │  ├─client
+│  │  │  │  │  ├─node
+│  │  │  │  │  │  └─chunks
+│  │  │  │  │  └─node-cjs
+│  │  │  │  ├─node_modules
+│  │  │  │  │  └─.bin
+│  │  │  │  └─types
+│  │  │  ├─webidl-conversions
+│  │  │  │  └─lib
+│  │  │  ├─whatwg-url
+│  │  │  │  └─lib
+│  │  │  ├─which
+│  │  │  │  └─bin
+│  │  │  ├─which-boxed-primitive
+│  │  │  │  ├─.github
+│  │  │  │  └─test
+│  │  │  ├─window-size
+│  │  │  ├─word-wrap
+│  │  │  ├─wrappy
+│  │  │  ├─yallist
+│  │  │  ├─yaml
+│  │  │  │  ├─browser
+│  │  │  │  │  ├─dist
+│  │  │  │  │  └─types
+│  │  │  │  ├─dist
+│  │  │  │  └─types
+│  │  │  └─yocto-queue
+│  │  ├─normalize-path@3.0.0
+│  │  │  └─node_modules
+│  │  │      └─normalize-path
+│  │  ├─npm-run-path@4.0.1
+│  │  │  └─node_modules
+│  │  │      ├─npm-run-path
+│  │  │      └─path-key
+│  │  ├─object-assign@4.1.1
+│  │  │  └─node_modules
+│  │  │      └─object-assign
+│  │  ├─object-inspect@1.12.2
+│  │  │  └─node_modules
+│  │  │      └─object-inspect
+│  │  │          ├─.github
+│  │  │          ├─example
+│  │  │          └─test
+│  │  │              └─browser
+│  │  ├─object-keys@1.1.1
+│  │  │  └─node_modules
+│  │  │      └─object-keys
+│  │  │          └─test
+│  │  ├─object.assign@4.1.4
+│  │  │  └─node_modules
+│  │  │      ├─call-bind
+│  │  │      │  ├─.github
+│  │  │      │  └─test
+│  │  │      ├─define-properties
+│  │  │      │  └─.github
+│  │  │      ├─has-symbols
+│  │  │      │  ├─.github
+│  │  │      │  └─test
+│  │  │      │      └─shams
+│  │  │      ├─object-keys
+│  │  │      │  └─test
+│  │  │      └─object.assign
+│  │  │          ├─.github
+│  │  │          ├─dist
+│  │  │          └─test
+│  │  ├─object.values@1.1.5
+│  │  │  └─node_modules
+│  │  │      ├─call-bind
+│  │  │      │  ├─.github
+│  │  │      │  └─test
+│  │  │      ├─define-properties
+│  │  │      │  └─.github
+│  │  │      ├─es-abstract
+│  │  │      │  ├─2015
+│  │  │      │  ├─2016
+│  │  │      │  ├─2017
+│  │  │      │  ├─2018
+│  │  │      │  ├─2019
+│  │  │      │  ├─2020
+│  │  │      │  │  ├─BigInt
+│  │  │      │  │  └─Number
+│  │  │      │  ├─2021
+│  │  │      │  │  ├─BigInt
+│  │  │      │  │  └─Number
+│  │  │      │  ├─2022
+│  │  │      │  │  ├─BigInt
+│  │  │      │  │  └─Number
+│  │  │      │  ├─5
+│  │  │      │  ├─helpers
+│  │  │      │  └─operations
+│  │  │      └─object.values
+│  │  │          └─test
+│  │  ├─once@1.4.0
+│  │  │  └─node_modules
+│  │  │      ├─once
+│  │  │      └─wrappy
+│  │  ├─onetime@5.1.2
+│  │  │  └─node_modules
+│  │  │      ├─mimic-fn
+│  │  │      └─onetime
+│  │  ├─optionator@0.9.1
+│  │  │  └─node_modules
+│  │  │      ├─deep-is
+│  │  │      │  ├─example
+│  │  │      │  └─test
+│  │  │      ├─fast-levenshtein
+│  │  │      ├─levn
+│  │  │      │  └─lib
+│  │  │      ├─optionator
+│  │  │      │  └─lib
+│  │  │      ├─prelude-ls
+│  │  │      │  └─lib
+│  │  │      ├─type-check
+│  │  │      │  └─lib
+│  │  │      └─word-wrap
+│  │  ├─p-limit@3.1.0
+│  │  │  └─node_modules
+│  │  │      ├─p-limit
+│  │  │      └─yocto-queue
+│  │  ├─p-locate@5.0.0
+│  │  │  └─node_modules
+│  │  │      ├─p-limit
+│  │  │      └─p-locate
+│  │  ├─parent-module@1.0.1
+│  │  │  └─node_modules
+│  │  │      ├─callsites
+│  │  │      └─parent-module
+│  │  ├─path-exists@4.0.0
+│  │  │  └─node_modules
+│  │  │      └─path-exists
+│  │  ├─path-is-absolute@1.0.1
+│  │  │  └─node_modules
+│  │  │      └─path-is-absolute
+│  │  ├─path-key@3.1.1
+│  │  │  └─node_modules
+│  │  │      └─path-key
+│  │  ├─path-parse@1.0.7
+│  │  │  └─node_modules
+│  │  │      └─path-parse
+│  │  ├─path-type@4.0.0
+│  │  │  └─node_modules
+│  │  │      └─path-type
+│  │  ├─pathval@1.1.1
+│  │  │  └─node_modules
+│  │  │      └─pathval
+│  │  ├─picocolors@1.0.0
+│  │  │  └─node_modules
+│  │  │      └─picocolors
+│  │  ├─picomatch@2.3.1
+│  │  │  └─node_modules
+│  │  │      └─picomatch
+│  │  │          └─lib
+│  │  ├─pirates@4.0.5
+│  │  │  └─node_modules
+│  │  │      └─pirates
+│  │  │          └─lib
+│  │  ├─postcss-load-config@3.1.4
+│  │  │  └─node_modules
+│  │  │      ├─lilconfig
+│  │  │      │  └─dist
+│  │  │      ├─postcss-load-config
+│  │  │      │  └─src
+│  │  │      └─yaml
+│  │  │          ├─browser
+│  │  │          │  ├─dist
+│  │  │          │  └─types
+│  │  │          ├─dist
+│  │  │          └─types
+│  │  ├─postcss@8.4.19
+│  │  │  └─node_modules
+│  │  │      ├─nanoid
+│  │  │      │  ├─async
+│  │  │      │  ├─bin
+│  │  │      │  ├─node_modules
+│  │  │      │  │  └─.bin
+│  │  │      │  ├─non-secure
+│  │  │      │  └─url-alphabet
+│  │  │      ├─picocolors
+│  │  │      ├─postcss
+│  │  │      │  ├─lib
+│  │  │      │  └─node_modules
+│  │  │      │      └─.bin
+│  │  │      └─source-map-js
+│  │  │          └─lib
+│  │  ├─prelude-ls@1.2.1
+│  │  │  └─node_modules
+│  │  │      └─prelude-ls
+│  │  │          └─lib
+│  │  ├─prompts@2.4.2
+│  │  │  └─node_modules
+│  │  │      ├─kleur
+│  │  │      ├─prompts
+│  │  │      │  ├─dist
+│  │  │      │  │  ├─dateparts
+│  │  │      │  │  ├─elements
+│  │  │      │  │  └─util
+│  │  │      │  └─lib
+│  │  │      │      ├─dateparts
+│  │  │      │      ├─elements
+│  │  │      │      └─util
+│  │  │      └─sisteransi
+│  │  │          └─src
+│  │  ├─punycode@2.1.1
+│  │  │  └─node_modules
+│  │  │      └─punycode
+│  │  ├─queue-microtask@1.2.3
+│  │  │  └─node_modules
+│  │  │      └─queue-microtask
+│  │  ├─readdirp@3.6.0
+│  │  │  └─node_modules
+│  │  │      ├─picomatch
+│  │  │      │  └─lib
+│  │  │      └─readdirp
+│  │  ├─regexp.prototype.flags@1.4.3
+│  │  │  └─node_modules
+│  │  │      ├─call-bind
+│  │  │      │  ├─.github
+│  │  │      │  └─test
+│  │  │      ├─define-properties
+│  │  │      │  └─.github
+│  │  │      ├─functions-have-names
+│  │  │      │  ├─.github
+│  │  │      │  └─test
+│  │  │      └─regexp.prototype.flags
+│  │  │          └─test
+│  │  ├─regexpp@3.2.0
+│  │  │  └─node_modules
+│  │  │      └─regexpp
+│  │  ├─resolve-from@4.0.0
+│  │  │  └─node_modules
+│  │  │      └─resolve-from
+│  │  ├─resolve-from@5.0.0
+│  │  │  └─node_modules
+│  │  │      └─resolve-from
+│  │  ├─resolve@1.22.1
+│  │  │  └─node_modules
+│  │  │      ├─is-core-module
+│  │  │      │  └─test
+│  │  │      ├─path-parse
+│  │  │      ├─resolve
+│  │  │      │  ├─.github
+│  │  │      │  ├─bin
+│  │  │      │  ├─example
+│  │  │      │  ├─lib
+│  │  │      │  └─test
+│  │  │      │      ├─dotdot
+│  │  │      │      │  └─abc
+│  │  │      │      ├─module_dir
+│  │  │      │      │  ├─xmodules
+│  │  │      │      │  │  └─aaa
+│  │  │      │      │  ├─ymodules
+│  │  │      │      │  │  └─aaa
+│  │  │      │      │  └─zmodules
+│  │  │      │      │      └─bbb
+│  │  │      │      ├─node_path
+│  │  │      │      │  ├─x
+│  │  │      │      │  │  ├─aaa
+│  │  │      │      │  │  └─ccc
+│  │  │      │      │  └─y
+│  │  │      │      │      ├─bbb
+│  │  │      │      │      └─ccc
+│  │  │      │      ├─pathfilter
+│  │  │      │      │  └─deep_ref
+│  │  │      │      ├─precedence
+│  │  │      │      │  ├─aaa
+│  │  │      │      │  └─bbb
+│  │  │      │      ├─resolver
+│  │  │      │      │  ├─baz
+│  │  │      │      │  ├─browser_field
+│  │  │      │      │  ├─dot_main
+│  │  │      │      │  ├─dot_slash_main
+│  │  │      │      │  ├─false_main
+│  │  │      │      │  ├─incorrect_main
+│  │  │      │      │  ├─invalid_main
+│  │  │      │      │  ├─malformed_package_json
+│  │  │      │      │  ├─multirepo
+│  │  │      │      │  │  └─packages
+│  │  │      │      │  │      ├─package-a
+│  │  │      │      │  │      └─package-b
+│  │  │      │      │  ├─nested_symlinks
+│  │  │      │      │  │  └─mylib
+│  │  │      │      │  ├─other_path
+│  │  │      │      │  │  └─lib
+│  │  │      │      │  ├─quux
+│  │  │      │      │  │  └─foo
+│  │  │      │      │  ├─same_names
+│  │  │      │      │  │  └─foo
+│  │  │      │      │  ├─symlinked
+│  │  │      │      │  │  ├─package
+│  │  │      │      │  │  └─_
+│  │  │      │      │  │      ├─node_modules
+│  │  │      │      │  │      └─symlink_target
+│  │  │      │      │  └─without_basedir
+│  │  │      │      └─shadowed_core
+│  │  │      │          └─node_modules
+│  │  │      │              └─util
+│  │  │      └─supports-preserve-symlinks-flag
+│  │  │          ├─.github
+│  │  │          └─test
+│  │  ├─reusify@1.0.4
+│  │  │  └─node_modules
+│  │  │      └─reusify
+│  │  │          └─benchmarks
+│  │  ├─rimraf@3.0.2
+│  │  │  └─node_modules
+│  │  │      ├─glob
+│  │  │      └─rimraf
+│  │  ├─rollup@2.79.1
+│  │  │  └─node_modules
+│  │  │      └─rollup
+│  │  │          ├─dist
+│  │  │          │  ├─bin
+│  │  │          │  ├─es
+│  │  │          │  │  └─shared
+│  │  │          │  └─shared
+│  │  │          └─node_modules
+│  │  │              └─.bin
+│  │  ├─rollup@3.2.5
+│  │  │  └─node_modules
+│  │  │      └─rollup
+│  │  │          └─dist
+│  │  │              ├─bin
+│  │  │              ├─es
+│  │  │              │  └─shared
+│  │  │              └─shared
+│  │  ├─run-parallel@1.2.0
+│  │  │  └─node_modules
+│  │  │      ├─queue-microtask
+│  │  │      └─run-parallel
+│  │  ├─safe-regex-test@1.0.0
+│  │  │  └─node_modules
+│  │  │      ├─call-bind
+│  │  │      │  ├─.github
+│  │  │      │  └─test
+│  │  │      ├─get-intrinsic
+│  │  │      │  ├─.github
+│  │  │      │  └─test
+│  │  │      ├─is-regex
+│  │  │      │  └─test
+│  │  │      └─safe-regex-test
+│  │  │          ├─.github
+│  │  │          └─test
+│  │  ├─semver@7.3.8
+│  │  │  └─node_modules
+│  │  │      ├─lru-cache
+│  │  │      └─semver
+│  │  │          ├─bin
+│  │  │          ├─classes
+│  │  │          ├─functions
+│  │  │          ├─internal
+│  │  │          └─ranges
+│  │  ├─shebang-command@2.0.0
+│  │  │  └─node_modules
+│  │  │      ├─shebang-command
+│  │  │      └─shebang-regex
+│  │  ├─shebang-regex@3.0.0
+│  │  │  └─node_modules
+│  │  │      └─shebang-regex
+│  │  ├─side-channel@1.0.4
+│  │  │  └─node_modules
+│  │  │      ├─call-bind
+│  │  │      │  ├─.github
+│  │  │      │  └─test
+│  │  │      ├─get-intrinsic
+│  │  │      │  ├─.github
+│  │  │      │  └─test
+│  │  │      ├─object-inspect
+│  │  │      │  ├─.github
+│  │  │      │  ├─example
+│  │  │      │  └─test
+│  │  │      │      └─browser
+│  │  │      └─side-channel
+│  │  │          ├─.github
+│  │  │          └─test
+│  │  ├─signal-exit@3.0.7
+│  │  │  └─node_modules
+│  │  │      └─signal-exit
+│  │  ├─sisteransi@1.0.5
+│  │  │  └─node_modules
+│  │  │      └─sisteransi
+│  │  │          └─src
+│  │  ├─slash@3.0.0
+│  │  │  └─node_modules
+│  │  │      └─slash
+│  │  ├─source-map-js@1.0.2
+│  │  │  └─node_modules
+│  │  │      └─source-map-js
+│  │  │          └─lib
+│  │  ├─source-map@0.6.1
+│  │  │  └─node_modules
+│  │  │      └─source-map
+│  │  │          ├─dist
+│  │  │          └─lib
+│  │  ├─source-map@0.8.0-beta.0
+│  │  │  └─node_modules
+│  │  │      ├─source-map
+│  │  │      │  └─lib
+│  │  │      └─whatwg-url
+│  │  │          └─lib
+│  │  ├─string.prototype.trimend@1.0.5
+│  │  │  └─node_modules
+│  │  │      ├─call-bind
+│  │  │      │  ├─.github
+│  │  │      │  └─test
+│  │  │      ├─define-properties
+│  │  │      │  └─.github
+│  │  │      ├─es-abstract
+│  │  │      │  ├─2015
+│  │  │      │  ├─2016
+│  │  │      │  ├─2017
+│  │  │      │  ├─2018
+│  │  │      │  ├─2019
+│  │  │      │  ├─2020
+│  │  │      │  │  ├─BigInt
+│  │  │      │  │  └─Number
+│  │  │      │  ├─2021
+│  │  │      │  │  ├─BigInt
+│  │  │      │  │  └─Number
+│  │  │      │  ├─2022
+│  │  │      │  │  ├─BigInt
+│  │  │      │  │  └─Number
+│  │  │      │  ├─5
+│  │  │      │  ├─helpers
+│  │  │      │  └─operations
+│  │  │      └─string.prototype.trimend
+│  │  │          └─test
+│  │  ├─string.prototype.trimstart@1.0.5
+│  │  │  └─node_modules
+│  │  │      ├─call-bind
+│  │  │      │  ├─.github
+│  │  │      │  └─test
+│  │  │      ├─define-properties
+│  │  │      │  └─.github
+│  │  │      ├─es-abstract
+│  │  │      │  ├─2015
+│  │  │      │  ├─2016
+│  │  │      │  ├─2017
+│  │  │      │  ├─2018
+│  │  │      │  ├─2019
+│  │  │      │  ├─2020
+│  │  │      │  │  ├─BigInt
+│  │  │      │  │  └─Number
+│  │  │      │  ├─2021
+│  │  │      │  │  ├─BigInt
+│  │  │      │  │  └─Number
+│  │  │      │  ├─2022
+│  │  │      │  │  ├─BigInt
+│  │  │      │  │  └─Number
+│  │  │      │  ├─5
+│  │  │      │  ├─helpers
+│  │  │      │  └─operations
+│  │  │      └─string.prototype.trimstart
+│  │  │          └─test
+│  │  ├─strip-ansi@6.0.1
+│  │  │  └─node_modules
+│  │  │      ├─ansi-regex
+│  │  │      └─strip-ansi
+│  │  ├─strip-bom@3.0.0
+│  │  │  └─node_modules
+│  │  │      └─strip-bom
+│  │  ├─strip-final-newline@2.0.0
+│  │  │  └─node_modules
+│  │  │      └─strip-final-newline
+│  │  ├─strip-json-comments@3.1.1
+│  │  │  └─node_modules
+│  │  │      └─strip-json-comments
+│  │  ├─strip-literal@0.4.2
+│  │  │  └─node_modules
+│  │  │      ├─acorn
+│  │  │      │  ├─bin
+│  │  │      │  └─dist
+│  │  │      └─strip-literal
+│  │  │          ├─dist
+│  │  │          └─node_modules
+│  │  │              └─.bin
+│  │  ├─sucrase@3.28.0
+│  │  │  └─node_modules
+│  │  │      ├─commander
+│  │  │      │  └─typings
+│  │  │      ├─glob
+│  │  │      ├─lines-and-columns
+│  │  │      │  └─build
+│  │  │      ├─mz
+│  │  │      ├─pirates
+│  │  │      │  └─lib
+│  │  │      ├─sucrase
+│  │  │      │  ├─bin
+│  │  │      │  ├─dist
+│  │  │      │  │  ├─esm
+│  │  │      │  │  │  ├─parser
+│  │  │      │  │  │  │  ├─plugins
+│  │  │      │  │  │  │  │  └─jsx
+│  │  │      │  │  │  │  ├─tokenizer
+│  │  │      │  │  │  │  ├─traverser
+│  │  │      │  │  │  │  └─util
+│  │  │      │  │  │  ├─transformers
+│  │  │      │  │  │  └─util
+│  │  │      │  │  ├─parser
+│  │  │      │  │  │  ├─plugins
+│  │  │      │  │  │  │  └─jsx
+│  │  │      │  │  │  ├─tokenizer
+│  │  │      │  │  │  ├─traverser
+│  │  │      │  │  │  └─util
+│  │  │      │  │  ├─transformers
+│  │  │      │  │  ├─types
+│  │  │      │  │  │  ├─parser
+│  │  │      │  │  │  │  ├─plugins
+│  │  │      │  │  │  │  │  └─jsx
+│  │  │      │  │  │  │  ├─tokenizer
+│  │  │      │  │  │  │  ├─traverser
+│  │  │      │  │  │  │  └─util
+│  │  │      │  │  │  ├─transformers
+│  │  │      │  │  │  └─util
+│  │  │      │  │  └─util
+│  │  │      │  ├─register
+│  │  │      │  └─ts-node-plugin
+│  │  │      └─ts-interface-checker
+│  │  │          └─dist
+│  │  ├─supports-color@7.2.0
+│  │  │  └─node_modules
+│  │  │      ├─has-flag
+│  │  │      └─supports-color
+│  │  ├─supports-color@8.1.1
+│  │  │  └─node_modules
+│  │  │      ├─has-flag
+│  │  │      └─supports-color
+│  │  ├─supports-preserve-symlinks-flag@1.0.0
+│  │  │  └─node_modules
+│  │  │      └─supports-preserve-symlinks-flag
+│  │  │          ├─.github
+│  │  │          └─test
+│  │  ├─text-table@0.2.0
+│  │  │  └─node_modules
+│  │  │      ├─text-table
+│  │  │      │  ├─example
+│  │  │      │  └─test
+│  │  │      └─_tmp_13808_eaa470ea8ffe3b859b48858b121ca525
+│  │  │          ├─example
+│  │  │          └─test
+│  │  ├─thenify-all@1.6.0
+│  │  │  └─node_modules
+│  │  │      ├─thenify
+│  │  │      └─thenify-all
+│  │  ├─thenify@3.3.1
+│  │  │  └─node_modules
+│  │  │      ├─any-promise
+│  │  │      │  └─register
+│  │  │      └─thenify
+│  │  ├─tinybench@2.3.1
+│  │  │  └─node_modules
+│  │  │      └─tinybench
+│  │  │          └─dist
+│  │  ├─tinypool@0.3.0
+│  │  │  └─node_modules
+│  │  │      └─tinypool
+│  │  │          └─dist
+│  │  │              └─esm
+│  │  ├─tinyspy@1.0.2
+│  │  │  └─node_modules
+│  │  │      └─tinyspy
+│  │  │          └─dist
+│  │  ├─to-regex-range@5.0.1
+│  │  │  └─node_modules
+│  │  │      ├─is-number
+│  │  │      └─to-regex-range
+│  │  ├─tr46@1.0.1
+│  │  │  └─node_modules
+│  │  │      ├─punycode
+│  │  │      └─tr46
+│  │  │          └─lib
+│  │  ├─tree-kill@1.2.2
+│  │  │  └─node_modules
+│  │  │      └─tree-kill
+│  │  ├─ts-interface-checker@0.1.13
+│  │  │  └─node_modules
+│  │  │      └─ts-interface-checker
+│  │  │          └─dist
+│  │  ├─tsconfig-paths@3.14.1
+│  │  │  └─node_modules
+│  │  │      ├─@types
+│  │  │      │  └─json5
+│  │  │      ├─json5
+│  │  │      │  ├─dist
+│  │  │      │  └─lib
+│  │  │      ├─minimist
+│  │  │      │  ├─.github
+│  │  │      │  ├─example
+│  │  │      │  └─test
+│  │  │      ├─strip-bom
+│  │  │      └─tsconfig-paths
+│  │  │          ├─lib
+│  │  │          │  └─__tests__
+│  │  │          │      └─data
+│  │  │          ├─node_modules
+│  │  │          │  └─.bin
+│  │  │          └─src
+│  │  │              └─__tests__
+│  │  │                  └─data
+│  │  ├─tslib@1.14.1
+│  │  │  └─node_modules
+│  │  │      └─tslib
+│  │  │          ├─modules
+│  │  │          └─test
+│  │  │              └─validateModuleExportsMatchCommonJS
+│  │  ├─tsup@6.4.0
+│  │  │  └─node_modules
+│  │  │      ├─bundle-require
+│  │  │      │  ├─dist
+│  │  │      │  └─node_modules
+│  │  │      │      └─.bin
+│  │  │      ├─cac
+│  │  │      │  ├─deno
+│  │  │      │  └─dist
+│  │  │      ├─chokidar
+│  │  │      │  ├─lib
+│  │  │      │  └─types
+│  │  │      ├─debug
+│  │  │      │  └─src
+│  │  │      ├─esbuild
+│  │  │      │  ├─bin
+│  │  │      │  ├─lib
+│  │  │      │  └─node_modules
+│  │  │      │      └─.bin
+│  │  │      ├─execa
+│  │  │      │  └─lib
+│  │  │      ├─globby
+│  │  │      ├─joycon
+│  │  │      │  ├─lib
+│  │  │      │  └─types
+│  │  │      ├─postcss-load-config
+│  │  │      │  └─src
+│  │  │      ├─resolve-from
+│  │  │      ├─rollup
+│  │  │      │  └─dist
+│  │  │      │      ├─bin
+│  │  │      │      ├─es
+│  │  │      │      │  └─shared
+│  │  │      │      └─shared
+│  │  │      ├─source-map
+│  │  │      │  └─lib
+│  │  │      ├─sucrase
+│  │  │      │  ├─bin
+│  │  │      │  ├─dist
+│  │  │      │  │  ├─esm
+│  │  │      │  │  │  ├─parser
+│  │  │      │  │  │  │  ├─plugins
+│  │  │      │  │  │  │  │  └─jsx
+│  │  │      │  │  │  │  ├─tokenizer
+│  │  │      │  │  │  │  ├─traverser
+│  │  │      │  │  │  │  └─util
+│  │  │      │  │  │  ├─transformers
+│  │  │      │  │  │  └─util
+│  │  │      │  │  ├─parser
+│  │  │      │  │  │  ├─plugins
+│  │  │      │  │  │  │  └─jsx
+│  │  │      │  │  │  ├─tokenizer
+│  │  │      │  │  │  ├─traverser
+│  │  │      │  │  │  └─util
+│  │  │      │  │  ├─transformers
+│  │  │      │  │  ├─types
+│  │  │      │  │  │  ├─parser
+│  │  │      │  │  │  │  ├─plugins
+│  │  │      │  │  │  │  │  └─jsx
+│  │  │      │  │  │  │  ├─tokenizer
+│  │  │      │  │  │  │  ├─traverser
+│  │  │      │  │  │  │  └─util
+│  │  │      │  │  │  ├─transformers
+│  │  │      │  │  │  └─util
+│  │  │      │  │  └─util
+│  │  │      │  ├─register
+│  │  │      │  └─ts-node-plugin
+│  │  │      ├─tree-kill
+│  │  │      └─tsup
+│  │  │          ├─assets
+│  │  │          ├─dist
+│  │  │          └─node_modules
+│  │  │              └─.bin
+│  │  ├─tsutils@3.21.0_typescript@4.8.4
+│  │  │  └─node_modules
+│  │  │      ├─tslib
+│  │  │      │  ├─modules
+│  │  │      │  └─test
+│  │  │      │      └─validateModuleExportsMatchCommonJS
+│  │  │      ├─tsutils
+│  │  │      │  ├─node_modules
+│  │  │      │  │  └─.bin
+│  │  │      │  ├─typeguard
+│  │  │      │  │  ├─2.8
+│  │  │      │  │  ├─2.9
+│  │  │      │  │  ├─3.0
+│  │  │      │  │  ├─3.2
+│  │  │      │  │  └─next
+│  │  │      │  └─util
+│  │  │      └─typescript
+│  │  │          ├─bin
+│  │  │          ├─lib
+│  │  │          │  ├─cs
+│  │  │          │  ├─de
+│  │  │          │  ├─es
+│  │  │          │  ├─fr
+│  │  │          │  ├─it
+│  │  │          │  ├─ja
+│  │  │          │  ├─ko
+│  │  │          │  ├─pl
+│  │  │          │  ├─pt-br
+│  │  │          │  ├─ru
+│  │  │          │  ├─tr
+│  │  │          │  ├─zh-cn
+│  │  │          │  └─zh-tw
+│  │  │          └─loc
+│  │  │              └─lcl
+│  │  │                  ├─CHS
+│  │  │                  │  ├─Targets
+│  │  │                  │  ├─TypeScriptDebugEngine
+│  │  │                  │  ├─TypeScriptLanguageService
+│  │  │                  │  └─TypeScriptTasks
+│  │  │                  ├─CHT
+│  │  │                  │  ├─Targets
+│  │  │                  │  ├─TypeScriptDebugEngine
+│  │  │                  │  ├─TypeScriptLanguageService
+│  │  │                  │  └─TypeScriptTasks
+│  │  │                  ├─CSY
+│  │  │                  │  ├─Targets
+│  │  │                  │  ├─TypeScriptDebugEngine
+│  │  │                  │  ├─TypeScriptLanguageService
+│  │  │                  │  └─TypeScriptTasks
+│  │  │                  ├─DEU
+│  │  │                  │  ├─Targets
+│  │  │                  │  ├─TypeScriptDebugEngine
+│  │  │                  │  ├─TypeScriptLanguageService
+│  │  │                  │  └─TypeScriptTasks
+│  │  │                  ├─ESN
+│  │  │                  │  ├─Targets
+│  │  │                  │  ├─TypeScriptDebugEngine
+│  │  │                  │  ├─TypeScriptLanguageService
+│  │  │                  │  └─TypeScriptTasks
+│  │  │                  ├─FRA
+│  │  │                  │  ├─Targets
+│  │  │                  │  ├─TypeScriptDebugEngine
+│  │  │                  │  ├─TypeScriptLanguageService
+│  │  │                  │  └─TypeScriptTasks
+│  │  │                  ├─ITA
+│  │  │                  │  ├─Targets
+│  │  │                  │  ├─TypeScriptDebugEngine
+│  │  │                  │  ├─TypeScriptLanguageService
+│  │  │                  │  └─TypeScriptTasks
+│  │  │                  ├─JPN
+│  │  │                  │  ├─Targets
+│  │  │                  │  ├─TypeScriptDebugEngine
+│  │  │                  │  ├─TypeScriptLanguageService
+│  │  │                  │  └─TypeScriptTasks
+│  │  │                  ├─KOR
+│  │  │                  │  ├─Targets
+│  │  │                  │  ├─TypeScriptDebugEngine
+│  │  │                  │  ├─TypeScriptLanguageService
+│  │  │                  │  └─TypeScriptTasks
+│  │  │                  ├─PLK
+│  │  │                  │  ├─Targets
+│  │  │                  │  ├─TypeScriptDebugEngine
+│  │  │                  │  ├─TypeScriptLanguageService
+│  │  │                  │  └─TypeScriptTasks
+│  │  │                  ├─PTB
+│  │  │                  │  ├─Targets
+│  │  │                  │  ├─TypeScriptDebugEngine
+│  │  │                  │  ├─TypeScriptLanguageService
+│  │  │                  │  └─TypeScriptTasks
+│  │  │                  ├─RUS
+│  │  │                  │  ├─Targets
+│  │  │                  │  ├─TypeScriptDebugEngine
+│  │  │                  │  ├─TypeScriptLanguageService
+│  │  │                  │  └─TypeScriptTasks
+│  │  │                  └─TRK
+│  │  │                      ├─Targets
+│  │  │                      ├─TypeScriptDebugEngine
+│  │  │                      ├─TypeScriptLanguageService
+│  │  │                      └─TypeScriptTasks
+│  │  ├─type-check@0.4.0
+│  │  │  └─node_modules
+│  │  │      ├─prelude-ls
+│  │  │      │  └─lib
+│  │  │      └─type-check
+│  │  │          └─lib
+│  │  ├─type-detect@4.0.8
+│  │  │  └─node_modules
+│  │  │      └─type-detect
+│  │  ├─type-fest@0.20.2
+│  │  │  └─node_modules
+│  │  │      └─type-fest
+│  │  │          ├─source
+│  │  │          └─ts41
+│  │  ├─typescript@4.8.4
+│  │  │  └─node_modules
+│  │  │      └─typescript
+│  │  │          ├─bin
+│  │  │          ├─lib
+│  │  │          │  ├─cs
+│  │  │          │  ├─de
+│  │  │          │  ├─es
+│  │  │          │  ├─fr
+│  │  │          │  ├─it
+│  │  │          │  ├─ja
+│  │  │          │  ├─ko
+│  │  │          │  ├─pl
+│  │  │          │  ├─pt-br
+│  │  │          │  ├─ru
+│  │  │          │  ├─tr
+│  │  │          │  ├─zh-cn
+│  │  │          │  └─zh-tw
+│  │  │          └─loc
+│  │  │              └─lcl
+│  │  │                  ├─CHS
+│  │  │                  │  ├─Targets
+│  │  │                  │  ├─TypeScriptDebugEngine
+│  │  │                  │  ├─TypeScriptLanguageService
+│  │  │                  │  └─TypeScriptTasks
+│  │  │                  ├─CHT
+│  │  │                  │  ├─Targets
+│  │  │                  │  ├─TypeScriptDebugEngine
+│  │  │                  │  ├─TypeScriptLanguageService
+│  │  │                  │  └─TypeScriptTasks
+│  │  │                  ├─CSY
+│  │  │                  │  ├─Targets
+│  │  │                  │  ├─TypeScriptDebugEngine
+│  │  │                  │  ├─TypeScriptLanguageService
+│  │  │                  │  └─TypeScriptTasks
+│  │  │                  ├─DEU
+│  │  │                  │  ├─Targets
+│  │  │                  │  ├─TypeScriptDebugEngine
+│  │  │                  │  ├─TypeScriptLanguageService
+│  │  │                  │  └─TypeScriptTasks
+│  │  │                  ├─ESN
+│  │  │                  │  ├─Targets
+│  │  │                  │  ├─TypeScriptDebugEngine
+│  │  │                  │  ├─TypeScriptLanguageService
+│  │  │                  │  └─TypeScriptTasks
+│  │  │                  ├─FRA
+│  │  │                  │  ├─Targets
+│  │  │                  │  ├─TypeScriptDebugEngine
+│  │  │                  │  ├─TypeScriptLanguageService
+│  │  │                  │  └─TypeScriptTasks
+│  │  │                  ├─ITA
+│  │  │                  │  ├─Targets
+│  │  │                  │  ├─TypeScriptDebugEngine
+│  │  │                  │  ├─TypeScriptLanguageService
+│  │  │                  │  └─TypeScriptTasks
+│  │  │                  ├─JPN
+│  │  │                  │  ├─Targets
+│  │  │                  │  ├─TypeScriptDebugEngine
+│  │  │                  │  ├─TypeScriptLanguageService
+│  │  │                  │  └─TypeScriptTasks
+│  │  │                  ├─KOR
+│  │  │                  │  ├─Targets
+│  │  │                  │  ├─TypeScriptDebugEngine
+│  │  │                  │  ├─TypeScriptLanguageService
+│  │  │                  │  └─TypeScriptTasks
+│  │  │                  ├─PLK
+│  │  │                  │  ├─Targets
+│  │  │                  │  ├─TypeScriptDebugEngine
+│  │  │                  │  ├─TypeScriptLanguageService
+│  │  │                  │  └─TypeScriptTasks
+│  │  │                  ├─PTB
+│  │  │                  │  ├─Targets
+│  │  │                  │  ├─TypeScriptDebugEngine
+│  │  │                  │  ├─TypeScriptLanguageService
+│  │  │                  │  └─TypeScriptTasks
+│  │  │                  ├─RUS
+│  │  │                  │  ├─Targets
+│  │  │                  │  ├─TypeScriptDebugEngine
+│  │  │                  │  ├─TypeScriptLanguageService
+│  │  │                  │  └─TypeScriptTasks
+│  │  │                  └─TRK
+│  │  │                      ├─Targets
+│  │  │                      ├─TypeScriptDebugEngine
+│  │  │                      ├─TypeScriptLanguageService
+│  │  │                      └─TypeScriptTasks
+│  │  ├─unbox-primitive@1.0.2
+│  │  │  └─node_modules
+│  │  │      ├─call-bind
+│  │  │      │  ├─.github
+│  │  │      │  └─test
+│  │  │      ├─has-bigints
+│  │  │      │  ├─.github
+│  │  │      │  └─test
+│  │  │      ├─has-symbols
+│  │  │      │  ├─.github
+│  │  │      │  └─test
+│  │  │      │      └─shams
+│  │  │      ├─unbox-primitive
+│  │  │      │  ├─.github
+│  │  │      │  └─test
+│  │  │      └─which-boxed-primitive
+│  │  │          ├─.github
+│  │  │          └─test
+│  │  ├─universalify@2.0.0
+│  │  │  └─node_modules
+│  │  │      └─universalify
+│  │  ├─uri-js@4.4.1
+│  │  │  └─node_modules
+│  │  │      ├─punycode
+│  │  │      └─uri-js
+│  │  │          └─dist
+│  │  │              ├─es5
+│  │  │              └─esnext
+│  │  │                  └─schemes
+│  │  ├─vite@3.2.3_@types+node@18.11.9
+│  │  │  └─node_modules
+│  │  │      ├─@types
+│  │  │      │  └─node
+│  │  │      │      ├─assert
+│  │  │      │      ├─dns
+│  │  │      │      ├─fs
+│  │  │      │      ├─readline
+│  │  │      │      ├─stream
+│  │  │      │      ├─timers
+│  │  │      │      └─ts4.8
+│  │  │      │          ├─assert
+│  │  │      │          ├─dns
+│  │  │      │          ├─fs
+│  │  │      │          ├─readline
+│  │  │      │          ├─stream
+│  │  │      │          └─timers
+│  │  │      ├─esbuild
+│  │  │      │  ├─bin
+│  │  │      │  ├─lib
+│  │  │      │  └─node_modules
+│  │  │      │      └─.bin
+│  │  │      ├─postcss
+│  │  │      │  ├─lib
+│  │  │      │  └─node_modules
+│  │  │      │      └─.bin
+│  │  │      ├─resolve
+│  │  │      │  ├─.github
+│  │  │      │  ├─bin
+│  │  │      │  ├─example
+│  │  │      │  ├─lib
+│  │  │      │  └─test
+│  │  │      │      ├─dotdot
+│  │  │      │      │  └─abc
+│  │  │      │      ├─module_dir
+│  │  │      │      │  ├─xmodules
+│  │  │      │      │  │  └─aaa
+│  │  │      │      │  ├─ymodules
+│  │  │      │      │  │  └─aaa
+│  │  │      │      │  └─zmodules
+│  │  │      │      │      └─bbb
+│  │  │      │      ├─node_path
+│  │  │      │      │  ├─x
+│  │  │      │      │  │  ├─aaa
+│  │  │      │      │  │  └─ccc
+│  │  │      │      │  └─y
+│  │  │      │      │      ├─bbb
+│  │  │      │      │      └─ccc
+│  │  │      │      ├─pathfilter
+│  │  │      │      │  └─deep_ref
+│  │  │      │      ├─precedence
+│  │  │      │      │  ├─aaa
+│  │  │      │      │  └─bbb
+│  │  │      │      ├─resolver
+│  │  │      │      │  ├─baz
+│  │  │      │      │  ├─browser_field
+│  │  │      │      │  ├─dot_main
+│  │  │      │      │  ├─dot_slash_main
+│  │  │      │      │  ├─false_main
+│  │  │      │      │  ├─incorrect_main
+│  │  │      │      │  ├─invalid_main
+│  │  │      │      │  ├─malformed_package_json
+│  │  │      │      │  ├─multirepo
+│  │  │      │      │  │  └─packages
+│  │  │      │      │  │      ├─package-a
+│  │  │      │      │  │      └─package-b
+│  │  │      │      │  ├─nested_symlinks
+│  │  │      │      │  │  └─mylib
+│  │  │      │      │  ├─other_path
+│  │  │      │      │  │  └─lib
+│  │  │      │      │  ├─quux
+│  │  │      │      │  │  └─foo
+│  │  │      │      │  ├─same_names
+│  │  │      │      │  │  └─foo
+│  │  │      │      │  ├─symlinked
+│  │  │      │      │  │  ├─package
+│  │  │      │      │  │  └─_
+│  │  │      │      │  │      ├─node_modules
+│  │  │      │      │  │      └─symlink_target
+│  │  │      │      │  └─without_basedir
+│  │  │      │      └─shadowed_core
+│  │  │      │          └─node_modules
+│  │  │      │              └─util
+│  │  │      ├─rollup
+│  │  │      │  ├─dist
+│  │  │      │  │  ├─bin
+│  │  │      │  │  ├─es
+│  │  │      │  │  │  └─shared
+│  │  │      │  │  └─shared
+│  │  │      │  └─node_modules
+│  │  │      │      └─.bin
+│  │  │      └─vite
+│  │  │          ├─bin
+│  │  │          ├─dist
+│  │  │          │  ├─client
+│  │  │          │  ├─node
+│  │  │          │  │  └─chunks
+│  │  │          │  └─node-cjs
+│  │  │          ├─node_modules
+│  │  │          │  └─.bin
+│  │  │          └─types
+│  │  ├─vitest@0.25.1
+│  │  │  └─node_modules
+│  │  │      ├─@types
+│  │  │      │  ├─chai
+│  │  │      │  ├─chai-subset
+│  │  │      │  └─node
+│  │  │      │      ├─assert
+│  │  │      │      ├─dns
+│  │  │      │      ├─fs
+│  │  │      │      ├─readline
+│  │  │      │      ├─stream
+│  │  │      │      ├─timers
+│  │  │      │      └─ts4.8
+│  │  │      │          ├─assert
+│  │  │      │          ├─dns
+│  │  │      │          ├─fs
+│  │  │      │          ├─readline
+│  │  │      │          ├─stream
+│  │  │      │          └─timers
+│  │  │      ├─acorn
+│  │  │      │  ├─bin
+│  │  │      │  └─dist
+│  │  │      ├─acorn-walk
+│  │  │      │  └─dist
+│  │  │      ├─chai
+│  │  │      │  └─lib
+│  │  │      │      └─chai
+│  │  │      │          ├─core
+│  │  │      │          ├─interface
+│  │  │      │          └─utils
+│  │  │      ├─debug
+│  │  │      │  └─src
+│  │  │      ├─local-pkg
+│  │  │      │  └─dist
+│  │  │      ├─source-map
+│  │  │      │  ├─dist
+│  │  │      │  └─lib
+│  │  │      ├─strip-literal
+│  │  │      │  ├─dist
+│  │  │      │  └─node_modules
+│  │  │      │      └─.bin
+│  │  │      ├─tinybench
+│  │  │      │  └─dist
+│  │  │      ├─tinypool
+│  │  │      │  └─dist
+│  │  │      │      └─esm
+│  │  │      ├─tinyspy
+│  │  │      │  └─dist
+│  │  │      ├─vite
+│  │  │      │  ├─bin
+│  │  │      │  ├─dist
+│  │  │      │  │  ├─client
+│  │  │      │  │  ├─node
+│  │  │      │  │  │  └─chunks
+│  │  │      │  │  └─node-cjs
+│  │  │      │  ├─node_modules
+│  │  │      │  │  └─.bin
+│  │  │      │  └─types
+│  │  │      └─vitest
+│  │  │          ├─dist
+│  │  │          └─node_modules
+│  │  │              └─.bin
+│  │  ├─webidl-conversions@4.0.2
+│  │  │  └─node_modules
+│  │  │      └─webidl-conversions
+│  │  │          └─lib
+│  │  ├─whatwg-url@7.1.0
+│  │  │  └─node_modules
+│  │  │      ├─lodash.sortby
+│  │  │      ├─tr46
+│  │  │      │  └─lib
+│  │  │      ├─webidl-conversions
+│  │  │      │  └─lib
+│  │  │      └─whatwg-url
+│  │  │          └─lib
+│  │  ├─which-boxed-primitive@1.0.2
+│  │  │  └─node_modules
+│  │  │      ├─is-bigint
+│  │  │      │  ├─.github
+│  │  │      │  └─test
+│  │  │      ├─is-boolean-object
+│  │  │      │  ├─.github
+│  │  │      │  └─test
+│  │  │      ├─is-number-object
+│  │  │      │  ├─.github
+│  │  │      │  └─test
+│  │  │      ├─is-string
+│  │  │      │  ├─.github
+│  │  │      │  └─test
+│  │  │      ├─is-symbol
+│  │  │      │  ├─.github
+│  │  │      │  └─test
+│  │  │      └─which-boxed-primitive
+│  │  │          ├─.github
+│  │  │          └─test
+│  │  ├─which@2.0.2
+│  │  │  └─node_modules
+│  │  │      ├─isexe
+│  │  │      │  └─test
+│  │  │      └─which
+│  │  │          └─bin
+│  │  ├─window-size@1.1.1
+│  │  │  └─node_modules
+│  │  │      ├─define-property
+│  │  │      ├─is-number
+│  │  │      └─window-size
+│  │  ├─word-wrap@1.2.3
+│  │  │  └─node_modules
+│  │  │      └─word-wrap
+│  │  ├─wrappy@1.0.2
+│  │  │  └─node_modules
+│  │  │      └─wrappy
+│  │  ├─yallist@4.0.0
+│  │  │  └─node_modules
+│  │  │      └─yallist
+│  │  ├─yaml@1.10.2
+│  │  │  └─node_modules
+│  │  │      └─yaml
+│  │  │          ├─browser
+│  │  │          │  ├─dist
+│  │  │          │  └─types
+│  │  │          ├─dist
+│  │  │          └─types
+│  │  └─yocto-queue@0.1.0
+│  │      └─node_modules
+│  │          └─yocto-queue
+│  ├─.vitest
+│  ├─@eslint
+│  │  └─eslintrc
+│  │      ├─conf
+│  │      ├─dist
+│  │      ├─lib
+│  │      │  ├─config-array
+│  │      │  └─shared
+│  │      └─node_modules
+│  │          └─.bin
+│  ├─@taiyuuki
+│  │  ├─eslint-config
+│  │  └─eslint-config-ts
+│  │      └─node_modules
+│  │          └─.bin
+│  ├─@types
+│  │  ├─fs-extra
+│  │  ├─lodash
+│  │  │  ├─common
+│  │  │  ├─fp
+│  │  │  └─ts4.1
+│  │  │      ├─common
+│  │  │      └─fp
+│  │  ├─node
+│  │  │  ├─assert
+│  │  │  ├─dns
+│  │  │  ├─fs
+│  │  │  ├─readline
+│  │  │  ├─stream
+│  │  │  ├─timers
+│  │  │  └─ts4.8
+│  │  │      ├─assert
+│  │  │      ├─dns
+│  │  │      ├─fs
+│  │  │      ├─readline
+│  │  │      ├─stream
+│  │  │      └─timers
+│  │  └─prompts
+│  ├─@typescript-eslint
+│  │  ├─eslint-plugin
+│  │  │  ├─dist
+│  │  │  │  ├─configs
+│  │  │  │  ├─rules
+│  │  │  │  │  └─naming-convention-utils
+│  │  │  │  └─util
+│  │  │  ├─docs
+│  │  │  │  └─rules
+│  │  │  └─node_modules
+│  │  │      └─.bin
+│  │  ├─parser
+│  │  │  ├─dist
+│  │  │  ├─node_modules
+│  │  │  │  └─.bin
+│  │  │  └─_ts3.4
+│  │  │      └─dist
+│  │  ├─scope-manager
+│  │  │  └─dist
+│  │  │      ├─definition
+│  │  │      ├─lib
+│  │  │      ├─referencer
+│  │  │      ├─scope
+│  │  │      └─variable
+│  │  ├─type-utils
+│  │  │  ├─dist
+│  │  │  ├─node_modules
+│  │  │  │  └─.bin
+│  │  │  └─_ts3.4
+│  │  │      └─dist
+│  │  ├─types
+│  │  │  ├─dist
+│  │  │  │  └─generated
+│  │  │  └─_ts3.4
+│  │  │      └─dist
+│  │  │          └─generated
+│  │  ├─typescript-estree
+│  │  │  ├─dist
+│  │  │  │  ├─create-program
+│  │  │  │  ├─jsx
+│  │  │  │  ├─parseSettings
+│  │  │  │  └─ts-estree
+│  │  │  ├─node_modules
+│  │  │  │  └─.bin
+│  │  │  └─_ts3.4
+│  │  │      └─dist
+│  │  │          ├─create-program
+│  │  │          ├─jsx
+│  │  │          ├─parseSettings
+│  │  │          └─ts-estree
+│  │  ├─utils
+│  │  │  ├─dist
+│  │  │  │  ├─ast-utils
+│  │  │  │  │  └─eslint-utils
+│  │  │  │  ├─eslint-utils
+│  │  │  │  │  └─rule-tester
+│  │  │  │  ├─ts-eslint
+│  │  │  │  └─ts-eslint-scope
+│  │  │  ├─node_modules
+│  │  │  │  └─.bin
+│  │  │  └─_ts3.4
+│  │  │      └─dist
+│  │  │          ├─ast-utils
+│  │  │          │  └─eslint-utils
+│  │  │          ├─eslint-utils
+│  │  │          │  └─rule-tester
+│  │  │          ├─ts-eslint
+│  │  │          └─ts-eslint-scope
+│  │  └─visitor-keys
+│  │      ├─dist
+│  │      └─_ts3.4
+│  │          └─dist
+│  ├─cfonts
+│  │  ├─bin
+│  │  ├─fonts
+│  │  ├─lib
+│  │  └─node_modules
+│  │      └─.bin
+│  ├─eslint
+│  │  ├─bin
+│  │  ├─conf
+│  │  ├─lib
+│  │  │  ├─cli-engine
+│  │  │  │  └─formatters
+│  │  │  ├─config
+│  │  │  ├─eslint
+│  │  │  ├─linter
+│  │  │  │  └─code-path-analysis
+│  │  │  ├─rule-tester
+│  │  │  ├─rules
+│  │  │  │  └─utils
+│  │  │  │      ├─patterns
+│  │  │  │      └─unicode
+│  │  │  ├─shared
+│  │  │  └─source-code
+│  │  │      └─token-store
+│  │  ├─messages
+│  │  └─node_modules
+│  │      └─.bin
+│  ├─eslint-import-resolver-node
+│  │  └─node_modules
+│  │      └─.bin
+│  ├─eslint-module-utils
+│  │  └─node_modules
+│  │      └─.bin
+│  ├─eslint-plugin-eslint-comments
+│  │  ├─lib
+│  │  │  ├─configs
+│  │  │  ├─internal
+│  │  │  ├─rules
+│  │  │  └─utils
+│  │  └─node_modules
+│  │      └─.bin
+│  ├─eslint-plugin-html
+│  │  └─src
+│  ├─eslint-plugin-import
+│  │  ├─config
+│  │  ├─docs
+│  │  │  └─rules
+│  │  ├─lib
+│  │  │  ├─core
+│  │  │  └─rules
+│  │  ├─memo-parser
+│  │  └─node_modules
+│  │      └─.bin
+│  ├─eslint-plugin-jsonc
+│  │  ├─conf
+│  │  ├─dist
+│  │  │  ├─configs
+│  │  │  ├─rules
+│  │  │  │  └─vue-custom-block
+│  │  │  └─utils
+│  │  └─node_modules
+│  │      └─.bin
+│  ├─eslint-scope
+│  │  ├─dist
+│  │  └─lib
+│  ├─eslint-utils
+│  │  └─node_modules
+│  │      └─.bin
+│  ├─eslint-visitor-keys
+│  │  ├─dist
+│  │  └─lib
+│  ├─fast-glob
+│  │  └─out
+│  │      ├─managers
+│  │      ├─providers
+│  │      │  ├─filters
+│  │      │  ├─matchers
+│  │      │  └─transformers
+│  │      ├─readers
+│  │      ├─types
+│  │      └─utils
+│  ├─fs-extra
+│  │  └─lib
+│  │      ├─copy
+│  │      ├─empty
+│  │      ├─ensure
+│  │      ├─fs
+│  │      ├─json
+│  │      ├─mkdirs
+│  │      ├─move
+│  │      ├─output-file
+│  │      ├─path-exists
+│  │      ├─remove
+│  │      └─util
+│  ├─jsonc-eslint-parser
+│  │  ├─lib
+│  │  │  ├─parser
+│  │  │  │  └─modules
+│  │  │  └─utils
+│  │  └─node_modules
+│  │      └─.bin
+│  ├─kolorist
+│  │  └─dist
+│  │      ├─cjs
+│  │      ├─esm
+│  │      ├─module
+│  │      └─types
+│  ├─lodash
+│  │  └─fp
+│  ├─prompts
+│  │  ├─dist
+│  │  │  ├─dateparts
+│  │  │  ├─elements
+│  │  │  └─util
+│  │  └─lib
+│  │      ├─dateparts
+│  │      ├─elements
+│  │      └─util
+│  ├─tsup
+│  │  ├─assets
+│  │  ├─dist
+│  │  └─node_modules
+│  │      └─.bin
+│  └─vitest
+│      ├─dist
+│      └─node_modules
+│          └─.bin
+├─src
+│  ├─argv
+│  ├─command
+│  ├─compile
+│  ├─core
+│  │  ├─components
+│  │  ├─ts
+│  │  ├─vscode
+│  │  └─vue3
+│  │      ├─quasar-cli
+│  │      └─vite
+│  ├─utils
+│  └─versions
+├─templates
+│  ├─components
+│  │  ├─.vscode
+│  │  ├─public
+│  │  └─src
+│  │      ├─assets
+│  │      └─components
+│  ├─public
+│  ├─ts
+│  │  ├─base
+│  │  │  ├─src
+│  │  │  ├─test
+│  │  │  └─_.vscode
+│  │  ├─rollup
+│  │  ├─tsup
+│  │  └─unbuild
+│  ├─vscode
+│  │  ├─res
+│  │  ├─src
+│  │  └─_.vscode
+│  └─vue
+│      ├─public
+│      ├─quasar-cli
+│      │  ├─axios
+│      │  │  └─src
+│      │  │      └─boot
+│      │  ├─base
+│      │  │  ├─public
+│      │  │  │  └─icons
+│      │  │  ├─src
+│      │  │  │  ├─assets
+│      │  │  │  ├─boot
+│      │  │  │  ├─components
+│      │  │  │  ├─css
+│      │  │  │  ├─layouts
+│      │  │  │  ├─pages
+│      │  │  │  ├─router
+│      │  │  │  └─stores
+│      │  │  └─_.vscode
+│      │  ├─i18n
+│      │  │  └─src
+│      │  │      ├─boot
+│      │  │      └─i18n
+│      │  │          ├─en-US
+│      │  │          └─zh-CN
+│      │  ├─pwa
+│      │  │  └─src-pwa
+│      │  ├─ssr
+│      │  │  └─src-ssr
+│      │  │      └─middlewares
+│      │  └─unocss
+│      │      └─src
+│      │          └─boot
+│      └─vite
+│          ├─axios
+│          │  └─src
+│          │      └─axios
+│          ├─base
+│          │  ├─public
+│          │  │  └─icons
+│          │  ├─src
+│          │  │  ├─assets
+│          │  │  ├─pages
+│          │  │  ├─router
+│          │  │  └─stores
+│          │  └─_.vscode
+│          ├─i18n
+│          │  └─src
+│          │      └─i18n
+│          │          └─messages
+│          │              ├─en-US
+│          │              └─zh-CN
+│          ├─router
+│          │  └─src
+│          │      └─router
+│          ├─ui
+│          │  ├─default
+│          │  │  ├─public
+│          │  │  └─src
+│          │  │      ├─components
+│          │  │      ├─css
+│          │  │      ├─layouts
+│          │  │      └─pages
+│          │  └─element-plus
+│          │      ├─public
+│          │      └─src
+│          │          ├─components
+│          │          ├─css
+│          │          ├─layouts
+│          │          ├─pages
+│          │          └─stores
+│          └─unocss
+└─test

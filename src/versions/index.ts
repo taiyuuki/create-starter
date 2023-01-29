@@ -16,7 +16,7 @@ export const versions = {
   '@quasar/app-vite': '^1.0.0',
   '@taiyuuki/eslint-config-vue-unimport': '0.0.5',
   '@taiyuuki/eslint-config-ts': '^0.0.5',
-  '@types/node': '^12.20.55',
+  '@types/node': '^18.11.18',
   '@typescript-eslint/eslint-plugin': '^5.10.0',
   '@typescript-eslint/parser': '^5.10.0',
   '@unocss/preset-attributify': '^0.45.29',
@@ -77,6 +77,7 @@ export const versions = {
   'postcss-html': '^1.5.0',
   'sass': '^1.56.1',
   'vite-plugin-pwa': '^0.13.3',
+  'vite-plugin-inspect': '^0.7.15',
   'vue-tsc': '^1.0.9',
 }
 

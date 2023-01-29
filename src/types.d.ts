@@ -2,7 +2,7 @@ declare interface Scope {
   year: number
   userName: string
   projectType: string
-  projectFolder: string
+  output: string
   projectName: string
   description: string
   devDependencies: string

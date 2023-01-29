@@ -1,6 +1,6 @@
 import { arrToObj } from '../../utils'
 import { question } from '../../command'
-import { compileTemplate } from '../../compile'
+import { createProject } from '@taiyuuki/create-scaffold'
 import { join } from 'path'
 import quasar from './quasar-cli'
 import vite from './vite'
@@ -119,7 +119,7 @@ async function vueProjectScript(scope: VueScope) {
       ],
     },
   ])
-  compileTemplate(join(__dirname, '../templates/vue/public'), scope)
+  createProject(join(__dirname, '../templates/vue/public'), scope)
   switch (scope.scaffold) {
     case 'quasar':
       await quasar(scope)

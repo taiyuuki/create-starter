@@ -2,11 +2,12 @@ import ts from './ts'
 import vue3 from './vue3'
 import components from './components'
 import vscode from './vscode'
-import { compileTemplate } from '../compile'
+import vitePlugin from './vite-plugin'
+import { createProject } from '@taiyuuki/create-scaffold'
 import { join } from 'path'
 
-async function createProject(scope: Scope) {
-  compileTemplate(join(__dirname, '../templates/public'), scope)
+async function projectScript(scope: Scope) {
+  createProject(join(__dirname, '../templates/public'), scope)
   switch (scope.projectType) {
     case 'ts':
       await ts(scope as TsScope)
@@ -20,10 +21,13 @@ async function createProject(scope: Scope) {
     case 'vscode':
       vscode(scope)
       break
+    case 'vite-plugin':
+      vitePlugin(scope)
+      break
     default:
       await ts(scope as TsScope)
       break
   }
 }
 
-export default createProject
+export default projectScript

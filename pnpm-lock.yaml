@@ -1,6 +1,7 @@
 lockfileVersion: 5.4
 
 specifiers:
+  '@taiyuuki/create-scaffold': ^0.0.4
   '@taiyuuki/eslint-config-ts': ^0.0.5
   '@types/fs-extra': ^9.0.13
   '@types/lodash': ^4.14.188
@@ -17,6 +18,7 @@ specifiers:
   vitest: ^0.25.1
 
 dependencies:
+  '@taiyuuki/create-scaffold': 0.0.4
   cfonts: 3.1.1
   fast-glob: 3.2.12
   fs-extra: 10.1.0
@@ -106,6 +108,14 @@ packages:
     dependencies:
       '@nodelib/fs.scandir': 2.1.5
       fastq: 1.13.0
+
+  /@taiyuuki/create-scaffold/0.0.4:
+    resolution: {integrity: sha512-iAS102TfS5jSxybxaOvYyNjNx0XmVMnvjGewxUu+HoZbxF1mA8VML0OQXeE/RlpBirOCrjn2DakpHgDFqQ+HUw==}
+    dependencies:
+      fast-glob: 3.2.12
+      fs-extra: 11.1.0
+      lodash: 4.17.21
+    dev: false
 
   /@taiyuuki/eslint-config-ts/0.0.5_eslint@8.26.0:
     resolution: {integrity: sha512-GBeZ4w6y3f0GH3MM9oSzf3UN3UzL+n0h03rRlMYI13e4J2bCxPo0IxfESiaw4bwOR7EuXsyg8Q/Ig81WnEvqag==}
@@ -1170,6 +1180,15 @@ packages:
   /fs-extra/10.1.0:
     resolution: {integrity: sha512-oRXApq54ETRj4eMiFzGnHWGy+zo5raudjuxN0b8H7s/RU2oW0Wvsx9O0ACRN/kRq9E8Vu/ReskGB5o3ji+FzHQ==}
     engines: {node: '>=12'}
+    dependencies:
+      graceful-fs: 4.2.10
+      jsonfile: 6.1.0
+      universalify: 2.0.0
+    dev: false
+
+  /fs-extra/11.1.0:
+    resolution: {integrity: sha512-0rcTq621PD5jM/e0a3EJoGC/1TC5ZBCERW82LQuwfGnCa1V8w7dpYH1yNu+SLb6E5dkeCBzKEyLGlFrnr+dUyw==}
+    engines: {node: '>=14.14'}
     dependencies:
       graceful-fs: 4.2.10
       jsonfile: 6.1.0

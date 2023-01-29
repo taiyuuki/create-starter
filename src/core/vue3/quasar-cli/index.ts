@@ -1,4 +1,4 @@
-import { compileTemplate } from '../../../compile'
+import { createProject } from '@taiyuuki/create-scaffold'
 import { join } from 'path'
 import { question } from '../../../command'
 import { arrToObj, setAllDependencies, getKeys } from '../../../utils'
@@ -33,17 +33,17 @@ async function quasarProjectScript(scope: VueScope) {
 
   if (scope.features.axios) {
     setAllDependencies(axios, dev, prod)
-    compileTemplate(join(__dirname, '../templates/vue/quasar-cli/axios'), scope)
+    createProject(join(__dirname, '../templates/vue/quasar-cli/axios'), scope)
   }
   if (scope.features.i18n) {
     setAllDependencies(i18n, dev, prod)
-    compileTemplate(join(__dirname, '../templates/vue/quasar-cli/i18n'), scope)
+    createProject(join(__dirname, '../templates/vue/quasar-cli/i18n'), scope)
   }
   if (scope.mode.pwa) {
     setAllDependencies(pwa, dev, prod)
-    compileTemplate(join(__dirname, '../templates/vue/quasar-cli/pwa'), scope)
+    createProject(join(__dirname, '../templates/vue/quasar-cli/pwa'), scope)
   }
-  if (scope.mode.ssr) {compileTemplate(join(__dirname, '../templates/vue/quasar-cli/ssr'), scope)}
+  if (scope.mode.ssr) {createProject(join(__dirname, '../templates/vue/quasar-cli/ssr'), scope)}
   if (scope.features.unocss) {
     setAllDependencies(unocss, dev, prod)
     const presetKeys = getKeys(unoPreset)
@@ -52,7 +52,7 @@ async function quasarProjectScript(scope: VueScope) {
         dev[unoPreset[key]] = versions[unoPreset[key]]
       }
     })
-    compileTemplate(join(__dirname, '../templates/vue/quasar-cli/unocss'), scope)
+    createProject(join(__dirname, '../templates/vue/quasar-cli/unocss'), scope)
   }
   if (scope.features.vueuse) {
     setAllDependencies(vueuse, dev, prod)
@@ -77,7 +77,7 @@ async function quasarProjectScript(scope: VueScope) {
   }
   scope.devDependencies = JSON.stringify(dev)
   scope.dependencies = JSON.stringify(prod)
-  compileTemplate(join(__dirname, '../templates/vue/quasar-cli/base'), scope)
+  createProject(join(__dirname, '../templates/vue/quasar-cli/base'), scope)
 }
 
 export default quasarProjectScript

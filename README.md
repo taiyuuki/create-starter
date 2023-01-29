@@ -22,6 +22,8 @@ Templates:
 
 * Vue components library starter template
 
+* Vite plugin starter template
+
 * VSCode extension starter template
 
 ### Install

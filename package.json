@@ -1,6 +1,6 @@
 {
   "name": "@taiyuuki/create-starter",
-  "version": "0.3.0",
+  "version": "0.4.0",
   "description": "Creating starter template",
   "main": "index.js",
   "bin": {
@@ -18,7 +18,8 @@
     "build": "tsup",
     "release:dev": "npm publish --registry=http://localhost:4873 --access=public",
     "release": "npm publish --registry=https://registry.npmjs.org --access=public",
-    "test": "vitest"
+    "test": "vitest",
+    "link": "npm link"
   },
   "keywords": [
     "typescript",
@@ -42,6 +43,7 @@
     "vitest": "^0.25.1"
   },
   "dependencies": {
+    "@taiyuuki/create-scaffold": "^0.0.4",
     "cfonts": "^3.1.1",
     "fast-glob": "^3.2.12",
     "fs-extra": "^10.1.0",

@@ -1,4 +1,4 @@
-import { compileTemplate } from '../../compile'
+import { createProject } from '@taiyuuki/create-scaffold'
 import { question } from '../../command'
 import path from 'path'
 import { devList, rollupDevList, tsupDevList, unbuildDevList } from './dependencies'
@@ -29,21 +29,21 @@ async function projectScript(scope: TsScope) {
   switch (scope.build) {
     case 'unbuild':
       unbuildDevList.forEach(dpd => dev[dpd] = versions[dpd])
-      compileTemplate(path.join(__dirname, '../templates/ts/unbuild'), scope)
+      createProject(path.join(__dirname, '../templates/ts/unbuild'), scope)
       break
     case 'rollup':
       rollupDevList.forEach(dpd => dev[dpd] = versions[dpd])
-      compileTemplate(path.join(__dirname, '../templates/ts/rollup'), scope)
+      createProject(path.join(__dirname, '../templates/ts/rollup'), scope)
       break
     case 'tsup':
       tsupDevList.forEach(dpd => dev[dpd] = versions[dpd])
-      compileTemplate(path.join(__dirname, '../templates/ts/tsup'), scope)
+      createProject(path.join(__dirname, '../templates/ts/tsup'), scope)
       break
     default:
       return
   }
   scope.devDependencies = JSON.stringify(dev)
-  compileTemplate(path.join(__dirname, '../templates/ts/base'), scope)
+  createProject(path.join(__dirname, '../templates/ts/base'), scope)
 }
 
 export default projectScript

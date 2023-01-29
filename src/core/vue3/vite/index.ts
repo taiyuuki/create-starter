@@ -1,4 +1,4 @@
-import { compileTemplate } from '../../../compile'
+import { createProject } from '@taiyuuki/create-scaffold'
 import { join } from 'path'
 import { question } from '../../../command'
 import { setAllDependencies, getKeys } from '../../../utils'
@@ -38,11 +38,11 @@ async function viteProjectScript(scope: VueScope) {
 
   if (scope.features.axios) {
     setAllDependencies(axios, dev, prod)
-    compileTemplate(join(__dirname, '../templates/vue/vite/axios'), scope)
+    createProject(join(__dirname, '../templates/vue/vite/axios'), scope)
   }
   if (scope.features.i18n) {
     setAllDependencies(i18n, dev, prod)
-    compileTemplate(join(__dirname, '../templates/vue/vite/i18n'), scope)
+    createProject(join(__dirname, '../templates/vue/vite/i18n'), scope)
   }
   if (scope.features.unocss) {
     setAllDependencies(unocss, dev, prod)
@@ -52,13 +52,13 @@ async function viteProjectScript(scope: VueScope) {
         dev[unoPreset[key]] = versions[unoPreset[key]]
       }
     })
-    compileTemplate(join(__dirname, '../templates/vue/vite/unocss'), scope)
+    createProject(join(__dirname, '../templates/vue/vite/unocss'), scope)
   }
   if (scope.plugins.pages) {
     setAllDependencies(layouts, dev, prod)
   }
   else {
-    compileTemplate(join(__dirname, '../templates/vue/vite/router'), scope)
+    createProject(join(__dirname, '../templates/vue/vite/router'), scope)
   }
   if (scope.features.vueuse) {
     setAllDependencies(vueuse, dev, prod)
@@ -84,19 +84,19 @@ async function viteProjectScript(scope: VueScope) {
 
   switch (scope.ui) {
     case 'default':
-      compileTemplate(join(__dirname, '../templates/vue/vite/ui/default'), scope)
+      createProject(join(__dirname, '../templates/vue/vite/ui/default'), scope)
       break
     case 'element':
       setAllDependencies(element, dev, prod)
-      compileTemplate(join(__dirname, '../templates/vue/vite/ui/element-plus'), scope)
+      createProject(join(__dirname, '../templates/vue/vite/ui/element-plus'), scope)
       break
     default:
-      compileTemplate(join(__dirname, '../templates/vue/vite/ui/default'), scope)
+      createProject(join(__dirname, '../templates/vue/vite/ui/default'), scope)
       break
   }
   scope.devDependencies = JSON.stringify(dev)
   scope.dependencies = JSON.stringify(prod)
-  compileTemplate(join(__dirname, '../templates/vue/vite/base'), scope)
+  createProject(join(__dirname, '../templates/vue/vite/base'), scope)
 }
 
 export default viteProjectScript
