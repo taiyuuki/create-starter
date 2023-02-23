@@ -3,6 +3,7 @@ import type { Dependence } from 'src/versions'
 export const devList = [
   '@taiyuuki/eslint-config-ts',
   '@types/node',
+  'typescript',
   'eslint',
   'vitest',
 ] as Dependence[]
@@ -12,12 +13,12 @@ export const rollupDevList = [
   '@rollup/plugin-babel',
   '@rollup/plugin-commonjs',
   '@rollup/plugin-node-resolve',
+  '@rollup/plugin-terser',
   'rollup',
   'rollup-plugin-copy',
   'rollup-plugin-dts',
   'rollup-plugin-node-builtins',
   'rollup-plugin-node-globals',
-  'rollup-plugin-terser',
   'rollup-plugin-typescript2',
 ] as Dependence[]
 

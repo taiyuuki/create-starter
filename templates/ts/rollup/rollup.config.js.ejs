@@ -1,32 +1,34 @@
+import { defineConfig } from 'rollup'
 import ts from 'rollup-plugin-typescript2'
 import commonjs from '@rollup/plugin-commonjs'
 import babelPlugin from '@rollup/plugin-babel'
 import resolve from '@rollup/plugin-node-resolve'
 import globals from 'rollup-plugin-node-globals'
 import builtins from 'rollup-plugin-node-builtins'
-import { terser } from 'rollup-plugin-terser'
+import terser from '@rollup/plugin-terser'
+import json from '@rollup/plugin-json'
 import dts from 'rollup-plugin-dts'
 
-const config = [
+const config = defineConfig([
   {
     input: ['src/index.ts'],
     output: [
       {
         dir: 'dist/esm',
         format: 'esm',
-        exports: 'default',
+        preserveModules: true,
       },
       {
         dir: 'dist/cjs',
         format: 'cjs',
-        exports: 'default',
+        preserveModules: true,
       },
     ],
     plugins: [
       ts(),
       babelPlugin({ exclude: '**/node_modules/**' }),
+      json(),
       commonjs(),
-      terser(),
     ],
   },
   {
@@ -35,13 +37,13 @@ const config = [
       {
         file: 'dist/umd/index.js',
         format: 'umd',
-        name: '<%= projectName %>',
-        exports: 'default',
+        name: '<%= projectName.substring(projectName.lastIndexOf("/")) %>',
       },
     ],
     plugins: [
       ts(),
       babelPlugin({ exclude: '**/node_modules/**' }),
+      json(),
       commonjs(),
       resolve({ preferBuiltins: true, mainFields: ['browser'] }),
       globals(),
@@ -52,11 +54,12 @@ const config = [
   {
     input: 'src/index.ts',
     output: {
-      file: 'dist/dts/index.d.ts',
+      dir: 'dist/types',
       format: 'esm',
+      preserveModules: true,
     },
     plugins: [dts()],
   },
-]
+])
 
 export default config

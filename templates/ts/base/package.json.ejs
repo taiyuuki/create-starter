@@ -50,7 +50,8 @@
   },
   <% } %> 
   <% if (build === 'rollup'){ %> 
-  "types": "./dist/dts/index.d.ts",
+  "types": "./dist/types/index.d.ts",
+  "sideEffects": false,
   "exports": {
     ".": {
       "types": "./dist/index.d.ts",
