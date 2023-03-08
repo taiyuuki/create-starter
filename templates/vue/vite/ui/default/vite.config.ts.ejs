@@ -35,8 +35,7 @@ export default defineConfig({
     },
   },
   plugins: [
-    vue({ 
-      <% if(features.ref){ %>reactivityTransform: true,<% } %>
+    vue({
       <% if( plugins.markdown ){ %>include: [/\.vue$/, /\.md$/],<% } %>
     }),
     <% if(features.unocss){ %>unocss(),<% } %>

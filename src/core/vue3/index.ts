@@ -38,9 +38,6 @@ async function vueProjectScript(scope: VueScope) {
           title: 'Vue-i18n', value: 'i18n', description: 'Internationalization',
         },
         {
-          title: 'Reactivity Transform', value: 'ref', description: 'Experimental feature. See https://vuejs.org/guide/extras/reactivity-transform',
-        },
-        {
           title: 'Vitest', value: 'vitest', description: 'Unit Testing',
         },
       ],

@@ -105,8 +105,7 @@ module.exports = configure(function (/* ctx */) {
         }
         <% } %> 
       },
-      viteVuePluginOptions: { 
-        <% if(features.ref){ %>reactivityTransform: true,<% } %>
+      viteVuePluginOptions: {
         <% if( plugins.markdown ){ %>include: [/\.vue$/, /\.md$/],<% } %>
       },
 
@@ -166,7 +165,6 @@ module.exports = configure(function (/* ctx */) {
               'vue-router',
               <% if(features.i18n){ %>'vue-i18n',<% } %>
               <% if(features.vueuse){ %>'@vueuse/core',<% } %>
-              <% if(features.ref){ %> 'vue/macros', <% } %>
               {
                 quasar: [
                   'useQuasar',
