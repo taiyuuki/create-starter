@@ -1,55 +1,55 @@
 {
-  "name": "<%= projectName %>",
-  "displayName": "Tag Fold",
-  "publisher": "taiyuuki",
-  "version": "0.0.1",
-  "description": "<%= description %>",
-  "main": "./dist/index.js",
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/<%= userName %>/<%= projectName %>"
-  },
-  "bugs": "https://github.com/<%= userName %>/<%= projectName %>/issues",
-  "homepage": "https://github.com/<%= userName %>/<%= projectName %>#readme",
-  "engines": {
-    "vscode": "^1.74.0"
-  },
-  "categories": [
-    "Visualization",
-    "Other"
-  ],
-  "activationEvents": [
-    "onLanguage:haml",
-    "onLanguage:hbs",
-    "onLanguage:html",
-    "onLanguage:javascriptreact",
-    "onLanguage:typescriptreact",
-    "onLanguage:vue-html",
-    "onLanguage:vue",
-    "onCommand:<%= projectName %>.helloworld"
-  ],
-  "contributes": {
-    "commands": [
-      {
-        "command": "<%= projectName %>.helloWorld",
-        "title": "Hello World"
-      }
-    ]
-  },
-  "scripts": {
-    "lint": "eslint --ext .js,.ts ./",
-    "dev": "tsup --watch",
-    "build": "tsup",
-    "bump:patch": "bump patch",
-    "package": "vsce package --no-dependencies",
-    "publish": "vsce publish",
-    "test": "vitest"
-  },
-  "keywords": [],
-  "author": "<%= author %>",
-  "license": "MIT",
-  "files": [
-    "dist"
-  ],
-  "devDependencies": <%= devDependencies %>
-}
+"name": "<%= projectName %>",
+  "displayName": "<%= projectName %>",
+    "publisher": "taiyuuki",
+    "version": "0.0.1",
+    "description": "<%= description %>",
+      "main": "./dist/index.js",
+      "repository": {
+      "type": "git",
+      "url": "https://github.com/<%= userName %>/<%= projectName %>"
+          },
+          "bugs": "https://github.com/<%= userName %>/<%= projectName %>/issues",
+              "homepage": "https://github.com/<%= userName %>/<%= projectName %>#readme",
+                  "engines": {
+                  "vscode": "^1.74.0"
+                  },
+                  "categories": [
+                  "Visualization",
+                  "Other"
+                  ],
+                  "activationEvents": [
+                  "onLanguage:haml",
+                  "onLanguage:hbs",
+                  "onLanguage:html",
+                  "onLanguage:javascriptreact",
+                  "onLanguage:typescriptreact",
+                  "onLanguage:vue-html",
+                  "onLanguage:vue",
+                  "onCommand:<%= projectName %>.helloworld"
+                    ],
+                    "contributes": {
+                    "commands": [
+                    {
+                    "command": "<%= projectName %>.helloWorld",
+                      "title": "Hello World"
+                      }
+                      ]
+                      },
+                      "scripts": {
+                      "lint": "eslint --ext .js,.ts ./",
+                      "dev": "tsup --watch",
+                      "build": "tsup",
+                      "bump:patch": "bump patch",
+                      "package": "vsce package --no-dependencies",
+                      "publish": "vsce publish",
+                      "test": "vitest"
+                      },
+                      "keywords": [],
+                      "author": "<%= author %>",
+                        "license": "MIT",
+                        "files": [
+                        "dist"
+                        ],
+                        "devDependencies": <%= devDependencies %>
+                          }

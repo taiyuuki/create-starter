@@ -2,8 +2,8 @@ import { describe, it, expect } from 'vitest'
 import { replaceSpace } from '../src/utils'
 
 describe('replace space', () => {
-  it('should replace space', () => {
-    expect(replaceSpace(` a b
+    it('should replace space', () => {
+        expect(replaceSpace(` a b
 c
 
 d
@@ -24,5 +24,5 @@ h`)).toMatchInlineSnapshot(`
   g
   h"
 `)
-  })
+    })
 })
