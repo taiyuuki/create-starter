@@ -7,6 +7,7 @@ export const base: DependenceZip = {
         '@types/node',
         '@typescript-eslint/eslint-plugin',
         '@typescript-eslint/parser',
+        'autoprefixer',
         'eslint',
         'eslint-plugin-import',
         'postcss',
@@ -31,6 +32,7 @@ export const base: DependenceZip = {
 
 export const pwa: DependenceZip = {
     devList: [
+        'register-service-worker',
         'workbox-build',
         'workbox-cacheable-response',
         'workbox-core',

@@ -40,6 +40,7 @@ export const versions = {
     '@rollup/plugin-commonjs': '^25.0.0',
     '@rollup/plugin-node-resolve': '^15.0.2',
     '@rollup/plugin-terser': '^0.4.2',
+    'register-service-worker': '^1.7.2',
     'rollup': '^3.21.8',
     'rollup-plugin-copy': '^0.1.0',
     'rollup-plugin-dts': '^5.3.0',
