@@ -8,9 +8,10 @@
   "types": "./dist/index.d.ts",
   <% } %>  
   <% if (build === 'tsup'){ %> 
-  "main": "./dist/index.js",
-  <% } %> 
+    "main": "./dist/index.js",
+    <% } %> 
   <% if (build === 'rollup'){ %>
+  "type": "module",
   "main": "./dist/cjs/index.js",
   "module": "./dist/esm/index.js",
   "types": "./dist/dts/index.d.ts",
