@@ -16,6 +16,8 @@ export const versions = {
     '@quasar/app-vite': '^1.4.3',
     '@taiyuuki/eslint-config-vue-unimport': '^0.0.9',
     '@taiyuuki/eslint-config-ts': '^0.0.9',
+    '@taiyuuki/eslint-config': '^1.0.2',
+    '@antfu/eslint-config': '^2.13.2',
     '@types/node': '^14.18.51',
     '@typescript-eslint/eslint-plugin': '^5.59.11',
     '@typescript-eslint/parser': '^5.59.11',

@@ -1,7 +1,8 @@
 import type { Dependence } from 'src/versions'
 
 export const devList = [
-    '@taiyuuki/eslint-config-vue-unimport',
+    '@antfu/eslint-config',
+    '@taiyuuki/eslint-config',
     '@types/node',
     '@vitejs/plugin-vue',
     'eslint',

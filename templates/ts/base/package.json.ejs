@@ -25,7 +25,7 @@
   "homepage": "https://github.com/<%= userName %>/<%= projectName %>#readme",
   <% } %>
   "scripts": {
-  "lint": "eslint --ext .js,.ts ./",
+  "lint": "eslint src/** ./",
   <% if (build === 'rollup'){ %>  
   "build": "rollup -c",
   <% } %> 

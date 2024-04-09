@@ -1,6 +1,6 @@
 {
   "name": "@taiyuuki/create-starter",
-  "version": "0.5.0",
+  "version": "0.6.0",
   "description": "Creating starter template",
   "main": "index.js",
   "bin": {
@@ -35,6 +35,8 @@
     "templates"
   ],
   "devDependencies": {
+    "@antfu/eslint-config": "^2.13.2",
+    "@taiyuuki/eslint-config": "^1.0.2",
     "@taiyuuki/eslint-config-ts": "^0.0.6",
     "@types/fs-extra": "^9.0.13",
     "@types/lodash": "^4.14.194",

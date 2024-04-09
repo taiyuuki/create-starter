@@ -3,7 +3,8 @@ import type { DependenceZip } from 'src/versions'
 export const base: DependenceZip = {
     prodList: ['vue', 'pinia', 'vue-router'],
     devList: [
-        '@taiyuuki/eslint-config-vue-unimport',
+        '@antfu/eslint-config',
+        '@taiyuuki/eslint-config',
         '@types/node',
         '@vitejs/plugin-vue',
         'autoprefixer',
