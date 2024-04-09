@@ -1,31 +1,31 @@
 {
-  "name": "<%= projectName %>",
+"name": "<%= projectName %>",
   "version": "0.0.1",
   "description": "<%= description %>",
-  "main": "./dist/index.js",
-  <% if (userName !== '') { %> 
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/<%= userName %>/<%= projectName %>"
-  },
-  "bugs": "https://github.com/<%= userName %>/<%= projectName %>/issues",
-  "homepage": "https://github.com/<%= userName %>/<%= projectName %>#readme",
-  <% } %>
-  "scripts": {
-    "lint": "eslint --ext .js,.ts ./",
-    "dev": "tsup --watch",
-    "build": "tsup",
-    "dev:example": "vite dev example",
-    "build:example": "vite build example",
-    "pre:example": "vite preview example",
-    "test": "vitest"
-  },
-  "keywords": [],
-  "author": "<%= author %>",
-  "license": "MIT",
-  "files": [
-    "dist"
-  ],
-  "devDependencies": <%= devDependencies %>,
-  "dependencies": {}
-}
+    "main": "./dist/index.js",
+    <% if (userName !=='' ) { %>
+      "repository": {
+      "type": "git",
+      "url": "https://github.com/<%= userName %>/<%= projectName %>"
+          },
+          "bugs": "https://github.com/<%= userName %>/<%= projectName %>/issues",
+              "homepage": "https://github.com/<%= userName %>/<%= projectName %>#readme",
+                  <% } %>
+                    "scripts": {
+                    "lint": "eslint src/** --fix",
+                    "dev": "tsup --watch",
+                    "build": "tsup",
+                    "dev:example": "vite dev example",
+                    "build:example": "vite build example",
+                    "pre:example": "vite preview example",
+                    "test": "vitest"
+                    },
+                    "keywords": [],
+                    "author": "<%= author %>",
+                      "license": "MIT",
+                      "files": [
+                      "dist"
+                      ],
+                      "devDependencies": <%= devDependencies %>,
+                        "dependencies": {}
+                        }

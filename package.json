@@ -1,6 +1,6 @@
 {
   "name": "@taiyuuki/create-starter",
-  "version": "0.6.1",
+  "version": "0.6.2",
   "description": "Creating starter template",
   "main": "index.js",
   "bin": {
@@ -21,7 +21,7 @@
     "test": "vitest",
     "update": "esno scripts/update.ts",
     "link": "npm link",
-    "lint": "eslint --ext .js,.ts ./ --fix"
+    "lint": "eslint src/** --fix"
   },
   "keywords": [
     "typescript",
