@@ -3,7 +3,6 @@ import type { DependenceZip } from 'src/versions'
 export const base: DependenceZip = {
     devList: [
         '@quasar/app-vite',
-        '@antfu/eslint-config',
         '@taiyuuki/eslint-config',
         '@types/node',
         '@typescript-eslint/eslint-plugin',

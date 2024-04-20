@@ -1,7 +1,6 @@
 import type { Dependence } from 'src/versions'
 
 export const devList = [
-    '@antfu/eslint-config',
     '@taiyuuki/eslint-config',
     '@types/node',
     'typescript',

@@ -1,6 +1,6 @@
 {
   "name": "@taiyuuki/create-starter",
-  "version": "0.6.2",
+  "version": "0.6.4",
   "description": "Creating starter template",
   "main": "index.js",
   "bin": {
@@ -35,24 +35,24 @@
     "templates"
   ],
   "devDependencies": {
-    "@antfu/eslint-config": "^2.13.2",
-    "@taiyuuki/eslint-config": "^1.0.2",
+    "@antfu/eslint-config": "^2.15.0",
+    "@taiyuuki/eslint-config": "^1.3.1",
     "@taiyuuki/eslint-config-ts": "^0.0.6",
     "@types/fs-extra": "^9.0.13",
-    "@types/lodash": "^4.14.194",
-    "@types/node": "^18.16.10",
-    "@types/pacote": "^11.1.5",
-    "@types/prompts": "^2.4.4",
-    "eslint": "^8.40.0",
+    "@types/lodash": "^4.17.0",
+    "@types/node": "^18.19.31",
+    "@types/pacote": "^11.1.8",
+    "@types/prompts": "^2.4.9",
+    "eslint": "^8.57.0",
     "esno": "^0.16.3",
-    "pacote": "^15.1.3",
+    "pacote": "^15.2.0",
     "prompts": "^2.4.2",
     "vitest": "^0.25.8"
   },
   "dependencies": {
     "@taiyuuki/create-scaffold": "^0.0.4",
     "cfonts": "^3.2.0",
-    "fast-glob": "^3.2.12",
+    "fast-glob": "^3.3.2",
     "fs-extra": "^10.1.0",
     "kolorist": "^1.8.0",
     "lodash": "^4.17.21",
